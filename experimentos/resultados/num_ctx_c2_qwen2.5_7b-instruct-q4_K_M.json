@@ -1,0 +1,99 @@
+{
+  "modelo": "qwen2.5:7b-instruct-q4_K_M",
+  "num_ctx_medida": 8192,
+  "consulta": 3979,
+  "candidato": 3979,
+  "titulos_medidos": 300,
+  "titulos_lista": [
+    "Higemaru Makaijima - Nanatsu no Shima Daibōken",
+    "Navitaire Inc v Easyjet Airline Co. and BulletProof Technologies, Inc.",
+    "Samizdat: And Other Issues Regarding the 'Source' of Open Source Code",
+    "Indiana Jones and the Temple of Doom (1985 video game)",
+    "DDoS attacks during the October 2011 South Korean by-election",
+    "Superman: The Man of Steel (1989 video game)",
+    "Declaration recognising the Right to a Flag of States having no Sea-coast",
+    "Department of Computer Science, University of Illinois at Urbana–Champaign",
+    "Lions' Commentary on UNIX 6th Edition, with Source Code",
+    "Aliens: The Computer Game (1987 video game)",
+    "UNIX System Laboratories, Inc. v. Berkeley Software Design, Inc.",
+    "Aliens: The Computer Game (1986 video game)",
+    "Might and Magic Book One: The Secret of the Inner Sanctum",
+    "Jack Nicklaus' Greatest 18 Holes of Major Championship Golf",
+    "Attack of the Killer Tomatoes (1986 video game)",
+    "Literatura Latino-Americana e do Caribe em Ciências da Saúde",
+    "Brouwer–Heyting–Kolmogorov interpretation",
+    "Loss of United Kingdom child benefit data (2007)",
+    "The Hunt for Red October (1987 video game)",
+    "List of songs in SingStar games (PlayStation 2)"
+  ],
+  "tokens_titulos_lista": [
+    18,
+    17,
+    16,
+    15,
+    15,
+    15,
+    15,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    13,
+    13,
+    13
+  ],
+  "tokens_lista": 298,
+  "factor": 1.2,
+  "num_ctx_fijado": 4096,
+  "variantes": {
+    "1": {
+      "caliente": {
+        "tokens": 2337,
+        "factor_x_maximo": 2804.4,
+        "num_ctx": 4096,
+        "cabe": true
+      },
+      "frio": {
+        "tokens": 2036,
+        "factor_x_maximo": 2443.2,
+        "num_ctx": 4096,
+        "cabe": true
+      }
+    },
+    "2": {
+      "caliente": {
+        "tokens": 2643,
+        "factor_x_maximo": 3171.6,
+        "num_ctx": 4096,
+        "cabe": true
+      },
+      "frio": {
+        "tokens": 2036,
+        "factor_x_maximo": 2443.2,
+        "num_ctx": 4096,
+        "cabe": true
+      }
+    },
+    "3": {
+      "caliente": {
+        "tokens": 2342,
+        "factor_x_maximo": 2810.4,
+        "num_ctx": 4096,
+        "cabe": true
+      },
+      "frio": {
+        "tokens": 2036,
+        "factor_x_maximo": 2443.2,
+        "num_ctx": 4096,
+        "cabe": true
+      }
+    }
+  },
+  "cabe_todo": true
+}

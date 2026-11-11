@@ -1,0 +1,19 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/indexar_embeddings.py",
+    "--modelo",
+    "Qwen/Qwen3-Embedding-0.6B",
+    "--dir-salida",
+    "<TEMP>/indexado_aislado"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 135.82,
+  "base_mib": 576,
+  "pico_mib": 12334,
+  "incremento_mib": 11758,
+  "n_muestras": 673,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": "qwen2.5:3b",
+  "descarga_confirmada": true
+}

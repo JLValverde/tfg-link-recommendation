@@ -1,0 +1,156 @@
+{
+  "modelo": "qwen2.5:3b",
+  "consultas": [
+    1170,
+    6495,
+    722,
+    8998,
+    11447,
+    3871,
+    9563,
+    8243,
+    1959,
+    8930,
+    8398,
+    651,
+    629,
+    1079,
+    5090,
+    9451,
+    899,
+    10894,
+    1740,
+    8508,
+    4722,
+    8326,
+    5214
+  ],
+  "n_calentamiento": 3,
+  "configuraciones": {
+    "lista_K20": {
+      "n_consultas": 20,
+      "n_llamadas": 20,
+      "latencia_consulta_ms": {
+        "p50": 749,
+        "p95": 792,
+        "media": 756
+      },
+      "tokens_entrada_mediana": 1926.0,
+      "tokens_salida_mediana": 75.0,
+      "tokens_entrada_cache_mediana": 40.0,
+      "max_tokens_prompt": 2469,
+      "num_ctx": 4096,
+      "num_predict": 512,
+      "cabe_con_salida": true,
+      "truncados": 0,
+      "ollama_ps": "NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen2.5:3b    357c53fb659c    2.2 GB    100% GPU     4096       llamacpp    29 minutes from now",
+      "pct_parseables": 100.0,
+      "horas_4000_consultas": {
+        "con_media": 0.84,
+        "con_p50": 0.83
+      },
+      "lista": {
+        "devueltos_media": 20.2,
+        "distintos_validos_media": 19.5,
+        "repetidos_media": 0.1,
+        "inventados_media": 0.6,
+        "salidas_con_repetidos": 2,
+        "salidas_con_inventados": 12,
+        "salidas_completas": 11
+      }
+    },
+    "lista_K30": {
+      "n_consultas": 20,
+      "n_llamadas": 20,
+      "latencia_consulta_ms": {
+        "p50": 1099,
+        "p95": 1533,
+        "media": 1137
+      },
+      "tokens_entrada_mediana": 2780.0,
+      "tokens_salida_mediana": 111.5,
+      "tokens_entrada_cache_mediana": 40.0,
+      "max_tokens_prompt": 5736,
+      "num_ctx": 8192,
+      "num_predict": 512,
+      "cabe_con_salida": true,
+      "truncados": 0,
+      "ollama_ps": "NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen2.5:3b    357c53fb659c    2.4 GB    100% GPU     8192       llamacpp    29 minutes from now",
+      "pct_parseables": 100.0,
+      "horas_4000_consultas": {
+        "con_media": 1.26,
+        "con_p50": 1.22
+      },
+      "lista": {
+        "devueltos_media": 30.05,
+        "distintos_validos_media": 27.35,
+        "repetidos_media": 2.6,
+        "inventados_media": 0.1,
+        "salidas_con_repetidos": 5,
+        "salidas_con_inventados": 2,
+        "salidas_completas": 6
+      }
+    },
+    "lista_K50": {
+      "n_consultas": 20,
+      "n_llamadas": 20,
+      "latencia_consulta_ms": {
+        "p50": 1808,
+        "p95": 1975,
+        "media": 1739
+      },
+      "tokens_entrada_mediana": 4356.0,
+      "tokens_salida_mediana": 176.5,
+      "tokens_entrada_cache_mediana": 40.0,
+      "max_tokens_prompt": 8267,
+      "num_ctx": 16384,
+      "num_predict": 512,
+      "cabe_con_salida": true,
+      "truncados": 0,
+      "ollama_ps": "NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen2.5:3b    357c53fb659c    2.7 GB    100% GPU     16384      llamacpp    29 minutes from now",
+      "pct_parseables": 100.0,
+      "horas_4000_consultas": {
+        "con_media": 1.93,
+        "con_p50": 2.01
+      },
+      "lista": {
+        "devueltos_media": 41.95,
+        "distintos_validos_media": 40.0,
+        "repetidos_media": 1.9,
+        "inventados_media": 0.05,
+        "salidas_con_repetidos": 3,
+        "salidas_con_inventados": 1,
+        "salidas_completas": 4
+      }
+    },
+    "puntual_K20": {
+      "n_consultas": 20,
+      "n_llamadas": 400,
+      "latencia_consulta_ms": {
+        "p50": 687,
+        "p95": 729,
+        "media": 696
+      },
+      "tokens_entrada_mediana": 402.0,
+      "tokens_salida_mediana": 1.0,
+      "tokens_entrada_cache_mediana": 153.0,
+      "max_tokens_prompt": 1418,
+      "num_ctx": 2048,
+      "num_predict": 1,
+      "cabe_con_salida": true,
+      "truncados": 0,
+      "ollama_ps": "NAME          ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL               \nqwen2.5:3b    357c53fb659c    2.1 GB    100% GPU     2048       llamacpp    29 minutes from now",
+      "pct_parseables": 100.0,
+      "horas_4000_consultas": {
+        "con_media": 0.77,
+        "con_p50": 0.76
+      },
+      "puntual": {
+        "llamadas_con_logprobs": 400,
+        "p_si_mediana": 0.0,
+        "p_si_p90": 0.0,
+        "respuestas_si": 0
+      }
+    }
+  }
+}

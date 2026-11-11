@@ -1,0 +1,131 @@
+{
+  "fecha_utc": "2026-10-27T18:44:50+00:00",
+  "ollama": {
+    "servidor": "0.40.2",
+    "cliente_cli": "0.40.2",
+    "cliente_python": "0.6.3"
+  },
+  "nvidia": {
+    "driver": "610.88",
+    "cuda": "13.3",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "memoria_total": "16311 MiB"
+  },
+  "prueba_logprobs": {
+    "prompt": "Is Paris the capital of France? Answer Yes or No.",
+    "temperature": 0,
+    "num_predict": 1,
+    "num_ctx": 2048,
+    "top_logprobs": 5
+  },
+  "modelos": {
+    "qwen2.5:3b": {
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "tamano_bytes": 1929912432,
+      "cuantizacion": "Q4_K_M",
+      "parametros": "3.1B",
+      "familia": "qwen2",
+      "prueba_logprobs": {
+        "respuesta": "No",
+        "devuelve_logprobs": true,
+        "n_top_logprobs": 5,
+        "token": "No",
+        "logprob": -1.1920930376163597e-07,
+        "top_logprobs": [
+          {
+            "token": "No",
+            "logprob": -1.1920930376163597e-07
+          },
+          {
+            "token": "NO",
+            "logprob": -15.978981018066406
+          },
+          {
+            "token": "-No",
+            "logprob": -16.845661163330078
+          },
+          {
+            "token": " No",
+            "logprob": -17.82659912109375
+          },
+          {
+            "token": "_No",
+            "logprob": -18.7296142578125
+          }
+        ]
+      }
+    },
+    "qwen2.5:7b-instruct-q4_K_M": {
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "tamano_bytes": 4683087332,
+      "cuantizacion": "Q4_K_M",
+      "parametros": "7.6B",
+      "familia": "qwen2",
+      "prueba_logprobs": {
+        "respuesta": "Yes",
+        "devuelve_logprobs": true,
+        "n_top_logprobs": 5,
+        "token": "Yes",
+        "logprob": -1.4305124977909145e-06,
+        "top_logprobs": [
+          {
+            "token": "Yes",
+            "logprob": -1.4305124977909145e-06
+          },
+          {
+            "token": " Yes",
+            "logprob": -13.481267929077148
+          },
+          {
+            "token": "No",
+            "logprob": -17.299114227294922
+          },
+          {
+            "token": "_yes",
+            "logprob": -18.526596069335938
+          },
+          {
+            "token": ".Yes",
+            "logprob": -18.56841468811035
+          }
+        ]
+      }
+    },
+    "qwen2.5:14b-instruct-q4_K_M": {
+      "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+      "tamano_bytes": 8988124069,
+      "cuantizacion": "Q4_K_M",
+      "parametros": "14.8B",
+      "familia": "qwen2",
+      "prueba_logprobs": {
+        "respuesta": "Yes",
+        "devuelve_logprobs": true,
+        "n_top_logprobs": 5,
+        "token": "Yes",
+        "logprob": 0,
+        "top_logprobs": [
+          {
+            "token": "Yes",
+            "logprob": 0
+          },
+          {
+            "token": "_yes",
+            "logprob": -18.627513885498047
+          },
+          {
+            "token": " Yes",
+            "logprob": -18.6463623046875
+          },
+          {
+            "token": "yes",
+            "logprob": -21.299110412597656
+          },
+          {
+            "token": ",Yes",
+            "logprob": -21.566864013671875
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "modelo": "qwen2.5:3b",
+  "num_ctx_medida": 8192,
+  "n_documentos": 10989,
+  "tokens_plantilla_chat_vacia": 29,
+  "tokens_candidato": {
+    "max": 600,
+    "idx_max": 3979,
+    "p50": 139,
+    "p95": 287
+  },
+  "tokens_consulta": {
+    "max": 1082,
+    "idx_max": 3979,
+    "p50": 139,
+    "p95": 433
+  },
+  "prompt_mas_largo": {
+    "consulta": 3979,
+    "candidato": 3979,
+    "tokens": 1731
+  },
+  "factor": 1.2,
+  "num_ctx": 4096,
+  "duracion_s": 708.6
+}

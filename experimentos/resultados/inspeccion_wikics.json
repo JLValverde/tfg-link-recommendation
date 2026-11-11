@@ -1,0 +1,257 @@
+{
+  "a_estructura": {
+    "clases_data_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "data_json": {
+      "features": {
+        "longitud": 11701,
+        "longitudes_internas": [
+          300
+        ],
+        "tipo": "list",
+        "tipo_elemento": "list"
+      },
+      "labels": {
+        "longitud": 11701,
+        "tipo": "list",
+        "tipo_elemento": "int"
+      },
+      "links": {
+        "longitud": 11701,
+        "longitudes_internas": {
+          "max": 321,
+          "min": 0
+        },
+        "tipo": "list",
+        "tipo_elemento": "list"
+      },
+      "stopping_masks": {
+        "longitud": 20,
+        "longitudes_internas": [
+          11701
+        ],
+        "tipo": "list",
+        "tipo_elemento": "list"
+      },
+      "test_mask": {
+        "longitud": 11701,
+        "tipo": "list",
+        "tipo_elemento": "bool"
+      },
+      "train_masks": {
+        "longitud": 20,
+        "longitudes_internas": [
+          11701
+        ],
+        "tipo": "list",
+        "tipo_elemento": "list"
+      },
+      "val_masks": {
+        "longitud": 20,
+        "longitudes_internas": [
+          11701
+        ],
+        "tipo": "list",
+        "tipo_elemento": "list"
+      }
+    },
+    "dim_features": [
+      300
+    ],
+    "mascaras": {
+      "stopping_masks_n_particiones": 20,
+      "stopping_true_por_particion": [
+        3505
+      ],
+      "test_true": 5847,
+      "train_masks_n_particiones": 20,
+      "train_true_por_particion": [
+        580
+      ],
+      "val_masks_n_particiones": 20,
+      "val_true_por_particion": [
+        1769
+      ]
+    },
+    "metadata_json": {
+      "labels": {
+        "longitud": 10,
+        "tipo": "dict"
+      },
+      "nodes": {
+        "claves_nodo": [
+          "id",
+          "label",
+          "outlinks",
+          "title",
+          "tokens"
+        ],
+        "longitud": 11701,
+        "tipo": "list"
+      }
+    },
+    "n_nodos": {
+      "data_features": 11701,
+      "data_labels": 11701,
+      "data_links": 11701,
+      "metadata_nodes": 11701
+    }
+  },
+  "b_correspondencia": {
+    "enlaces_solo_en_data": 0,
+    "enlaces_solo_en_metadata": 0,
+    "etiquetas_coinciden_por_indice": 11701,
+    "nodos_coincidencia_conjunto": 11701,
+    "nodos_coincidencia_lista_exacta_mismo_orden": 11701,
+    "nodos_coincidencia_multiconjunto": 11701,
+    "nodos_con_outlinks_fuera": 0,
+    "outlinks_fuera_del_dataset": 0,
+    "outlinks_total": 297110,
+    "pageids_unicos": 11701,
+    "pct_coincidencia_conjunto": 100.0
+  },
+  "c_direccion": {
+    "aristas_no_dirigidas_equivalentes": 215603,
+    "autobucles": 601,
+    "duplicados": 6071,
+    "enlaces_con_reciproco": 149832,
+    "enlaces_pares_ordenados": 297110,
+    "enlaces_unicos_sin_autobucle": 290519,
+    "pct_reciprocidad": 51.5739
+  },
+  "d_grados": {
+    "componentes_debiles": {
+      "componentes_de_tamano_1": 337,
+      "numero": 356,
+      "tamano_mayor": 11311,
+      "tamanos_10_mayores": [
+        11311,
+        16,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "entrante": {
+      "max": 3282,
+      "media": 24.8286,
+      "mediana": 4.0,
+      "min": 0,
+      "p90": 77.0,
+      "p99": 216.0
+    },
+    "nodos_grado_0_ambos": 337,
+    "nodos_grado_entrante_0": 2192,
+    "nodos_grado_saliente_0": 449,
+    "nodos_grado_saliente_al_menos": {
+      "1": 11252,
+      "10": 5687,
+      "2": 10360,
+      "20": 4011,
+      "3": 9428,
+      "5": 7963
+    },
+    "nota": "calculados sobre enlaces únicos sin autobucles",
+    "saliente": {
+      "max": 316,
+      "media": 24.8286,
+      "mediana": 9.0,
+      "min": 0,
+      "p90": 72.0,
+      "p99": 158.0
+    }
+  },
+  "e_texto": {
+    "n_clases": 10,
+    "nodos_por_clase": {
+      "0: Computational linguistics": 295,
+      "1: Databases": 667,
+      "2: Operating systems": 2153,
+      "3: Computer architecture": 1933,
+      "4: Computer security": 2679,
+      "5: Internet protocols": 780,
+      "6: Computer file systems": 413,
+      "7: Distributed computing architecture": 865,
+      "8: Web technology": 492,
+      "9: Programming language topics": 1424
+    },
+    "nodos_sin_tokens": 0,
+    "sufijos_parentesis_mas_frecuentes": [
+      [
+        "software",
+        166
+      ],
+      [
+        "programming_language",
+        119
+      ],
+      [
+        "video_game",
+        92
+      ],
+      [
+        "computing",
+        66
+      ],
+      [
+        "microarchitecture",
+        35
+      ],
+      [
+        "operating_system",
+        35
+      ],
+      [
+        "company",
+        29
+      ],
+      [
+        "computer_science",
+        27
+      ],
+      [
+        "database",
+        21
+      ],
+      [
+        "Unix",
+        20
+      ]
+    ],
+    "titulos_con_espacio": 0,
+    "titulos_con_guion_bajo": 8576,
+    "titulos_con_parentesis_ejemplos": [
+      "/e/_(operating_system)",
+      "17_(app)",
+      "180_(video_game)",
+      "1942_(video_game)",
+      "4th_Dimension_(software)"
+    ],
+    "titulos_con_parentesis_final": 1322,
+    "titulos_con_porcentaje": 0,
+    "titulos_distintos": 11701,
+    "titulos_repetidos": 0,
+    "titulos_repetidos_ejemplos": [],
+    "tokens_por_nodo": {
+      "max": 15230,
+      "mediana": 219.0,
+      "min": 1,
+      "p90": 948.0
+    }
+  }
+}

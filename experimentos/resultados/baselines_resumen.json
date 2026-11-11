@@ -1,0 +1,3266 @@
+[
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8483333333333334,
+   "ic95": [
+    0.8305416666666667,
+    0.8644444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.6027777777777777,
+   "ic95": [
+    0.5904416666666666,
+    0.616
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8483333333333334,
+   "ic95": [
+    0.8305416666666667,
+    0.8644444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.691537037037037,
+   "ic95": [
+    0.679180324074074,
+    0.7046020833333333
+   ]
+  },
+  "mrr": {
+   "media": 0.8996885521280946,
+   "ic95": [
+    0.8880553994661838,
+    0.9106481440589489
+   ]
+  },
+  "hits@1": {
+   "media": 0.8483333333333334,
+   "ic95": [
+    0.8305416666666667,
+    0.8644444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9605555555555556,
+   "ic95": [
+    0.9516666666666667,
+    0.9688888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7466666666666667,
+   "ic95": [
+    0.7277638888888889,
+    0.7666666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.4836666666666667,
+   "ic95": [
+    0.47088611111111117,
+    0.4967777777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7466666666666667,
+   "ic95": [
+    0.7277638888888889,
+    0.7666666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6355092592592593,
+   "ic95": [
+    0.6214252314814815,
+    0.6494914351851853
+   ]
+  },
+  "mrr": {
+   "media": 0.8267203773874231,
+   "ic95": [
+    0.8128034743217984,
+    0.8410213653304843
+   ]
+  },
+  "hits@1": {
+   "media": 0.7466666666666667,
+   "ic95": [
+    0.7277638888888889,
+    0.7666666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9266666666666666,
+   "ic95": [
+    0.9138888888888889,
+    0.9383333333333334
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.755,
+   "ic95": [
+    0.735,
+    0.7744444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.48900000000000005,
+   "ic95": [
+    0.4762194444444445,
+    0.5017777777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.755,
+   "ic95": [
+    0.735,
+    0.7744444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6380462962962962,
+   "ic95": [
+    0.624462962962963,
+    0.6516898148148148
+   ]
+  },
+  "mrr": {
+   "media": 0.8324738646409102,
+   "ic95": [
+    0.8177193208957233,
+    0.8467484412443806
+   ]
+  },
+  "hits@1": {
+   "media": 0.755,
+   "ic95": [
+    0.735,
+    0.7744444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9294444444444444,
+   "ic95": [
+    0.9172222222222223,
+    0.9405555555555556
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8466666666666667,
+    0.8788888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.6108888888888889,
+   "ic95": [
+    0.5993333333333333,
+    0.6235555555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8466666666666667,
+    0.8788888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7023240740740742,
+   "ic95": [
+    0.6911291666666667,
+    0.7139094907407407
+   ]
+  },
+  "mrr": {
+   "media": 0.9141814836015987,
+   "ic95": [
+    0.9028819838827956,
+    0.9238184010546165
+   ]
+  },
+  "hits@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8466666666666667,
+    0.8788888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9777777777777777,
+   "ic95": [
+    0.9710972222222223,
+    0.9844583333333333
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.74,
+   "ic95": [
+    0.7199861111111111,
+    0.7594444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.48055555555555557,
+   "ic95": [
+    0.4685555555555556,
+    0.49255833333333343
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.74,
+   "ic95": [
+    0.7199861111111111,
+    0.7594444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6315092592592593,
+   "ic95": [
+    0.6180453703703703,
+    0.6448532407407408
+   ]
+  },
+  "mrr": {
+   "media": 0.8285029532183125,
+   "ic95": [
+    0.815093263328487,
+    0.842059696766151
+   ]
+  },
+  "hits@1": {
+   "media": 0.74,
+   "ic95": [
+    0.7199861111111111,
+    0.7594444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9411111111111111,
+   "ic95": [
+    0.93,
+    0.9511111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7472222222222222,
+   "ic95": [
+    0.7266666666666667,
+    0.7666666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.4864444444444445,
+   "ic95": [
+    0.4744388888888889,
+    0.49866666666666676
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7472222222222222,
+   "ic95": [
+    0.7266666666666667,
+    0.7666666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6351018518518519,
+   "ic95": [
+    0.6214520833333335,
+    0.6485490740740741
+   ]
+  },
+  "mrr": {
+   "media": 0.832991878418022,
+   "ic95": [
+    0.81951045743263,
+    0.8465648635934594
+   ]
+  },
+  "hits@1": {
+   "media": 0.7472222222222222,
+   "ic95": [
+    0.7266666666666667,
+    0.7666666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9411111111111111,
+   "ic95": [
+    0.93,
+    0.9511111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8538888888888889,
+   "ic95": [
+    0.8383194444444445,
+    0.87
+   ]
+  },
+  "precision@5": {
+   "media": 0.5998888888888889,
+   "ic95": [
+    0.5864333333333334,
+    0.6127777777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8538888888888889,
+   "ic95": [
+    0.8383194444444445,
+    0.87
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6882222222222222,
+   "ic95": [
+    0.6756053240740741,
+    0.7005590277777778
+   ]
+  },
+  "mrr": {
+   "media": 0.9024550079799777,
+   "ic95": [
+    0.8917906627932813,
+    0.9136984527715568
+   ]
+  },
+  "hits@1": {
+   "media": 0.8538888888888889,
+   "ic95": [
+    0.8383194444444445,
+    0.87
+   ]
+  },
+  "hits@5": {
+   "media": 0.9633333333333334,
+   "ic95": [
+    0.955,
+    0.9716666666666667
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7377777777777778,
+    0.7777916666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.4807777777777778,
+   "ic95": [
+    0.4678888888888889,
+    0.4938916666666667
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7377777777777778,
+    0.7777916666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6317592592592591,
+   "ic95": [
+    0.6176280092592593,
+    0.6456157407407407
+   ]
+  },
+  "mrr": {
+   "media": 0.8321325938095072,
+   "ic95": [
+    0.8169701272772399,
+    0.8467241710388043
+   ]
+  },
+  "hits@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7377777777777778,
+    0.7777916666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9266666666666666,
+   "ic95": [
+    0.9149861111111112,
+    0.9377916666666667
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.765,
+   "ic95": [
+    0.7444305555555556,
+    0.7838888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.4857777777777778,
+   "ic95": [
+    0.47311111111111115,
+    0.4988888888888889
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.765,
+   "ic95": [
+    0.7444305555555556,
+    0.7838888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6340185185185184,
+   "ic95": [
+    0.6198328703703703,
+    0.6478986111111111
+   ]
+  },
+  "mrr": {
+   "media": 0.8365704244973379,
+   "ic95": [
+    0.8217495250226251,
+    0.8509275753019495
+   ]
+  },
+  "hits@1": {
+   "media": 0.765,
+   "ic95": [
+    0.7444305555555556,
+    0.7838888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9288888888888889,
+   "ic95": [
+    0.9172222222222223,
+    0.94
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8477777777777777,
+    0.8783333333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.6088888888888889,
+   "ic95": [
+    0.5964416666666666,
+    0.620225
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8477777777777777,
+    0.8783333333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.698398148148148,
+   "ic95": [
+    0.6862497685185186,
+    0.7097849537037038
+   ]
+  },
+  "mrr": {
+   "media": 0.913157812381868,
+   "ic95": [
+    0.9027990736949929,
+    0.9231100751626017
+   ]
+  },
+  "hits@1": {
+   "media": 0.8638888888888889,
+   "ic95": [
+    0.8477777777777777,
+    0.8783333333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.9727777777777777,
+   "ic95": [
+    0.9655555555555555,
+    0.9794444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355416666666666,
+    0.7750138888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.47822222222222227,
+   "ic95": [
+    0.4663333333333334,
+    0.49044722222222226
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355416666666666,
+    0.7750138888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6273888888888889,
+   "ic95": [
+    0.6134060185185186,
+    0.6410476851851852
+   ]
+  },
+  "mrr": {
+   "media": 0.8351828911456188,
+   "ic95": [
+    0.8214083318216856,
+    0.848717924813105
+   ]
+  },
+  "hits@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355416666666666,
+    0.7750138888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9366666666666666,
+   "ic95": [
+    0.9255555555555556,
+    0.9472222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7388750000000001,
+    0.7783333333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.48344444444444445,
+   "ic95": [
+    0.47121944444444447,
+    0.4955583333333334
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7388750000000001,
+    0.7783333333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6302777777777778,
+   "ic95": [
+    0.6158969907407409,
+    0.6438893518518518
+   ]
+  },
+  "mrr": {
+   "media": 0.8379421504048781,
+   "ic95": [
+    0.8238744590141325,
+    0.851044134643399
+   ]
+  },
+  "hits@1": {
+   "media": 0.7588888888888888,
+   "ic95": [
+    0.7388750000000001,
+    0.7783333333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.9372222222222222,
+   "ic95": [
+    0.9261111111111111,
+    0.9477777777777778
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8511111111111112,
+   "ic95": [
+    0.8338888888888889,
+    0.8672222222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.5984444444444443,
+   "ic95": [
+    0.5854416666666666,
+    0.611675
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8511111111111112,
+   "ic95": [
+    0.8338888888888889,
+    0.8672222222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6861481481481483,
+   "ic95": [
+    0.6732849537037038,
+    0.6981615740740741
+   ]
+  },
+  "mrr": {
+   "media": 0.9001348207857773,
+   "ic95": [
+    0.8888580928617079,
+    0.910976302237172
+   ]
+  },
+  "hits@1": {
+   "media": 0.8511111111111112,
+   "ic95": [
+    0.8338888888888889,
+    0.8672222222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9622222222222222,
+   "ic95": [
+    0.9527777777777777,
+    0.9705555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7522222222222222,
+   "ic95": [
+    0.7333194444444444,
+    0.7716666666666666
+   ]
+  },
+  "precision@5": {
+   "media": 0.4805555555555556,
+   "ic95": [
+    0.4676666666666666,
+    0.49444444444444446
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7522222222222222,
+   "ic95": [
+    0.7333194444444444,
+    0.7716666666666666
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6305185185185186,
+   "ic95": [
+    0.6163319444444444,
+    0.6444997685185185
+   ]
+  },
+  "mrr": {
+   "media": 0.8285454021181559,
+   "ic95": [
+    0.8151616577077753,
+    0.8425816738868395
+   ]
+  },
+  "hits@1": {
+   "media": 0.7522222222222222,
+   "ic95": [
+    0.7333194444444444,
+    0.7716666666666666
+   ]
+  },
+  "hits@5": {
+   "media": 0.9222222222222223,
+   "ic95": [
+    0.9094444444444445,
+    0.9338888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7583333333333333,
+   "ic95": [
+    0.7388750000000001,
+    0.7777916666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.4855555555555556,
+   "ic95": [
+    0.47266388888888883,
+    0.49911388888888897
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7583333333333333,
+   "ic95": [
+    0.7388750000000001,
+    0.7777916666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6328796296296296,
+   "ic95": [
+    0.6183143518518519,
+    0.6475224537037036
+   ]
+  },
+  "mrr": {
+   "media": 0.8332812727290264,
+   "ic95": [
+    0.8197141734469632,
+    0.8469790574835314
+   ]
+  },
+  "hits@1": {
+   "media": 0.7583333333333333,
+   "ic95": [
+    0.7388750000000001,
+    0.7777916666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.925,
+   "ic95": [
+    0.9122222222222223,
+    0.9366666666666666
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8661111111111112,
+   "ic95": [
+    0.85,
+    0.88
+   ]
+  },
+  "precision@5": {
+   "media": 0.6052222222222223,
+   "ic95": [
+    0.5927777777777777,
+    0.6172277777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8661111111111112,
+   "ic95": [
+    0.85,
+    0.88
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6953148148148148,
+   "ic95": [
+    0.6831106481481483,
+    0.7073351851851852
+   ]
+  },
+  "mrr": {
+   "media": 0.9140270366076609,
+   "ic95": [
+    0.9037089682049498,
+    0.923300471586938
+   ]
+  },
+  "hits@1": {
+   "media": 0.8661111111111112,
+   "ic95": [
+    0.85,
+    0.88
+   ]
+  },
+  "hits@5": {
+   "media": 0.9727777777777777,
+   "ic95": [
+    0.9655555555555555,
+    0.98
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355555555555555,
+    0.7733333333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.47377777777777774,
+   "ic95": [
+    0.4616638888888889,
+    0.4861111111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355555555555555,
+    0.7733333333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6217592592592591,
+   "ic95": [
+    0.6080629629629629,
+    0.6363631944444444
+   ]
+  },
+  "mrr": {
+   "media": 0.8337608601539129,
+   "ic95": [
+    0.8199111432445859,
+    0.8464795385501821
+   ]
+  },
+  "hits@1": {
+   "media": 0.755,
+   "ic95": [
+    0.7355555555555555,
+    0.7733333333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.93,
+   "ic95": [
+    0.9183333333333333,
+    0.9411111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.7611111111111111,
+   "ic95": [
+    0.7416666666666667,
+    0.7794444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.47944444444444445,
+   "ic95": [
+    0.46710833333333335,
+    0.49178333333333335
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.7611111111111111,
+   "ic95": [
+    0.7416666666666667,
+    0.7794444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6250462962962963,
+   "ic95": [
+    0.6111657407407407,
+    0.6391405092592592
+   ]
+  },
+  "mrr": {
+   "media": 0.8379182675613205,
+   "ic95": [
+    0.8240621459105112,
+    0.850742874095088
+   ]
+  },
+  "hits@1": {
+   "media": 0.7611111111111111,
+   "ic95": [
+    0.7416666666666667,
+    0.7794444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.93,
+   "ic95": [
+    0.9183333333333333,
+    0.9411111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.33166666666666667,
+   "ic95": [
+    0.30944444444444447,
+    0.35444444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.18355555555555558,
+   "ic95": [
+    0.17333055555555557,
+    0.19288888888888892
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.33166666666666667,
+   "ic95": [
+    0.30944444444444447,
+    0.35444444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.20663888888888893,
+   "ic95": [
+    0.19566180555555554,
+    0.21697384259259264
+   ]
+  },
+  "mrr": {
+   "media": 0.43435943028094237,
+   "ic95": [
+    0.4131158968122229,
+    0.45328604447943033
+   ]
+  },
+  "hits@1": {
+   "media": 0.33166666666666667,
+   "ic95": [
+    0.30944444444444447,
+    0.35444444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.5511111111111111,
+   "ic95": [
+    0.5277638888888889,
+    0.5744444444444444
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.2127777777777778,
+   "ic95": [
+    0.1938888888888889,
+    0.23112499999999997
+   ]
+  },
+  "precision@5": {
+   "media": 0.11688888888888889,
+   "ic95": [
+    0.10933055555555556,
+    0.125
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.2127777777777778,
+   "ic95": [
+    0.1938888888888889,
+    0.23112499999999997
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.14944444444444444,
+   "ic95": [
+    0.13966574074074073,
+    0.16018611111111114
+   ]
+  },
+  "mrr": {
+   "media": 0.2987901953334639,
+   "ic95": [
+    0.28145408866004074,
+    0.31573675325623024
+   ]
+  },
+  "hits@1": {
+   "media": 0.2127777777777778,
+   "ic95": [
+    0.1938888888888889,
+    0.23112499999999997
+   ]
+  },
+  "hits@5": {
+   "media": 0.3877777777777778,
+   "ic95": [
+    0.3661111111111111,
+    0.4089027777777778
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.21722222222222223,
+   "ic95": [
+    0.1988888888888889,
+    0.23556944444444441
+   ]
+  },
+  "precision@5": {
+   "media": 0.11933333333333333,
+   "ic95": [
+    0.11177777777777777,
+    0.12755833333333333
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.21722222222222223,
+   "ic95": [
+    0.1988888888888889,
+    0.23556944444444441
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.15144444444444446,
+   "ic95": [
+    0.1416997685185185,
+    0.16214027777777779
+   ]
+  },
+  "mrr": {
+   "media": 0.304382185478842,
+   "ic95": [
+    0.28709951461338323,
+    0.32177575286098037
+   ]
+  },
+  "hits@1": {
+   "media": 0.21722222222222223,
+   "ic95": [
+    0.1988888888888889,
+    0.23556944444444441
+   ]
+  },
+  "hits@5": {
+   "media": 0.39444444444444443,
+   "ic95": [
+    0.37277777777777776,
+    0.4161111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3066527777777778,
+    0.35
+   ]
+  },
+  "precision@5": {
+   "media": 0.18822222222222224,
+   "ic95": [
+    0.1783305555555556,
+    0.19711388888888887
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3066527777777778,
+    0.35
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2147777777777778,
+   "ic95": [
+    0.20418032407407408,
+    0.22461458333333334
+   ]
+  },
+  "mrr": {
+   "media": 0.4431720004430873,
+   "ic95": [
+    0.4230506515727605,
+    0.46081889368728196
+   ]
+  },
+  "hits@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3066527777777778,
+    0.35
+   ]
+  },
+  "hits@5": {
+   "media": 0.5894444444444444,
+   "ic95": [
+    0.5661111111111111,
+    0.6105694444444444
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.2111111111111111,
+   "ic95": [
+    0.19111111111111112,
+    0.23
+   ]
+  },
+  "precision@5": {
+   "media": 0.11877777777777779,
+   "ic95": [
+    0.11110833333333332,
+    0.12644444444444447
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.2111111111111111,
+   "ic95": [
+    0.19111111111111112,
+    0.23
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.15503703703703703,
+   "ic95": [
+    0.145175,
+    0.1653659722222222
+   ]
+  },
+  "mrr": {
+   "media": 0.3038862702880645,
+   "ic95": [
+    0.28628817248160704,
+    0.3205244683085271
+   ]
+  },
+  "hits@1": {
+   "media": 0.2111111111111111,
+   "ic95": [
+    0.19111111111111112,
+    0.23
+   ]
+  },
+  "hits@5": {
+   "media": 0.41555555555555557,
+   "ic95": [
+    0.3922083333333334,
+    0.43666666666666665
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.21444444444444444,
+   "ic95": [
+    0.195,
+    0.23333333333333334
+   ]
+  },
+  "precision@5": {
+   "media": 0.12155555555555554,
+   "ic95": [
+    0.11366388888888888,
+    0.1294472222222222
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.21444444444444444,
+   "ic95": [
+    0.195,
+    0.23333333333333334
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.15718518518518518,
+   "ic95": [
+    0.14727592592592592,
+    0.1677611111111111
+   ]
+  },
+  "mrr": {
+   "media": 0.30874171916850146,
+   "ic95": [
+    0.29100098899914795,
+    0.32517201151222114
+   ]
+  },
+  "hits@1": {
+   "media": 0.21444444444444444,
+   "ic95": [
+    0.195,
+    0.23333333333333334
+   ]
+  },
+  "hits@5": {
+   "media": 0.42333333333333334,
+   "ic95": [
+    0.39998611111111115,
+    0.4433611111111111
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9327777777777778,
+   "ic95": [
+    0.9211111111111111,
+    0.9438888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.7702222222222223,
+   "ic95": [
+    0.7593333333333333,
+    0.7806666666666666
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9327777777777778,
+   "ic95": [
+    0.9211111111111111,
+    0.9438888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7828333333333333,
+   "ic95": [
+    0.772582638888889,
+    0.7925599537037036
+   ]
+  },
+  "mrr": {
+   "media": 0.9583950234134058,
+   "ic95": [
+    0.9509579304954305,
+    0.9658681294740118
+   ]
+  },
+  "hits@1": {
+   "media": 0.9327777777777778,
+   "ic95": [
+    0.9211111111111111,
+    0.9438888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9911111111111112,
+   "ic95": [
+    0.9866666666666667,
+    0.995
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8322222222222222,
+   "ic95": [
+    0.8144444444444444,
+    0.8489027777777778
+   ]
+  },
+  "precision@5": {
+   "media": 0.6083333333333333,
+   "ic95": [
+    0.5955527777777777,
+    0.6207777777777777
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8322222222222222,
+   "ic95": [
+    0.8144444444444444,
+    0.8489027777777778
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6572222222222223,
+   "ic95": [
+    0.6449881944444447,
+    0.6694268518518519
+   ]
+  },
+  "mrr": {
+   "media": 0.8916765075309967,
+   "ic95": [
+    0.8798696124497063,
+    0.9027455988370673
+   ]
+  },
+  "hits@1": {
+   "media": 0.8322222222222222,
+   "ic95": [
+    0.8144444444444444,
+    0.8489027777777778
+   ]
+  },
+  "hits@5": {
+   "media": 0.9688888888888889,
+   "ic95": [
+    0.9611111111111111,
+    0.9766666666666667
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.84,
+   "ic95": [
+    0.8227777777777778,
+    0.8566666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.6156666666666667,
+   "ic95": [
+    0.6027777777777777,
+    0.6277805555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.84,
+   "ic95": [
+    0.8227777777777778,
+    0.8566666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6621666666666666,
+   "ic95": [
+    0.6501423611111112,
+    0.6744224537037037
+   ]
+  },
+  "mrr": {
+   "media": 0.8974008824661559,
+   "ic95": [
+    0.8856876022256086,
+    0.9080979360471781
+   ]
+  },
+  "hits@1": {
+   "media": 0.84,
+   "ic95": [
+    0.8227777777777778,
+    0.8566666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9716666666666667,
+   "ic95": [
+    0.9638888888888889,
+    0.9789027777777778
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9422222222222222,
+   "ic95": [
+    0.9311111111111111,
+    0.9522222222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.7832222222222224,
+   "ic95": [
+    0.7734416666666667,
+    0.7928888888888888
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9422222222222222,
+   "ic95": [
+    0.9311111111111111,
+    0.9522222222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7959259259259258,
+   "ic95": [
+    0.786887962962963,
+    0.8049849537037039
+   ]
+  },
+  "mrr": {
+   "media": 0.966106721981722,
+   "ic95": [
+    0.9598700787638288,
+    0.972311547017797
+   ]
+  },
+  "hits@1": {
+   "media": 0.9422222222222222,
+   "ic95": [
+    0.9311111111111111,
+    0.9522222222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9961111111111111,
+   "ic95": [
+    0.9933333333333333,
+    0.9988888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8255555555555556,
+   "ic95": [
+    0.8072222222222222,
+    0.8422222222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.6057777777777779,
+   "ic95": [
+    0.5946638888888888,
+    0.6167777777777776
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8255555555555556,
+   "ic95": [
+    0.8072222222222222,
+    0.8422222222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6544722222222222,
+   "ic95": [
+    0.6426664351851851,
+    0.666049074074074
+   ]
+  },
+  "mrr": {
+   "media": 0.891776927222369,
+   "ic95": [
+    0.8807820802147448,
+    0.9021016380688468
+   ]
+  },
+  "hits@1": {
+   "media": 0.8255555555555556,
+   "ic95": [
+    0.8072222222222222,
+    0.8422222222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9761111111111112,
+   "ic95": [
+    0.9694444444444444,
+    0.9822222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8327777777777777,
+   "ic95": [
+    0.8155555555555556,
+    0.8494583333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.613111111111111,
+   "ic95": [
+    0.6017777777777779,
+    0.6241111111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8327777777777777,
+   "ic95": [
+    0.8155555555555556,
+    0.8494583333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6595925925925926,
+   "ic95": [
+    0.647968287037037,
+    0.6707421296296296
+   ]
+  },
+  "mrr": {
+   "media": 0.896450648562757,
+   "ic95": [
+    0.8857019800849818,
+    0.9068998415467152
+   ]
+  },
+  "hits@1": {
+   "media": 0.8327777777777777,
+   "ic95": [
+    0.8155555555555556,
+    0.8494583333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.9772222222222222,
+   "ic95": [
+    0.9705416666666666,
+    0.9833333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9216666666666666,
+   "ic95": [
+    0.9088888888888889,
+    0.9344583333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.7712222222222223,
+   "ic95": [
+    0.7603333333333333,
+    0.7817777777777777
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9216666666666666,
+   "ic95": [
+    0.9088888888888889,
+    0.9344583333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7842129629629631,
+   "ic95": [
+    0.7736652777777777,
+    0.7944076388888889
+   ]
+  },
+  "mrr": {
+   "media": 0.9527051228092894,
+   "ic95": [
+    0.9447022176126343,
+    0.960571130952381
+   ]
+  },
+  "hits@1": {
+   "media": 0.9216666666666666,
+   "ic95": [
+    0.9088888888888889,
+    0.9344583333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.9911111111111112,
+   "ic95": [
+    0.9866666666666667,
+    0.995
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8377777777777777,
+   "ic95": [
+    0.8205555555555556,
+    0.855
+   ]
+  },
+  "precision@5": {
+   "media": 0.6045555555555554,
+   "ic95": [
+    0.5926583333333333,
+    0.6162222222222222
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8377777777777777,
+   "ic95": [
+    0.8205555555555556,
+    0.855
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6535555555555556,
+   "ic95": [
+    0.6415449074074073,
+    0.6655414351851852
+   ]
+  },
+  "mrr": {
+   "media": 0.895648365165393,
+   "ic95": [
+    0.8839088733901476,
+    0.9068878253518927
+   ]
+  },
+  "hits@1": {
+   "media": 0.8377777777777777,
+   "ic95": [
+    0.8205555555555556,
+    0.855
+   ]
+  },
+  "hits@5": {
+   "media": 0.9705555555555555,
+   "ic95": [
+    0.9622222222222222,
+    0.9783333333333334
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8405555555555555,
+   "ic95": [
+    0.8233333333333334,
+    0.8577777777777778
+   ]
+  },
+  "precision@5": {
+   "media": 0.6113333333333334,
+   "ic95": [
+    0.5996611111111111,
+    0.6230027777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8405555555555555,
+   "ic95": [
+    0.8233333333333334,
+    0.8577777777777778
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6578425925925927,
+   "ic95": [
+    0.6457662037037036,
+    0.6697597222222222
+   ]
+  },
+  "mrr": {
+   "media": 0.8984383293435152,
+   "ic95": [
+    0.8872542219487766,
+    0.9092488939374823
+   ]
+  },
+  "hits@1": {
+   "media": 0.8405555555555555,
+   "ic95": [
+    0.8233333333333334,
+    0.8577777777777778
+   ]
+  },
+  "hits@5": {
+   "media": 0.9733333333333334,
+   "ic95": [
+    0.965,
+    0.9805555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9361111111111111,
+   "ic95": [
+    0.925,
+    0.9466666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.782888888888889,
+   "ic95": [
+    0.7728861111111112,
+    0.7924444444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9361111111111111,
+   "ic95": [
+    0.925,
+    0.9466666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7956481481481481,
+   "ic95": [
+    0.7858099537037038,
+    0.8049560185185185
+   ]
+  },
+  "mrr": {
+   "media": 0.9630568783068783,
+   "ic95": [
+    0.956481779100529,
+    0.9693841600529102
+   ]
+  },
+  "hits@1": {
+   "media": 0.9361111111111111,
+   "ic95": [
+    0.925,
+    0.9466666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9966666666666667,
+   "ic95": [
+    0.9938888888888889,
+    0.9988888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8372222222222222,
+   "ic95": [
+    0.82,
+    0.8538888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.6032222222222221,
+   "ic95": [
+    0.5916666666666667,
+    0.6140027777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8372222222222222,
+   "ic95": [
+    0.82,
+    0.8538888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6511944444444445,
+   "ic95": [
+    0.6401675925925926,
+    0.6622333333333333
+   ]
+  },
+  "mrr": {
+   "media": 0.8983861493444826,
+   "ic95": [
+    0.8875506042568542,
+    0.909462326889931
+   ]
+  },
+  "hits@1": {
+   "media": 0.8372222222222222,
+   "ic95": [
+    0.82,
+    0.8538888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9783333333333334,
+   "ic95": [
+    0.9716666666666667,
+    0.9844444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8416666666666667,
+   "ic95": [
+    0.8255416666666667,
+    0.8588888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.6098888888888888,
+   "ic95": [
+    0.5985527777777777,
+    0.621
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8416666666666667,
+   "ic95": [
+    0.8255416666666667,
+    0.8588888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6556944444444445,
+   "ic95": [
+    0.6446662037037036,
+    0.6669918981481482
+   ]
+  },
+  "mrr": {
+   "media": 0.9017459377042711,
+   "ic95": [
+    0.8914150516150516,
+    0.9127466858565817
+   ]
+  },
+  "hits@1": {
+   "media": 0.8416666666666667,
+   "ic95": [
+    0.8255416666666667,
+    0.8588888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.98,
+   "ic95": [
+    0.9738888888888889,
+    0.9861111111111112
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9116527777777778,
+    0.9372222222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.774,
+   "ic95": [
+    0.7633305555555555,
+    0.7852250000000001
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9116527777777778,
+    0.9372222222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7870462962962963,
+   "ic95": [
+    0.7764606481481482,
+    0.7976784722222221
+   ]
+  },
+  "mrr": {
+   "media": 0.9536072209381034,
+   "ic95": [
+    0.9457210906332231,
+    0.9618612229682082
+   ]
+  },
+  "hits@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9116527777777778,
+    0.9372222222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9911111111111112,
+   "ic95": [
+    0.9866666666666667,
+    0.9950138888888889
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.83,
+   "ic95": [
+    0.8127777777777778,
+    0.8472361111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.6087777777777779,
+   "ic95": [
+    0.5962194444444444,
+    0.6216694444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.83,
+   "ic95": [
+    0.8127777777777778,
+    0.8472361111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6589074074074074,
+   "ic95": [
+    0.6466180555555554,
+    0.6715025462962961
+   ]
+  },
+  "mrr": {
+   "media": 0.8897239836268346,
+   "ic95": [
+    0.877569573207616,
+    0.9014489567291871
+   ]
+  },
+  "hits@1": {
+   "media": 0.83,
+   "ic95": [
+    0.8127777777777778,
+    0.8472361111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.9677777777777777,
+   "ic95": [
+    0.9594305555555556,
+    0.9755555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.835,
+   "ic95": [
+    0.8177777777777778,
+    0.8516666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.6161111111111112,
+   "ic95": [
+    0.6037722222222222,
+    0.6287805555555557
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.835,
+   "ic95": [
+    0.8177777777777778,
+    0.8516666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6636944444444444,
+   "ic95": [
+    0.6514439814814814,
+    0.6761766203703703
+   ]
+  },
+  "mrr": {
+   "media": 0.893641071168922,
+   "ic95": [
+    0.8817887706755965,
+    0.905124806622674
+   ]
+  },
+  "hits@1": {
+   "media": 0.835,
+   "ic95": [
+    0.8177777777777778,
+    0.8516666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9694444444444444,
+   "ic95": [
+    0.9611111111111111,
+    0.9766805555555556
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.9372222222222222,
+   "ic95": [
+    0.9261111111111111,
+    0.9483333333333334
+   ]
+  },
+  "precision@5": {
+   "media": 0.7782222222222224,
+   "ic95": [
+    0.7676611111111111,
+    0.7883361111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9372222222222222,
+   "ic95": [
+    0.9261111111111111,
+    0.9483333333333334
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7910833333333335,
+   "ic95": [
+    0.7810275462962964,
+    0.8005835648148147
+   ]
+  },
+  "mrr": {
+   "media": 0.9637548562548564,
+   "ic95": [
+    0.9576784932659934,
+    0.970120223063973
+   ]
+  },
+  "hits@1": {
+   "media": 0.9372222222222222,
+   "ic95": [
+    0.9261111111111111,
+    0.9483333333333334
+   ]
+  },
+  "hits@5": {
+   "media": 0.9972222222222222,
+   "ic95": [
+    0.995,
+    0.9994444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.825,
+   "ic95": [
+    0.8088888888888889,
+    0.841125
+   ]
+  },
+  "precision@5": {
+   "media": 0.6030000000000001,
+   "ic95": [
+    0.5914361111111112,
+    0.6143333333333333
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.825,
+   "ic95": [
+    0.8088888888888889,
+    0.841125
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6515000000000001,
+   "ic95": [
+    0.6400918981481482,
+    0.6628891203703703
+   ]
+  },
+  "mrr": {
+   "media": 0.892571005635087,
+   "ic95": [
+    0.8817386514011909,
+    0.9035148350060609
+   ]
+  },
+  "hits@1": {
+   "media": 0.825,
+   "ic95": [
+    0.8088888888888889,
+    0.841125
+   ]
+  },
+  "hits@5": {
+   "media": 0.9777777777777777,
+   "ic95": [
+    0.9711111111111111,
+    0.9844444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "aleatorio",
+  "escenario": "frio",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.8316666666666667,
+   "ic95": [
+    0.8155555555555556,
+    0.8483333333333334
+   ]
+  },
+  "precision@5": {
+   "media": 0.6108888888888888,
+   "ic95": [
+    0.5993305555555555,
+    0.6221111111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8316666666666667,
+   "ic95": [
+    0.8155555555555556,
+    0.8483333333333334
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.6573055555555556,
+   "ic95": [
+    0.6461361111111112,
+    0.6687604166666667
+   ]
+  },
+  "mrr": {
+   "media": 0.8968024871165684,
+   "ic95": [
+    0.8859830310286895,
+    0.9071706293517974
+   ]
+  },
+  "hits@1": {
+   "media": 0.8316666666666667,
+   "ic95": [
+    0.8155555555555556,
+    0.8483333333333334
+   ]
+  },
+  "hits@5": {
+   "media": 0.9788888888888889,
+   "ic95": [
+    0.9722222222222222,
+    0.9855555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.5422222222222223,
+   "ic95": [
+    0.5177777777777778,
+    0.5655555555555556
+   ]
+  },
+  "precision@5": {
+   "media": 0.3353333333333334,
+   "ic95": [
+    0.32221944444444445,
+    0.3483361111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.5422222222222223,
+   "ic95": [
+    0.5177777777777778,
+    0.5655555555555556
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.33916666666666667,
+   "ic95": [
+    0.3261847222222223,
+    0.3521069444444444
+   ]
+  },
+  "mrr": {
+   "media": 0.6368338316264966,
+   "ic95": [
+    0.6155155914816195,
+    0.6566108702549411
+   ]
+  },
+  "hits@1": {
+   "media": 0.5422222222222223,
+   "ic95": [
+    0.5177777777777778,
+    0.5655555555555556
+   ]
+  },
+  "hits@5": {
+   "media": 0.7555555555555555,
+   "ic95": [
+    0.7344444444444445,
+    0.7772222222222223
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.33944444444444444,
+   "ic95": [
+    0.31666666666666665,
+    0.3628055555555555
+   ]
+  },
+  "precision@5": {
+   "media": 0.203,
+   "ic95": [
+    0.1917722222222222,
+    0.2140027777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.33944444444444444,
+   "ic95": [
+    0.31666666666666665,
+    0.3628055555555555
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2152962962962963,
+   "ic95": [
+    0.20360833333333334,
+    0.22714837962962964
+   ]
+  },
+  "mrr": {
+   "media": 0.43516237299840893,
+   "ic95": [
+    0.4148692993897874,
+    0.4548218445122453
+   ]
+  },
+  "hits@1": {
+   "media": 0.33944444444444444,
+   "ic95": [
+    0.31666666666666665,
+    0.3628055555555555
+   ]
+  },
+  "hits@5": {
+   "media": 0.5433333333333333,
+   "ic95": [
+    0.52,
+    0.565
+   ]
+  }
+ },
+ {
+  "sistema": "c0",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.3466666666666667,
+   "ic95": [
+    0.3238888888888889,
+    0.371125
+   ]
+  },
+  "precision@5": {
+   "media": 0.20766666666666667,
+   "ic95": [
+    0.19622222222222224,
+    0.21889166666666665
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.3466666666666667,
+   "ic95": [
+    0.3238888888888889,
+    0.371125
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2191851851851852,
+   "ic95": [
+    0.2078287037037037,
+    0.23095625
+   ]
+  },
+  "mrr": {
+   "media": 0.44295798745683507,
+   "ic95": [
+    0.42243923571401026,
+    0.4635687959259108
+   ]
+  },
+  "hits@1": {
+   "media": 0.3466666666666667,
+   "ic95": [
+    0.3238888888888889,
+    0.371125
+   ]
+  },
+  "hits@5": {
+   "media": 0.5505555555555556,
+   "ic95": [
+    0.5272083333333334,
+    0.5733333333333334
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.5327777777777778,
+   "ic95": [
+    0.5094444444444445,
+    0.5555555555555556
+   ]
+  },
+  "precision@5": {
+   "media": 0.3436666666666667,
+   "ic95": [
+    0.3307694444444445,
+    0.35611388888888895
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.5327777777777778,
+   "ic95": [
+    0.5094444444444445,
+    0.5555555555555556
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.3473611111111111,
+   "ic95": [
+    0.3341331018518519,
+    0.3595743055555556
+   ]
+  },
+  "mrr": {
+   "media": 0.6422074321617217,
+   "ic95": [
+    0.6225943933791037,
+    0.6603875988487353
+   ]
+  },
+  "hits@1": {
+   "media": 0.5327777777777778,
+   "ic95": [
+    0.5094444444444445,
+    0.5555555555555556
+   ]
+  },
+  "hits@5": {
+   "media": 0.7855555555555556,
+   "ic95": [
+    0.7666527777777778,
+    0.8044444444444444
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.31666666666666665,
+    0.361125
+   ]
+  },
+  "precision@5": {
+   "media": 0.2061111111111111,
+   "ic95": [
+    0.19499722222222227,
+    0.21678055555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.31666666666666665,
+    0.361125
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.21881481481481485,
+   "ic95": [
+    0.20772870370370375,
+    0.23016736111111114
+   ]
+  },
+  "mrr": {
+   "media": 0.44097681959333007,
+   "ic95": [
+    0.4218858862556768,
+    0.4597194138157057
+   ]
+  },
+  "hits@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.31666666666666665,
+    0.361125
+   ]
+  },
+  "hits@5": {
+   "media": 0.5677777777777778,
+   "ic95": [
+    0.5455555555555556,
+    0.5889027777777778
+   ]
+  }
+ },
+ {
+  "sistema": "bm25",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": null,
+   "ausentes": null,
+   "nan": null,
+   "tasa_none": null,
+   "tasa_ausentes": null,
+   "tasa_nan": null,
+   "consultas_con_alguna": null
+  },
+  "precision@1": {
+   "media": 0.3427777777777778,
+   "ic95": [
+    0.32055555555555554,
+    0.365
+   ]
+  },
+  "precision@5": {
+   "media": 0.21166666666666667,
+   "ic95": [
+    0.2004416666666667,
+    0.22255555555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.3427777777777778,
+   "ic95": [
+    0.32055555555555554,
+    0.365
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.22362037037037039,
+   "ic95": [
+    0.21217523148148149,
+    0.23491041666666668
+   ]
+  },
+  "mrr": {
+   "media": 0.44707147700413064,
+   "ic95": [
+    0.42754379447586843,
+    0.46581333394152513
+   ]
+  },
+  "hits@1": {
+   "media": 0.3427777777777778,
+   "ic95": [
+    0.32055555555555554,
+    0.365
+   ]
+  },
+  "hits@5": {
+   "media": 0.5783333333333334,
+   "ic95": [
+    0.5561111111111111,
+    0.6
+   ]
+  }
+ }
+]

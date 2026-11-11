@@ -1,0 +1,24 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c2.py",
+    "--nivel",
+    "bajo"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 10193.04,
+  "base_mib": 868,
+  "pico_mib": 3419,
+  "incremento_mib": 2551,
+  "n_muestras": 50539,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": null,
+  "descarga_confirmada": null,
+  "descargados_todos": {
+    "qwen2.5:14b-instruct-q4_K_M": true
+  },
+  "ejecuciones": [
+    "20261028T062232_c2_recuperador_9f2581",
+    "20261028T074516_c2_recuperador_1f5562"
+  ]
+}

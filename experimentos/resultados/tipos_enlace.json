@@ -1,0 +1,200 @@
+{
+  "n_nodos": 11701,
+  "n_validos": 10989,
+  "n_excluidos": 712,
+  "a_totales": {
+    "enlaces_A": 275796,
+    "enlaces_B": 99003,
+    "enlaces_A_originales": 290519,
+    "tipos": {
+      "1": 28284,
+      "2": 64179,
+      "3": 6540,
+      "4": 176793
+    },
+    "pct_sobre_B": {
+      "1": 28.57,
+      "2": 64.83,
+      "3": 6.61
+    },
+    "pct_sobre_A": {
+      "1": 10.26,
+      "2": 23.27,
+      "3": 2.37,
+      "4": 64.1
+    },
+    "tipo1_fuera_de_B": 0,
+    "comprobacion_1+2+3=B": true,
+    "comprobacion_1+2+3+4=A": true
+  },
+  "b_elegibilidad": {
+    "tipos_2+3": {
+      "intro>=0": {
+        "1": 8455,
+        "2": 6997,
+        "3": 5918,
+        "5": 4349,
+        "10": 2206
+      },
+      "intro>=20": {
+        "1": 8162,
+        "2": 6750,
+        "3": 5704,
+        "5": 4188,
+        "10": 2130
+      },
+      "intro>=30": {
+        "1": 7773,
+        "2": 6425,
+        "3": 5440,
+        "5": 3994,
+        "10": 2040
+      },
+      "intro>=50": {
+        "1": 6668,
+        "2": 5538,
+        "3": 4697,
+        "5": 3477,
+        "10": 1838
+      }
+    },
+    "tipos_1+2+3": {
+      "intro>=0": {
+        "1": 10459,
+        "2": 9390,
+        "3": 8240,
+        "5": 6355,
+        "10": 3341
+      },
+      "intro>=20": {
+        "1": 10142,
+        "2": 9114,
+        "3": 8002,
+        "5": 6180,
+        "10": 3259
+      },
+      "intro>=30": {
+        "1": 9696,
+        "2": 8734,
+        "3": 7684,
+        "5": 5950,
+        "10": 3157
+      },
+      "intro>=50": {
+        "1": 8428,
+        "2": 7649,
+        "3": 6771,
+        "5": 5284,
+        "10": 2869
+      }
+    }
+  },
+  "c_fuga_inversa": {
+    "nota": "grado entrante de tipo 1 sobre los nodos válidos",
+    "distribucion": {
+      "mediana": 0.0,
+      "p90": 4.0,
+      "p99": 42.0,
+      "max": 949,
+      "media": 2.5738
+    },
+    "pct_nodos_con_al_menos_1": 40.66,
+    "nodos_con_al_menos_1": 4468,
+    "top10": [
+      {
+        "idx": 7983,
+        "titulo": "Operating_system",
+        "entrante_tipo1": 949,
+        "entrante_A": 3075
+      },
+      {
+        "idx": 6797,
+        "titulo": "Microsoft_Windows",
+        "entrante_tipo1": 566,
+        "entrante_A": 1692
+      },
+      {
+        "idx": 823,
+        "titulo": "Linux",
+        "entrante_tipo1": 525,
+        "entrante_A": 1820
+      },
+      {
+        "idx": 8262,
+        "titulo": "Programming_language",
+        "entrante_tipo1": 410,
+        "entrante_A": 874
+      },
+      {
+        "idx": 3323,
+        "titulo": "IBM",
+        "entrante_tipo1": 296,
+        "entrante_A": 757
+      },
+      {
+        "idx": 5492,
+        "titulo": "Unix",
+        "entrante_tipo1": 274,
+        "entrante_A": 817
+      },
+      {
+        "idx": 2558,
+        "titulo": "Computer_security",
+        "entrante_tipo1": 260,
+        "entrante_A": 542
+      },
+      {
+        "idx": 1776,
+        "titulo": "Central_processing_unit",
+        "entrante_tipo1": 240,
+        "entrante_A": 804
+      },
+      {
+        "idx": 9006,
+        "titulo": "MSX",
+        "entrante_tipo1": 240,
+        "entrante_A": 442
+      },
+      {
+        "idx": 4194,
+        "titulo": "Cloud_computing",
+        "entrante_tipo1": 216,
+        "entrante_A": 450
+      }
+    ],
+    "comparacion_contando_todas_las_anclas": {
+      "nota": "anclas de la introducción hacia el nodo aunque el enlace no esté en A",
+      "distribucion": {
+        "mediana": 0.0,
+        "p90": 5.0,
+        "p99": 46.1200000000008,
+        "max": 975,
+        "media": 2.8411
+      },
+      "pct_nodos_con_al_menos_1": 41.64
+    }
+  },
+  "d_neutros_por_documento": {
+    "distribucion": {
+      "mediana": 4.0,
+      "p90": 60.0,
+      "p99": 133.0,
+      "max": 241,
+      "media": 18.662
+    },
+    "solo_tipo1": {
+      "mediana": 2.0,
+      "p90": 6.0,
+      "p99": 12.0,
+      "max": 60,
+      "media": 2.5738
+    },
+    "solo_tipo4": {
+      "mediana": 1.0,
+      "p90": 57.0,
+      "p99": 130.0,
+      "max": 231,
+      "media": 16.0882
+    }
+  }
+}

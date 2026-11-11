@@ -1,0 +1,27 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c1.py",
+    "--modelo",
+    "qwen2.5:7b-instruct-q4_K_M",
+    "--nivel",
+    "medio",
+    "--escenario",
+    "frio"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 6679.11,
+  "base_mib": 1265,
+  "pico_mib": 5963,
+  "incremento_mib": 4698,
+  "n_muestras": 33094,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": null,
+  "descarga_confirmada": null,
+  "descargados_todos": {
+    "qwen2.5:3b": true
+  },
+  "ejecuciones": [
+    "20261030T122159_c1_7b_recuperador_fff56b"
+  ]
+}

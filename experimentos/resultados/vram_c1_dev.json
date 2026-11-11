@@ -1,0 +1,16 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c1.py",
+    "--desarrollo"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 884.62,
+  "base_mib": 1505,
+  "pico_mib": 3716,
+  "incremento_mib": 2211,
+  "n_muestras": 4385,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": "qwen2.5:3b",
+  "descarga_confirmada": true
+}

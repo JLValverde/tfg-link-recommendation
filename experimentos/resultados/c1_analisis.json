@@ -1,0 +1,143 @@
+{
+ "sistema": "c1",
+ "variante": "congelada",
+ "modo": "recuperador",
+ "muestra": "principal_sin_desarrollo",
+ "por_escenario": {
+  "caliente": {
+   "consultas": 1800,
+   "llamadas": 80395,
+   "errores": 0,
+   "puntuaciones": 80395,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 5.327445736675166,
+   "pct_no_si_no": 0.0012438584489085143,
+   "casos": {
+    "ambos": 80394,
+    "falta_uno": 1,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 99.9987561415511,
+    "falta_uno": 0.0012438584489085143,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -20.31524282958487,
+    "p1": -18.64958036901177,
+    "p5": -17.98159644793245,
+    "p25": -16.831481984312724,
+    "p50": -15.612453390899466,
+    "p75": -12.192742975228503,
+    "p95": 0.400972127060614,
+    "p99": 8.29687059196763,
+    "p100": 16.300067770774486
+   },
+   "confianza_cota_media": -13.252287532983596,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.66388888888889,
+    "valores_distintos_por_lista_min": 4,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.66388888888889,
+    "tamano_lista_min": 4,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "latencia_ms_por_consulta": {
+     "p50": 2326.449,
+     "p95": 2689.4943999999996
+    },
+    "latencia_ms_por_consulta_media": 2220.1076844741237,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 16089.0,
+     "p95": 29227.59999999999
+    },
+    "tokens_in_por_llamada_sin_cache_media": 386.410784252752,
+    "tokens_in_por_llamada_sin_cache_max": 1394,
+    "tokens_in_por_llamada_con_cache_media_estimada": 182.5997885440637,
+    "prompt_eval_ms_primera_llamada_media": 52.069191644444444,
+    "prompt_eval_ms_resto_media": 30.240386292283223,
+    "horas_estimadas_2000_consultas": 1.2333931580411799
+   }
+  },
+  "frio": {
+   "consultas": 1800,
+   "llamadas": 80790,
+   "errores": 0,
+   "puntuaciones": 80790,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 6.581260056937739,
+   "pct_no_si_no": 0.0,
+   "casos": {
+    "ambos": 80790,
+    "falta_uno": 0,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 100.0,
+    "falta_uno": 0.0,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -20.31524282958487,
+    "p1": -18.62876344510436,
+    "p5": -17.959821869648902,
+    "p25": -16.779814813704196,
+    "p50": -15.47887022744421,
+    "p75": -11.45506086403583,
+    "p95": 1.7752760736277793,
+    "p99": 9.091295196188907,
+    "p100": 16.300067770774486
+   },
+   "confianza_cota_media": -12.841944451494033,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.88333333333333,
+    "valores_distintos_por_lista_min": 5,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.88333333333333,
+    "tamano_lista_min": 5,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "latencia_ms_por_consulta": {
+     "p50": 2367.983,
+     "p95": 2735.112
+    },
+    "latencia_ms_por_consulta_media": 2268.2583706176965,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 16247.0,
+     "p95": 29576.0
+    },
+    "tokens_in_por_llamada_sin_cache_media": 387.83984404010397,
+    "tokens_in_por_llamada_sin_cache_max": 1394,
+    "tokens_in_por_llamada_con_cache_media_estimada": 183.6581878945414,
+    "prompt_eval_ms_primera_llamada_media": 52.69260886222223,
+    "prompt_eval_ms_resto_media": 30.44705377546525,
+    "horas_estimadas_2000_consultas": 1.2601435392320537
+   }
+  }
+ },
+ "horas_estimadas_2000_consultas_x_2_escenarios": 2.4935366972732336,
+ "tokens_cabecera_plantilla": 24,
+ "vram": {
+  "comando": [
+   ".venv\\Scripts\\python.exe",
+   "experimentos/evaluar_c1.py"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 8994.31,
+  "base_mib": 1485,
+  "pico_mib": 4097,
+  "incremento_mib": 2612,
+  "n_muestras": 44589,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": "qwen2.5:3b",
+  "descarga_confirmada": true
+ }
+}

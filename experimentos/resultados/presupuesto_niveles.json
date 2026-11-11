@@ -1,0 +1,111 @@
+{
+ "medidas": {
+  "3b": {
+   "modelo": "qwen2.5:3b",
+   "pico_mib": 7511,
+   "base_mib": 1497,
+   "incremento_mib": 6014,
+   "horas_estimadas_2000_x_2": 5.175837973856209,
+   "casos": {
+    "caliente": {
+     "ambos": 918,
+     "falta_uno": 0,
+     "faltan_ambos": 0
+    },
+    "frio": {
+     "ambos": 924,
+     "falta_uno": 0,
+     "faltan_ambos": 0
+    }
+   }
+  },
+  "7b": {
+   "modelo": "qwen2.5:7b-instruct-q4_K_M",
+   "pico_mib": 9980,
+   "base_mib": 1499,
+   "incremento_mib": 8481,
+   "horas_estimadas_2000_x_2": 8.023936960784315,
+   "casos": {
+    "caliente": {
+     "ambos": 725,
+     "falta_uno": 193,
+     "faltan_ambos": 0
+    },
+    "frio": {
+     "ambos": 665,
+     "falta_uno": 259,
+     "faltan_ambos": 0
+    }
+   }
+  },
+  "14b": {
+   "modelo": "qwen2.5:14b-instruct-q4_K_M",
+   "pico_mib": 14561,
+   "base_mib": 1499,
+   "incremento_mib": 13062,
+   "horas_estimadas_2000_x_2": 14.739524575163397,
+   "casos": {
+    "caliente": {
+     "ambos": 568,
+     "falta_uno": 350,
+     "faltan_ambos": 0
+    },
+    "frio": {
+     "ambos": 468,
+     "falta_uno": 456,
+     "faltan_ambos": 0
+    }
+   }
+  }
+ },
+ "niveles": {
+  "bajo": {
+   "tope_mib": 8000,
+   "modelo": "3b"
+  },
+  "medio": {
+   "tope_mib": 12000,
+   "modelo": "7b"
+  },
+  "alto": {
+   "tope_mib": 16000,
+   "modelo": "14b"
+  }
+ },
+ "replicas_t27": {
+  "7b": {
+   "modelo": "qwen2.5:7b-instruct-q4_K_M",
+   "nivel": "medio",
+   "niveles": [
+    "medio"
+   ],
+   "escenarios": [
+    "caliente",
+    "frio"
+   ]
+  },
+  "14b": {
+   "modelo": "qwen2.5:14b-instruct-q4_K_M",
+   "nivel": "alto",
+   "niveles": [
+    "alto"
+   ],
+   "escenarios": [
+    "frio",
+    "caliente"
+   ]
+  }
+ },
+ "orden_t27": [
+  "7b",
+  "14b"
+ ],
+ "regla_14b": {
+  "horas_estimadas": 14.739524575163397,
+  "umbral_h": 10,
+  "solo_frio": true,
+  "aplicada": false,
+  "decision": "Decisión de Jose (T2.7): la estimación se midió con la latencia inflada por el codificador de embeddings de T2.6; el 14B se ejecuta en los dos escenarios, frío primero"
+ },
+ "nivel_3b": "bajo"
+}

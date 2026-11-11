@@ -1,0 +1,25 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/presupuesto_vram.py",
+    "--modelo",
+    "qwen2.5:3b"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 214.58,
+  "base_mib": 1497,
+  "pico_mib": 7511,
+  "incremento_mib": 6014,
+  "n_muestras": 1062,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": null,
+  "descarga_confirmada": null,
+  "descargados_todos": {
+    "qwen2.5:14b-instruct-q4_K_M": true,
+    "qwen2.5:3b": true
+  },
+  "ejecuciones": [
+    "20261028T060014_c2_presupuesto_3b_recuperador_1a602b",
+    "20261028T060152_c2_presupuesto_3b_recuperador_4f8315"
+  ]
+}

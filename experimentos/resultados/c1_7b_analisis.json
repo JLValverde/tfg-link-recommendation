@@ -1,0 +1,226 @@
+{
+ "sistema": "c1_7b",
+ "modelo": "qwen2.5:7b-instruct-q4_K_M",
+ "variante": "congelada",
+ "modo": "recuperador",
+ "muestra": "principal_sin_desarrollo",
+ "por_escenario": {
+  "caliente": {
+   "consultas": 1800,
+   "llamadas": 80395,
+   "errores": 0,
+   "puntuaciones": 80395,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 15.843025063747746,
+   "pct_no_si_no": 0.0,
+   "casos": {
+    "ambos": 65108,
+    "falta_uno": 15287,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 80.98513589153555,
+    "falta_uno": 19.014864108464458,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -25.912715990831888,
+    "p1": -25.062349331583977,
+    "p5": -24.696144840984893,
+    "p25": -23.3153783926592,
+    "p50": -16.401481618612138,
+    "p75": -6.055758289295534,
+    "p95": 13.191163964900198,
+    "p99": 18.22507317485191,
+    "p100": 21.952524254780304
+   },
+   "confianza_cota_media": -12.836655401149274,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.66388888888889,
+    "valores_distintos_por_lista_min": 4,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.66388888888889,
+    "tamano_lista_min": 4,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "presupuesto": {
+     "20261030T141619_c1_7b_recuperador_d3ecc2": {
+      "nivel": "medio",
+      "tope_mib": 12000,
+      "pico_mib": 9980
+     }
+    },
+    "latencia_ms_por_consulta": {
+     "p50": 3402.952,
+     "p95": 4015.027
+    },
+    "latencia_ms_por_consulta_media": 3263.738075681692,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 16089.0,
+     "p95": 29227.59999999999
+    },
+    "tokens_in_por_llamada_sin_cache_media": 386.410784252752,
+    "tokens_in_por_llamada_sin_cache_max": 1394,
+    "tokens_in_por_llamada_con_cache_media_estimada": 182.5997885440637,
+    "prompt_eval_ms_primera_llamada_media": 100.05394054611112,
+    "prompt_eval_ms_resto_media": 54.74791651891342,
+    "horas_estimadas_2000_consultas": 1.8131878198231621
+   }
+  },
+  "frio": {
+   "consultas": 1800,
+   "llamadas": 80790,
+   "errores": 0,
+   "puntuaciones": 80790,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 17.973759128605025,
+   "pct_no_si_no": 0.0,
+   "casos": {
+    "ambos": 66147,
+    "falta_uno": 14643,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 81.8752320831786,
+    "falta_uno": 18.124767916821387,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -26.30368426258772,
+    "p1": -25.053963998630856,
+    "p5": -24.6791910064457,
+    "p25": -23.097815609502756,
+    "p50": -15.675438917081394,
+    "p75": -4.749084489139145,
+    "p95": 14.303917144649844,
+    "p99": 18.357994063257415,
+    "p100": 21.952524254780304
+   },
+   "confianza_cota_media": -12.084070935250153,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.88333333333333,
+    "valores_distintos_por_lista_min": 5,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.88333333333333,
+    "tamano_lista_min": 5,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "presupuesto": {
+     "20261030T122159_c1_7b_recuperador_fff56b": {
+      "nivel": "medio",
+      "tope_mib": 12000,
+      "pico_mib": 9980
+     }
+    },
+    "latencia_ms_por_consulta": {
+     "p50": 3466.978,
+     "p95": 4043.2915999999996
+    },
+    "latencia_ms_por_consulta_media": 3330.080776293823,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 16247.0,
+     "p95": 29576.0
+    },
+    "tokens_in_por_llamada_sin_cache_media": 387.83984404010397,
+    "tokens_in_por_llamada_sin_cache_max": 1394,
+    "tokens_in_por_llamada_con_cache_media_estimada": 183.6581878945414,
+    "prompt_eval_ms_primera_llamada_media": 101.43462776277777,
+    "prompt_eval_ms_resto_media": 55.06311265734904,
+    "horas_estimadas_2000_consultas": 1.8500448757187906
+   }
+  }
+ },
+ "pico_ejecucion_mib": {
+  "20261030T141619_c1_7b_recuperador_d3ecc2": 6005,
+  "20261030T122159_c1_7b_recuperador_fff56b": 5963
+ },
+ "pico_t26_con_embeddings_mib": 9980,
+ "horas_estimadas_2000_consultas_x_2_escenarios": 3.6632326955419527,
+ "tokens_cabecera_plantilla": 24,
+ "vram": {
+  "vram_c1_7b_caliente.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c1.py",
+    "--modelo",
+    "qwen2.5:7b-instruct-q4_K_M",
+    "--nivel",
+    "medio",
+    "--escenario",
+    "caliente"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 6540.76,
+   "base_mib": 1267,
+   "pico_mib": 6005,
+   "incremento_mib": 4738,
+   "n_muestras": 32411,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {},
+   "ejecuciones": [
+    "20261030T141619_c1_7b_recuperador_d3ecc2"
+   ]
+  },
+  "vram_c1_7b_frio.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c1.py",
+    "--modelo",
+    "qwen2.5:7b-instruct-q4_K_M",
+    "--nivel",
+    "medio",
+    "--escenario",
+    "frio"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 6679.11,
+   "base_mib": 1265,
+   "pico_mib": 5963,
+   "incremento_mib": 4698,
+   "n_muestras": 33094,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {
+    "qwen2.5:3b": true
+   },
+   "ejecuciones": [
+    "20261030T122159_c1_7b_recuperador_fff56b"
+   ]
+  },
+  "vram_presupuesto_7b.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/presupuesto_vram.py",
+    "--modelo",
+    "qwen2.5:7b-instruct-q4_K_M"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 313.11,
+   "base_mib": 1499,
+   "pico_mib": 9980,
+   "incremento_mib": 8481,
+   "n_muestras": 1551,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {
+    "qwen2.5:3b": true
+   },
+   "ejecuciones": [
+    "20261028T060341_c2_presupuesto_7b_recuperador_8bb034",
+    "20261028T060615_c2_presupuesto_7b_recuperador_89371a"
+   ]
+  }
+ }
+}

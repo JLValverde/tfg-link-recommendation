@@ -1,0 +1,1058 @@
+[
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "id_ejecucion": "20261028T051819_c2_v1_recuperador_e894ec",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1189,
+   "respuesta_no": 7706,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.355,
+   "ic95": [
+    0.285,
+    0.42
+   ]
+  },
+  "precision@5": {
+   "media": 0.23300000000000004,
+   "ic95": [
+    0.20400000000000001,
+    0.264
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.355,
+   "ic95": [
+    0.285,
+    0.42
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2625833333333334,
+   "ic95": [
+    0.22949374999999997,
+    0.29608958333333335
+   ]
+  },
+  "mrr": {
+   "media": 0.49763282659892566,
+   "ic95": [
+    0.43999044114811914,
+    0.5548846978825268
+   ]
+  },
+  "hits@1": {
+   "media": 0.355,
+   "ic95": [
+    0.285,
+    0.42
+   ]
+  },
+  "hits@5": {
+   "media": 0.675,
+   "ic95": [
+    0.614875,
+    0.74
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "id_ejecucion": "20261028T051819_c2_v1_recuperador_e894ec",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1189,
+   "respuesta_no": 7706,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.155,
+   "ic95": [
+    0.11,
+    0.21
+   ]
+  },
+  "precision@5": {
+   "media": 0.14,
+   "ic95": [
+    0.11599999999999999,
+    0.168
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.155,
+   "ic95": [
+    0.11,
+    0.21
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.18408333333333332,
+   "ic95": [
+    0.15216041666666666,
+    0.2180083333333334
+   ]
+  },
+  "mrr": {
+   "media": 0.29723866249849223,
+   "ic95": [
+    0.24953044192756849,
+    0.3494150381412533
+   ]
+  },
+  "hits@1": {
+   "media": 0.155,
+   "ic95": [
+    0.11,
+    0.21
+   ]
+  },
+  "hits@5": {
+   "media": 0.48,
+   "ic95": [
+    0.415,
+    0.555
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "id_ejecucion": "20261028T051819_c2_v1_recuperador_e894ec",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1189,
+   "respuesta_no": 7706,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.155,
+   "ic95": [
+    0.10987500000000001,
+    0.21
+   ]
+  },
+  "precision@5": {
+   "media": 0.14300000000000002,
+   "ic95": [
+    0.11800000000000001,
+    0.17002499999999998
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.155,
+   "ic95": [
+    0.10987500000000001,
+    0.21
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.18733333333333335,
+   "ic95": [
+    0.15482083333333335,
+    0.22067291666666666
+   ]
+  },
+  "mrr": {
+   "media": 0.3004529482127779,
+   "ic95": [
+    0.25315574584857864,
+    0.35198878585724563
+   ]
+  },
+  "hits@1": {
+   "media": 0.155,
+   "ic95": [
+    0.10987500000000001,
+    0.21
+   ]
+  },
+  "hits@5": {
+   "media": 0.49,
+   "ic95": [
+    0.425,
+    0.565
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "completa",
+  "id_ejecucion": "20261028T052636_c2_v1_recuperador_cba3be",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8946,
+   "error": 0,
+   "ambos": 8946,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 903,
+   "respuesta_no": 8043,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1493,
+   "candidatos_distintos_recortados": 905,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.625,
+   "ic95": [
+    0.555,
+    0.695
+   ]
+  },
+  "precision@5": {
+   "media": 0.41900000000000004,
+   "ic95": [
+    0.38,
+    0.462025
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.625,
+   "ic95": [
+    0.555,
+    0.695
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.4243333333333334,
+   "ic95": [
+    0.38475000000000004,
+    0.46793333333333337
+   ]
+  },
+  "mrr": {
+   "media": 0.7251060090702947,
+   "ic95": [
+    0.6689457979024942,
+    0.7775259991496598
+   ]
+  },
+  "hits@1": {
+   "media": 0.625,
+   "ic95": [
+    0.555,
+    0.695
+   ]
+  },
+  "hits@5": {
+   "media": 0.855,
+   "ic95": [
+    0.805,
+    0.9
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita",
+  "id_ejecucion": "20261028T052636_c2_v1_recuperador_cba3be",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8946,
+   "error": 0,
+   "ambos": 8946,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 903,
+   "respuesta_no": 8043,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1493,
+   "candidatos_distintos_recortados": 905,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.315,
+   "ic95": [
+    0.255,
+    0.38
+   ]
+  },
+  "precision@5": {
+   "media": 0.22700000000000004,
+   "ic95": [
+    0.195975,
+    0.265025
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.315,
+   "ic95": [
+    0.255,
+    0.38
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.24275,
+   "ic95": [
+    0.20749791666666667,
+    0.28325208333333335
+   ]
+  },
+  "mrr": {
+   "media": 0.4465163806431663,
+   "ic95": [
+    0.3903327136157494,
+    0.5073840901360543
+   ]
+  },
+  "hits@1": {
+   "media": 0.315,
+   "ic95": [
+    0.255,
+    0.38
+   ]
+  },
+  "hits@5": {
+   "media": 0.61,
+   "ic95": [
+    0.545,
+    0.685
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v1",
+  "variante": 1,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "id_ejecucion": "20261028T052636_c2_v1_recuperador_cba3be",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8946,
+   "error": 0,
+   "ambos": 8946,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 903,
+   "respuesta_no": 8043,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1493,
+   "candidatos_distintos_recortados": 905,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.33,
+   "ic95": [
+    0.27,
+    0.395
+   ]
+  },
+  "precision@5": {
+   "media": 0.23200000000000004,
+   "ic95": [
+    0.201,
+    0.271
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.33,
+   "ic95": [
+    0.27,
+    0.395
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.24708333333333335,
+   "ic95": [
+    0.2125,
+    0.28792291666666664
+   ]
+  },
+  "mrr": {
+   "media": 0.45959440262118834,
+   "ic95": [
+    0.40501655591432373,
+    0.5214098658781694
+   ]
+  },
+  "hits@1": {
+   "media": 0.33,
+   "ic95": [
+    0.27,
+    0.395
+   ]
+  },
+  "hits@5": {
+   "media": 0.625,
+   "ic95": [
+    0.56,
+    0.7
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v2",
+  "variante": 2,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "id_ejecucion": "20261028T053515_c2_v2_recuperador_631673",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1876,
+   "respuesta_no": 7019,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.355,
+   "ic95": [
+    0.29,
+    0.425
+   ]
+  },
+  "precision@5": {
+   "media": 0.22400000000000003,
+   "ic95": [
+    0.195975,
+    0.257
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.355,
+   "ic95": [
+    0.29,
+    0.425
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.24950000000000003,
+   "ic95": [
+    0.21941458333333333,
+    0.28308958333333334
+   ]
+  },
+  "mrr": {
+   "media": 0.49176343387887506,
+   "ic95": [
+    0.43736353939835554,
+    0.551062103421938
+   ]
+  },
+  "hits@1": {
+   "media": 0.355,
+   "ic95": [
+    0.29,
+    0.425
+   ]
+  },
+  "hits@5": {
+   "media": 0.66,
+   "ic95": [
+    0.595,
+    0.725
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v2",
+  "variante": 2,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "id_ejecucion": "20261028T053515_c2_v2_recuperador_631673",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1876,
+   "respuesta_no": 7019,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "precision@5": {
+   "media": 0.13,
+   "ic95": [
+    0.106975,
+    0.157
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.16916666666666663,
+   "ic95": [
+    0.13857708333333332,
+    0.20142500000000002
+   ]
+  },
+  "mrr": {
+   "media": 0.28979355545601676,
+   "ic95": [
+    0.24217031784983892,
+    0.347142603392288
+   ]
+  },
+  "hits@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "hits@5": {
+   "media": 0.445,
+   "ic95": [
+    0.375,
+    0.52
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v2",
+  "variante": 2,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "id_ejecucion": "20261028T053515_c2_v2_recuperador_631673",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1876,
+   "respuesta_no": 7019,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "precision@5": {
+   "media": 0.132,
+   "ic95": [
+    0.10800000000000001,
+    0.159
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.16991666666666666,
+   "ic95": [
+    0.13925,
+    0.20116666666666666
+   ]
+  },
+  "mrr": {
+   "media": 0.2929393887893501,
+   "ic95": [
+    0.24601024518676798,
+    0.3492758857700015
+   ]
+  },
+  "hits@1": {
+   "media": 0.16,
+   "ic95": [
+    0.11,
+    0.22
+   ]
+  },
+  "hits@5": {
+   "media": 0.45,
+   "ic95": [
+    0.385,
+    0.525
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v3",
+  "variante": 3,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "id_ejecucion": "20261028T054352_c2_v3_recuperador_f5e7bc",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1161,
+   "respuesta_no": 7734,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.375,
+   "ic95": [
+    0.31,
+    0.445
+   ]
+  },
+  "precision@5": {
+   "media": 0.23399999999999999,
+   "ic95": [
+    0.203,
+    0.266
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.375,
+   "ic95": [
+    0.31,
+    0.445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2601666666666667,
+   "ic95": [
+    0.22791458333333336,
+    0.29375208333333336
+   ]
+  },
+  "mrr": {
+   "media": 0.4956174256954813,
+   "ic95": [
+    0.4414983024527287,
+    0.553992188090818
+   ]
+  },
+  "hits@1": {
+   "media": 0.375,
+   "ic95": [
+    0.31,
+    0.445
+   ]
+  },
+  "hits@5": {
+   "media": 0.665,
+   "ic95": [
+    0.595,
+    0.73
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v3",
+  "variante": 3,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "id_ejecucion": "20261028T054352_c2_v3_recuperador_f5e7bc",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1161,
+   "respuesta_no": 7734,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "precision@5": {
+   "media": 0.135,
+   "ic95": [
+    0.111,
+    0.16399999999999998
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.17791666666666667,
+   "ic95": [
+    0.144825,
+    0.21458541666666667
+   ]
+  },
+  "mrr": {
+   "media": 0.29757307239697717,
+   "ic95": [
+    0.2490573807462376,
+    0.3533283646538649
+   ]
+  },
+  "hits@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "hits@5": {
+   "media": 0.46,
+   "ic95": [
+    0.39,
+    0.53
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ },
+ {
+  "sistema": "c2_v3",
+  "variante": 3,
+  "politica": "P-cota",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "id_ejecucion": "20261028T054352_c2_v3_recuperador_f5e7bc",
+  "muestra": "desarrollo",
+  "n_consultas": 200,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "diagnostico": {
+   "llamadas": 8895,
+   "error": 0,
+   "ambos": 8895,
+   "falta_uno": 0,
+   "faltan_ambos": 0,
+   "respuesta_yes": 1161,
+   "respuesta_no": 7734,
+   "respuesta_no_si_no": 0,
+   "consultas": 200,
+   "consultas_recortadas": 6,
+   "llamadas_candidato_recortado": 1438,
+   "candidatos_distintos_recortados": 890,
+   "truncados": 0
+  },
+  "precision@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "precision@5": {
+   "media": 0.137,
+   "ic95": [
+    0.113,
+    0.165
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.1795,
+   "ic95": [
+    0.1464125,
+    0.21566875
+   ]
+  },
+  "mrr": {
+   "media": 0.3015611676350724,
+   "ic95": [
+    0.2510656477807382,
+    0.3575840535937841
+   ]
+  },
+  "hits@1": {
+   "media": 0.175,
+   "ic95": [
+    0.125,
+    0.235
+   ]
+  },
+  "hits@5": {
+   "media": 0.465,
+   "ic95": [
+    0.395,
+    0.535125
+   ]
+  },
+  "modelo": "qwen2.5:3b",
+  "nivel": null
+ }
+]

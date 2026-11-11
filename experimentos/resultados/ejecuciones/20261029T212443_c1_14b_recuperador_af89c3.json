@@ -1,0 +1,53 @@
+{
+  "id_ejecucion": "20261029T212443_c1_14b_recuperador_af89c3",
+  "inicio": "2026-10-29T21:24:43+00:00",
+  "sistema": "c1_14b",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "fichero_coste": "coste_c1_14b_recuperador_frio.jsonl",
+  "config": {
+    "modelo": "qwen2.5:14b-instruct-q4_K_M",
+    "digest": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6",
+    "K": 50,
+    "num_ctx": 4096,
+    "hash_prompt": "34b9e892d5facf186b3fab2b1fd4b6d7c9caaede4ab41a3d6d24c9b1f73a658c",
+    "variante": "congelada",
+    "top_logprobs": 20,
+    "max_palabras_consulta": 400,
+    "max_palabras_candidato": 200,
+    "keep_alive": "30m",
+    "politica_devuelta": "P-cota",
+    "via": "/api/chat",
+    "nivel": "alto"
+  },
+  "nivel": "alto",
+  "tope_mib": 16000,
+  "git": {
+    "hash": "533b8c8829d2abc104037daa9d04a0fffbc2a4d0",
+    "hay_cambios": false,
+    "cambios_sin_commitear": []
+  },
+  "hw": {
+    "so": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti, 610.88, 16311 MiB"
+  },
+  "versiones": {
+    "python": "3.14.5",
+    "driver_nvidia": "610.88",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cu130",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.17.0",
+    "ollama": "0.6.3",
+    "requests": "2.34.2",
+    "mwparserfromhell": "0.7.2",
+    "pyahocorasick": "2.3.1",
+    "bm25s": "0.3.11",
+    "torch_cuda": "13.0",
+    "ollama_servidor": "0.40.2"
+  },
+  "entorno_coincide": true,
+  "entorno_diferencias": []
+}

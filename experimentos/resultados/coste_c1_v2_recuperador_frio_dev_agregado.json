@@ -1,0 +1,25 @@
+[
+  {
+    "sistema": "c1_v2",
+    "modo": "recuperador",
+    "escenario": "frio",
+    "n_consultas": 197,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 2324.096,
+      "p95": 2692.3536
+    },
+    "llamadas": {
+      "p50": 49.0,
+      "p95": 50.0
+    },
+    "tokens_in": {
+      "p50": 15437.0,
+      "p95": 30700.399999999998
+    },
+    "tokens_out": {
+      "p50": 49.0,
+      "p95": 50.0
+    }
+  }
+]

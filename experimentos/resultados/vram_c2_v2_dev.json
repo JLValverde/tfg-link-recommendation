@@ -1,0 +1,24 @@
+{
+  "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c2.py",
+    "--desarrollo",
+    "--variante",
+    "2"
+  ],
+  "codigo_salida": 0,
+  "duracion_s": 514.85,
+  "base_mib": 1476,
+  "pico_mib": 3772,
+  "incremento_mib": 2296,
+  "n_muestras": 2551,
+  "intervalo_ms": 200,
+  "modelo_descargado_antes": null,
+  "descarga_confirmada": null,
+  "descargados_todos": {
+    "qwen2.5:3b": true
+  },
+  "ejecuciones": [
+    "20261028T053515_c2_v2_recuperador_631673"
+  ]
+}

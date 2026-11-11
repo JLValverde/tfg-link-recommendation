@@ -1,0 +1,23 @@
+{
+  "c0": {
+    "modelo": "Qwen/Qwen3-Embedding-0.6B",
+    "fuente": "eleccion_embeddings.json",
+    "duracion_s": 122.0,
+    "base_mib": 2508,
+    "pico_mib": 12933,
+    "incremento_mib": 10425,
+    "n_muestras": 605,
+    "torch_max_allocated_mib": 10390.9,
+    "torch_max_reserved_mib": 11616.0
+  },
+  "bm25": {
+    "fuente": "medido aquí",
+    "duracion_s": 1.37,
+    "base_mib": 862,
+    "pico_mib": 862,
+    "incremento_mib": 0,
+    "n_muestras": 7,
+    "torch_max_allocated_mib": 0.0,
+    "torch_max_reserved_mib": 0.0
+  }
+}

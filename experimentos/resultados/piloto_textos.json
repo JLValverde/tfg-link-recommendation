@@ -1,0 +1,368 @@
+{
+  "n_piloto": 50,
+  "a_estados": {
+    "no_existe": 3,
+    "ok": 47
+  },
+  "a_no_ok": [
+    {
+      "idx": 3611,
+      "pageid": 3352594,
+      "titulo": "WBFS",
+      "estado": "no_existe",
+      "detalle": null
+    },
+    {
+      "idx": 4557,
+      "pageid": 7811558,
+      "titulo": "Conceptual_interoperability",
+      "estado": "no_existe",
+      "detalle": null
+    },
+    {
+      "idx": 11087,
+      "pageid": 2193672,
+      "titulo": "Narcissus_(JavaScript_engine)",
+      "estado": "no_existe",
+      "detalle": null
+    }
+  ],
+  "a_fechas": {
+    "min": "2017-02-16T05:11:38Z",
+    "mediana": "2019-06-30T11:54:39Z",
+    "max": "2019-08-19T13:31:59Z",
+    "por_anio": {
+      "2017": 1,
+      "2018": 5,
+      "2019": 41
+    },
+    "en_2019_07_08": 23
+  },
+  "b_reproduccion": {
+    "nota": "L = links[i] sin duplicados ni autobucles; recall = |L∩D|/|L|; extra = |D\\L|/|D|",
+    "wikitexto": {
+      "recall": {
+        "media_pct": 65.61,
+        "mediana_pct": 86.96,
+        "n_nodos": 45
+      },
+      "extra": {
+        "media_pct": 0.0,
+        "mediana_pct": 0.0,
+        "n_nodos": 45
+      },
+      "recall_micro_pct": 33.47
+    },
+    "wikitexto_con_redirecciones_actuales": {
+      "recall": {
+        "media_pct": 68.2,
+        "mediana_pct": 94.12,
+        "n_nodos": 45
+      },
+      "extra": {
+        "media_pct": 12.98,
+        "mediana_pct": 5.25,
+        "n_nodos": 46
+      },
+      "recall_micro_pct": 35.85
+    },
+    "renderizado_con_redirecciones_actuales": {
+      "recall": {
+        "media_pct": 94.79,
+        "mediana_pct": 100.0,
+        "n_nodos": 45
+      },
+      "extra": {
+        "media_pct": 15.88,
+        "mediana_pct": 11.44,
+        "n_nodos": 46
+      },
+      "recall_micro_pct": 93.05
+    },
+    "peores_recall_renderizado": [
+      {
+        "idx": 2547,
+        "titulo": "Atari_Panther",
+        "n_links_wikics": 3,
+        "recall_wikitexto": 0.6666666666666666,
+        "recall_wikitexto_redir": 0.6666666666666666,
+        "recall_renderizado": 0.6666666666666666,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.0,
+        "extra_renderizado": 0.5,
+        "faltan_renderizado": 1,
+        "sobran_renderizado": 2
+      },
+      {
+        "idx": 9195,
+        "titulo": "Douglas_Crockford",
+        "n_links_wikics": 27,
+        "recall_wikitexto": 0.18518518518518517,
+        "recall_wikitexto_redir": 0.18518518518518517,
+        "recall_renderizado": 0.7037037037037037,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.2857142857142857,
+        "extra_renderizado": 0.2692307692307692,
+        "faltan_renderizado": 8,
+        "sobran_renderizado": 7
+      },
+      {
+        "idx": 3527,
+        "titulo": "Microsoft_Venus",
+        "n_links_wikics": 25,
+        "recall_wikitexto": 0.08,
+        "recall_wikitexto_redir": 0.08,
+        "recall_renderizado": 0.76,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.0,
+        "extra_renderizado": 0.24,
+        "faltan_renderizado": 6,
+        "sobran_renderizado": 6
+      },
+      {
+        "idx": 106,
+        "titulo": "Download.com",
+        "n_links_wikics": 9,
+        "recall_wikitexto": 0.6666666666666666,
+        "recall_wikitexto_redir": 0.7777777777777778,
+        "recall_renderizado": 0.7777777777777778,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.2222222222222222,
+        "extra_renderizado": 0.2222222222222222,
+        "faltan_renderizado": 2,
+        "sobran_renderizado": 2
+      },
+      {
+        "idx": 6873,
+        "titulo": "PlayStation_2_online_functionality",
+        "n_links_wikics": 23,
+        "recall_wikitexto": 0.08695652173913043,
+        "recall_wikitexto_redir": 0.08695652173913043,
+        "recall_renderizado": 0.782608695652174,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.3333333333333333,
+        "extra_renderizado": 0.14285714285714285,
+        "faltan_renderizado": 5,
+        "sobran_renderizado": 3
+      }
+    ],
+    "peores_recall_wikitexto_redir": [
+      {
+        "idx": 4012,
+        "titulo": "High_Throughput_File_System",
+        "n_links_wikics": 119,
+        "recall_wikitexto": 0.01680672268907563,
+        "recall_wikitexto_redir": 0.025210084033613446,
+        "recall_renderizado": 0.9411764705882353,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.0,
+        "extra_renderizado": 0.08196721311475409,
+        "faltan_renderizado": 7,
+        "sobran_renderizado": 10
+      },
+      {
+        "idx": 7359,
+        "titulo": "Data_Transfer_Project",
+        "n_links_wikics": 73,
+        "recall_wikitexto": 0.0273972602739726,
+        "recall_wikitexto_redir": 0.0273972602739726,
+        "recall_renderizado": 0.863013698630137,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.0,
+        "extra_renderizado": 0.49193548387096775,
+        "faltan_renderizado": 10,
+        "sobran_renderizado": 61
+      },
+      {
+        "idx": 9654,
+        "titulo": "Meiryo",
+        "n_links_wikics": 14,
+        "recall_wikitexto": 0.07142857142857142,
+        "recall_wikitexto_redir": 0.07142857142857142,
+        "recall_renderizado": 0.9285714285714286,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.5,
+        "extra_renderizado": 0.07142857142857142,
+        "faltan_renderizado": 1,
+        "sobran_renderizado": 1
+      },
+      {
+        "idx": 3527,
+        "titulo": "Microsoft_Venus",
+        "n_links_wikics": 25,
+        "recall_wikitexto": 0.08,
+        "recall_wikitexto_redir": 0.08,
+        "recall_renderizado": 0.76,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.0,
+        "extra_renderizado": 0.24,
+        "faltan_renderizado": 6,
+        "sobran_renderizado": 6
+      },
+      {
+        "idx": 3657,
+        "titulo": "POODLE",
+        "n_links_wikics": 105,
+        "recall_wikitexto": 0.0761904761904762,
+        "recall_wikitexto_redir": 0.08571428571428572,
+        "recall_renderizado": 0.9238095238095239,
+        "extra_wikitexto": 0.0,
+        "extra_wikitexto_redir": 0.1,
+        "extra_renderizado": 0.16379310344827586,
+        "faltan_renderizado": 8,
+        "sobran_renderizado": 19
+      }
+    ],
+    "nodos_sin_links_wikics": 2
+  },
+  "c_enlaces_en_intro": {
+    "links_wikics_total": 1180,
+    "con_ancla_en_intro_directo": 97,
+    "pct_directo": 8.22,
+    "con_ancla_en_intro_con_redirecciones": 111,
+    "pct_con_redirecciones": 9.41
+  },
+  "d_anclas_sin_resolver": {
+    "anclas_intro": 429,
+    "sin_resolver": 330,
+    "pct_sin_resolver": 76.92,
+    "por_clase": {
+      "no_existe": 4,
+      "pagina_fuera_de_wikics": 223,
+      "redireccion_a_wikics": 23,
+      "redireccion_fuera": 80
+    },
+    "ejemplos": [
+      {
+        "clase": "no_existe",
+        "texto": "EAFS",
+        "destino": "EAFS",
+        "redirige_a": null
+      },
+      {
+        "clase": "no_existe",
+        "texto": "United States Government Configuration Baseline",
+        "destino": "United States Government Configuration Baseline",
+        "redirige_a": null
+      },
+      {
+        "clase": "no_existe",
+        "texto": "Dynamic Network Authentication System",
+        "destino": "DNAS",
+        "redirige_a": null
+      },
+      {
+        "clase": "pagina_fuera_de_wikics",
+        "texto": "Internet",
+        "destino": "Internet",
+        "redirige_a": null
+      },
+      {
+        "clase": "pagina_fuera_de_wikics",
+        "texto": "download",
+        "destino": "Download",
+        "redirige_a": null
+      },
+      {
+        "clase": "pagina_fuera_de_wikics",
+        "texto": "website",
+        "destino": "Website",
+        "redirige_a": null
+      },
+      {
+        "clase": "redireccion_a_wikics",
+        "texto": "load and store",
+        "destino": "Load and store",
+        "redirige_a": "Load–store unit"
+      },
+      {
+        "clase": "redireccion_a_wikics",
+        "texto": "RISC",
+        "destino": "Reduced instruction set computing",
+        "redirige_a": "Reduced instruction set computer"
+      },
+      {
+        "clase": "redireccion_a_wikics",
+        "texto": "CISC",
+        "destino": "Complex instruction set computing",
+        "redirige_a": "Complex instruction set computer"
+      },
+      {
+        "clase": "redireccion_fuera",
+        "texto": "memory",
+        "destino": "Memory (computing)",
+        "redirige_a": "Computer memory"
+      },
+      {
+        "clase": "redireccion_fuera",
+        "texto": "Verizon Media",
+        "destino": "Verizon Media",
+        "redirige_a": "Yahoo Inc. (2017–present)"
+      },
+      {
+        "clase": "redireccion_fuera",
+        "texto": "online service",
+        "destino": "Online service",
+        "redirige_a": "Online service provider"
+      }
+    ]
+  },
+  "e_longitud_intro": {
+    "min": 13.0,
+    "mediana": 103.0,
+    "p90": 226.6,
+    "max": 380.0,
+    "menos_de_20": 2,
+    "cero": 0
+  },
+  "f_calidad": {
+    "anclas_desalineadas": 0,
+    "restos_de_marcado": {
+      "{{": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "}}": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "[[": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "]]": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "<ref": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "|": {
+        "nodos": 0,
+        "ejemplos": []
+      },
+      "'''": {
+        "nodos": 0,
+        "ejemplos": []
+      }
+    },
+    "ejemplos_marcados": [
+      {
+        "idx": 106,
+        "titulo": "Download.com",
+        "texto": "Download.com is an [Internet] [download] directory [website] launched in 1996 as a part of [CNET]. Originally, the domain was download.com, which became download.com.com for a while, and is now download.cnet.com. The domain download.com attracted at least 113 million visitors annually by 2008 according to a [Compete.com] study."
+      },
+      {
+        "idx": 409,
+        "titulo": "Load–store_architecture",
+        "texto": "In [computer engineering], a load–store architecture is an [instruction set architecture] that divides instructions into two categories: [memory] access ([load and store] between memory and [registers]), and [ALU] operations (which only occur between registers).\n[RISC] instruction set architectures such as [PowerPC], [SPARC], [RISC-V], [ARM], and [MIPS] are load–store architectures.\nFor instance, in a load–store approach both operands and destination for an ADD operation must be in registers. This differs from a [register–memory architecture] (for example, a [CISC] instruction set architecture such as [x86]) in which one of the operands for the ADD operation may be in memory, while the other is in a register.\nThe earliest example of a load–store architecture was the [CDC 6600]. Almost all [vector processor]s (including many [GPUs]) use the load–store approach."
+      },
+      {
+        "idx": 434,
+        "titulo": "IEEE_P1619",
+        "texto": "[Institute of Electrical and Electronics Engineers] (IEEE) standardization project for encryption of stored data, but more generically refers to the Security in Storage Working Group (SISWG), which includes a family of standards for protection of stored data and for the corresponding cryptographic key management."
+      }
+    ]
+  }
+}

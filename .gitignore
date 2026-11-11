@@ -1,0 +1,23 @@
+# Datos descargados (WikiCS y wikitexto de Wikipedia): no se versionan.
+# Cómo obtenerlos: README.md, "Datos".
+datos/raw/
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Embeddings precalculados: se regeneran con experimentos/elegir_embeddings.py
+datos/procesados/embeddings/
+
+# Salidas crudas regenerables con su script de experimentos/
+experimentos/resultados/puntuaciones_*
+experimentos/resultados/coste_*.jsonl
+experimentos/resultados/diagnostico_*
+
+# Ficheros parciales de ejecuciones principales interrumpidas
+experimentos/resultados/interrumpidas/

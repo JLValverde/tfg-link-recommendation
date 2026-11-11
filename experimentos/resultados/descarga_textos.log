@@ -1,0 +1,235 @@
+2026-09-30 06:11:02 INFO Inicio: 11701 nodos, salida datos\procesados\textos.jsonl
+2026-09-30 06:13:37 INFO Descarga: 500/11701 nodos (496 descargados en esta ejecución, 0 errores)
+2026-09-30 06:16:21 INFO Descarga: 1000/11701 nodos (994 descargados en esta ejecución, 0 errores)
+2026-09-30 06:18:55 INFO Descarga: 1500/11701 nodos (1493 descargados en esta ejecución, 0 errores)
+2026-09-30 06:20:48 ERROR Descarga: idx 1856 pageid 1611118: revisión sin contenido (¿oculto?)
+2026-09-30 06:21:00 ERROR Descarga: idx 1899 pageid 6002126: revisión sin contenido (¿oculto?)
+2026-09-30 06:21:32 INFO Descarga: 2000/11701 nodos (1987 descargados en esta ejecución, 2 errores)
+2026-09-30 06:24:10 INFO Descarga: 2500/11701 nodos (2486 descargados en esta ejecución, 2 errores)
+2026-09-30 06:26:44 INFO Descarga: 3000/11701 nodos (2984 descargados en esta ejecución, 2 errores)
+2026-09-30 06:28:10 ERROR Descarga: idx 3286 pageid 18195583: revisión sin contenido (¿oculto?)
+2026-09-30 06:29:18 INFO Descarga: 3500/11701 nodos (3483 descargados en esta ejecución, 3 errores)
+2026-09-30 06:31:57 INFO Descarga: 4000/11701 nodos (3978 descargados en esta ejecución, 3 errores)
+2026-09-30 06:34:31 INFO Descarga: 4500/11701 nodos (4476 descargados en esta ejecución, 3 errores)
+2026-09-30 06:35:13 ERROR Descarga: idx 4630 pageid 4043451: revisión sin contenido (¿oculto?)
+2026-09-30 06:36:48 ERROR Descarga: idx 4963 pageid 46728: revisión sin contenido (¿oculto?)
+2026-09-30 06:36:57 INFO Descarga: 5000/11701 nodos (4973 descargados en esta ejecución, 5 errores)
+2026-09-30 06:39:28 INFO Descarga: 5500/11701 nodos (5473 descargados en esta ejecución, 5 errores)
+2026-09-30 06:42:09 INFO Descarga: 6000/11701 nodos (5969 descargados en esta ejecución, 5 errores)
+2026-09-30 06:43:07 ERROR Descarga: idx 6187 pageid 148281: revisión sin contenido (¿oculto?)
+2026-09-30 06:43:19 ERROR Descarga: idx 6233 pageid 37536694: revisión sin contenido (¿oculto?)
+2026-09-30 06:44:40 INFO Descarga: 6500/11701 nodos (6468 descargados en esta ejecución, 7 errores)
+2026-09-30 06:47:20 INFO Descarga: 7000/11701 nodos (6965 descargados en esta ejecución, 7 errores)
+2026-09-30 06:50:00 INFO Descarga: 7500/11701 nodos (7464 descargados en esta ejecución, 7 errores)
+2026-09-30 06:52:39 INFO Descarga: 8000/11701 nodos (7963 descargados en esta ejecución, 7 errores)
+2026-09-30 06:53:07 ERROR Descarga: idx 8086 pageid 3364840: revisión sin contenido (¿oculto?)
+2026-09-30 06:55:17 INFO Descarga: 8500/11701 nodos (8462 descargados en esta ejecución, 8 errores)
+2026-09-30 06:55:39 ERROR Descarga: idx 8576 pageid 8969589: revisión sin contenido (¿oculto?)
+2026-09-30 06:57:42 INFO Descarga: 9000/11701 nodos (8960 descargados en esta ejecución, 9 errores)
+2026-09-30 06:58:37 ERROR Descarga: idx 9145 pageid 44524415: revisión sin contenido (¿oculto?)
+2026-09-30 07:00:35 INFO Descarga: 9500/11701 nodos (9459 descargados en esta ejecución, 10 errores)
+2026-09-30 07:03:10 INFO Descarga: 10000/11701 nodos (9955 descargados en esta ejecución, 10 errores)
+2026-09-30 07:05:41 INFO Descarga: 10500/11701 nodos (10454 descargados en esta ejecución, 10 errores)
+2026-09-30 07:08:16 INFO Descarga: 11000/11701 nodos (10953 descargados en esta ejecución, 10 errores)
+2026-09-30 07:10:35 INFO Descarga: 11500/11701 nodos (11450 descargados en esta ejecución, 10 errores)
+2026-09-30 07:11:49 INFO Descarga: 11701/11701 nodos (11651 descargados en esta ejecución, 10 errores)
+2026-09-30 07:11:52 INFO Parseo: 500/11701 nodos
+2026-09-30 07:11:55 INFO Parseo: 1000/11701 nodos
+2026-09-30 07:11:59 INFO Parseo: 1500/11701 nodos
+2026-09-30 07:12:02 INFO Parseo: 2000/11701 nodos
+2026-09-30 07:12:06 INFO Parseo: 2500/11701 nodos
+2026-09-30 07:12:10 INFO Parseo: 3000/11701 nodos
+2026-09-30 07:12:13 INFO Parseo: 3500/11701 nodos
+2026-09-30 07:12:16 INFO Parseo: 4000/11701 nodos
+2026-09-30 07:12:20 INFO Parseo: 4500/11701 nodos
+2026-09-30 07:12:23 INFO Parseo: 5000/11701 nodos
+2026-09-30 07:12:26 INFO Parseo: 5500/11701 nodos
+2026-09-30 07:12:30 INFO Parseo: 6000/11701 nodos
+2026-09-30 07:12:33 INFO Parseo: 6500/11701 nodos
+2026-09-30 07:12:37 INFO Parseo: 7000/11701 nodos
+2026-09-30 07:12:40 INFO Parseo: 7500/11701 nodos
+2026-09-30 07:12:43 INFO Parseo: 8000/11701 nodos
+2026-09-30 07:12:47 INFO Parseo: 8500/11701 nodos
+2026-09-30 07:12:50 INFO Parseo: 9000/11701 nodos
+2026-09-30 07:12:54 INFO Parseo: 9500/11701 nodos
+2026-09-30 07:12:57 INFO Parseo: 10000/11701 nodos
+2026-09-30 07:13:01 INFO Parseo: 10500/11701 nodos
+2026-09-30 07:13:06 INFO Parseo: 11000/11701 nodos
+2026-09-30 07:13:09 INFO Parseo: 11500/11701 nodos
+2026-09-30 07:13:10 INFO Parseo: 11701/11701 nodos
+2026-09-30 07:13:10 INFO Redirecciones: 1564 títulos en caché, 99841 por consultar (1997 lotes)
+2026-09-30 07:13:34 INFO Redirecciones: 5000/99841 títulos consultados
+2026-09-30 07:13:57 INFO Redirecciones: 10000/99841 títulos consultados
+2026-09-30 07:14:26 INFO Redirecciones: 15000/99841 títulos consultados
+2026-09-30 07:14:49 INFO Redirecciones: 20000/99841 títulos consultados
+2026-09-30 07:15:26 INFO Redirecciones: 25000/99841 títulos consultados
+2026-09-30 07:15:53 INFO Redirecciones: 30000/99841 títulos consultados
+2026-09-30 07:16:30 INFO Redirecciones: 35000/99841 títulos consultados
+2026-09-30 07:16:54 INFO Redirecciones: 40000/99841 títulos consultados
+2026-09-30 07:17:23 INFO Redirecciones: 45000/99841 títulos consultados
+2026-09-30 07:17:49 INFO Redirecciones: 50000/99841 títulos consultados
+2026-09-30 07:18:27 INFO Redirecciones: 55000/99841 títulos consultados
+2026-09-30 07:18:51 INFO Redirecciones: 60000/99841 títulos consultados
+2026-09-30 07:19:29 INFO Redirecciones: 65000/99841 títulos consultados
+2026-09-30 07:19:51 INFO Redirecciones: 70000/99841 títulos consultados
+2026-09-30 07:20:28 INFO Redirecciones: 75000/99841 títulos consultados
+2026-09-30 07:20:51 INFO Redirecciones: 80000/99841 títulos consultados
+2026-09-30 07:21:27 INFO Redirecciones: 85000/99841 títulos consultados
+2026-09-30 07:21:49 INFO Redirecciones: 90000/99841 títulos consultados
+2026-09-30 07:22:25 INFO Redirecciones: 95000/99841 títulos consultados
+2026-09-30 07:22:47 INFO Fin: {"fecha": "2026-09-30T05:22:47Z", "nodos": 11701, "estados": {"error": 10, "no_existe": 701, "ok": 10989, "sin_revision": 1}, "descargados_en_esta_ejecucion": 11651, "errores_de_descarga": 10, "peticiones_descarga": 11712, "peticiones_redirecciones": 2022, "peticiones_total": 13734, "segundos_red": 3889.8, "segundos_total": 4305.2}
+2026-09-30 07:22:47 INFO Escrito datos\procesados\textos.jsonl
+2026-09-30 07:32:59 INFO Inicio: 11701 nodos, salida datos\procesados\textos.jsonl
+2026-09-30 07:32:59 INFO Descarga: 500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:00 INFO Descarga: 1000/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:00 INFO Descarga: 1500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:00 ERROR Descarga: idx 1856 pageid 1611118: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:00 ERROR Descarga: idx 1899 pageid 6002126: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:00 INFO Descarga: 2000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:01 INFO Descarga: 2500/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:01 INFO Descarga: 3000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:01 ERROR Descarga: idx 3286 pageid 18195583: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:01 INFO Descarga: 3500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:01 INFO Descarga: 4000/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:01 INFO Descarga: 4500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:01 ERROR Descarga: idx 4630 pageid 4043451: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:01 ERROR Descarga: idx 4963 pageid 46728: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:01 INFO Descarga: 5000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:02 INFO Descarga: 5500/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:02 INFO Descarga: 6000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:02 ERROR Descarga: idx 6187 pageid 148281: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:02 ERROR Descarga: idx 6233 pageid 37536694: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:02 INFO Descarga: 6500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:02 INFO Descarga: 7000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:02 INFO Descarga: 7500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:02 INFO Descarga: 8000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:02 ERROR Descarga: idx 8086 pageid 3364840: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:02 INFO Descarga: 8500/11701 nodos (8 descargados en esta ejecución, 8 errores)
+2026-09-30 07:33:03 ERROR Descarga: idx 8576 pageid 8969589: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:03 INFO Descarga: 9000/11701 nodos (9 descargados en esta ejecución, 9 errores)
+2026-09-30 07:33:03 ERROR Descarga: idx 9145 pageid 44524415: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:03 ERROR DETENIDO: la API rechaza las peticiones de forma sostenida: 10 descargas seguidas con error (última: pageid 44524415: revisión sin contenido (¿oculto?))
+2026-09-30 07:33:33 INFO Inicio: 11701 nodos, salida datos\procesados\textos.jsonl
+2026-09-30 07:33:33 INFO Descarga: 500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:34 INFO Descarga: 1000/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:34 INFO Descarga: 1500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:33:34 ERROR Descarga: idx 1856 pageid 1611118: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:34 ERROR Descarga: idx 1899 pageid 6002126: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:34 INFO Descarga: 2000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:34 INFO Descarga: 2500/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:35 INFO Descarga: 3000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:33:35 ERROR Descarga: idx 3286 pageid 18195583: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:35 INFO Descarga: 3500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:35 INFO Descarga: 4000/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:35 INFO Descarga: 4500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:33:35 ERROR Descarga: idx 4630 pageid 4043451: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:35 ERROR Descarga: idx 4963 pageid 46728: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:35 INFO Descarga: 5000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:35 INFO Descarga: 5500/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:36 INFO Descarga: 6000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:33:36 ERROR Descarga: idx 6187 pageid 148281: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:36 ERROR Descarga: idx 6233 pageid 37536694: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:36 INFO Descarga: 6500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:36 INFO Descarga: 7000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:36 INFO Descarga: 7500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:36 INFO Descarga: 8000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:33:37 ERROR Descarga: idx 8086 pageid 3364840: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:37 INFO Descarga: 8500/11701 nodos (8 descargados en esta ejecución, 8 errores)
+2026-09-30 07:33:37 ERROR Descarga: idx 8576 pageid 8969589: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:37 INFO Descarga: 9000/11701 nodos (9 descargados en esta ejecución, 9 errores)
+2026-09-30 07:33:37 ERROR Descarga: idx 9145 pageid 44524415: revisión sin contenido (¿oculto?)
+2026-09-30 07:33:37 INFO Descarga: 9500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:37 INFO Descarga: 10000/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:37 INFO Descarga: 10500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:37 INFO Descarga: 11000/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:37 INFO Descarga: 11500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:37 INFO Descarga: 11701/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:33:41 INFO Parseo: 500/11701 nodos
+2026-09-30 07:33:44 INFO Parseo: 1000/11701 nodos
+2026-09-30 07:33:49 INFO Parseo: 1500/11701 nodos
+2026-09-30 07:33:53 INFO Parseo: 2000/11701 nodos
+2026-09-30 07:33:57 INFO Parseo: 2500/11701 nodos
+2026-09-30 07:34:01 INFO Parseo: 3000/11701 nodos
+2026-09-30 07:34:04 INFO Parseo: 3500/11701 nodos
+2026-09-30 07:34:08 INFO Parseo: 4000/11701 nodos
+2026-09-30 07:34:12 INFO Parseo: 4500/11701 nodos
+2026-09-30 07:34:16 INFO Parseo: 5000/11701 nodos
+2026-09-30 07:34:19 INFO Parseo: 5500/11701 nodos
+2026-09-30 07:34:23 INFO Parseo: 6000/11701 nodos
+2026-09-30 07:34:28 INFO Parseo: 6500/11701 nodos
+2026-09-30 07:34:31 INFO Parseo: 7000/11701 nodos
+2026-09-30 07:34:35 INFO Parseo: 7500/11701 nodos
+2026-09-30 07:34:39 INFO Parseo: 8000/11701 nodos
+2026-09-30 07:34:43 INFO Parseo: 8500/11701 nodos
+2026-09-30 07:34:47 INFO Parseo: 9000/11701 nodos
+2026-09-30 07:34:51 INFO Parseo: 9500/11701 nodos
+2026-09-30 07:34:55 INFO Parseo: 10000/11701 nodos
+2026-09-30 07:34:59 INFO Parseo: 10500/11701 nodos
+2026-09-30 07:35:05 INFO Parseo: 11000/11701 nodos
+2026-09-30 07:35:09 INFO Parseo: 11500/11701 nodos
+2026-09-30 07:35:10 INFO Parseo: 11701/11701 nodos
+2026-09-30 07:35:10 INFO Redirecciones: 101405 títulos en caché, 1 por consultar (1 lotes)
+2026-09-30 07:35:11 INFO Fin: {"fecha": "2026-09-30T05:35:11Z", "nodos": 11701, "estados": {"error": 10, "no_existe": 701, "ok": 10989, "sin_revision": 1}, "descargados_en_esta_ejecucion": 10, "errores_de_descarga": 10, "peticiones_descarga": 10, "peticiones_redirecciones": 1, "peticiones_total": 11, "segundos_red": 2.6, "segundos_total": 98.0}
+2026-09-30 07:35:11 INFO Escrito datos\procesados\textos.jsonl
+2026-09-30 07:36:20 INFO Inicio: 11701 nodos, salida datos\procesados\textos.jsonl
+2026-09-30 07:36:20 INFO Descarga: 500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:36:20 INFO Descarga: 1000/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:36:21 INFO Descarga: 1500/11701 nodos (0 descargados en esta ejecución, 0 errores)
+2026-09-30 07:36:21 ERROR Descarga: idx 1856 pageid 1611118: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:21 ERROR Descarga: idx 1899 pageid 6002126: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:21 INFO Descarga: 2000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:36:21 INFO Descarga: 2500/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:36:22 INFO Descarga: 3000/11701 nodos (2 descargados en esta ejecución, 2 errores)
+2026-09-30 07:36:22 ERROR Descarga: idx 3286 pageid 18195583: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:22 INFO Descarga: 3500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:36:22 INFO Descarga: 4000/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:36:22 INFO Descarga: 4500/11701 nodos (3 descargados en esta ejecución, 3 errores)
+2026-09-30 07:36:22 ERROR Descarga: idx 4630 pageid 4043451: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:22 ERROR Descarga: idx 4963 pageid 46728: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:22 INFO Descarga: 5000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:36:22 INFO Descarga: 5500/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:36:23 INFO Descarga: 6000/11701 nodos (5 descargados en esta ejecución, 5 errores)
+2026-09-30 07:36:23 ERROR Descarga: idx 6187 pageid 148281: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:23 ERROR Descarga: idx 6233 pageid 37536694: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:23 INFO Descarga: 6500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:36:23 INFO Descarga: 7000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:36:23 INFO Descarga: 7500/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:36:23 INFO Descarga: 8000/11701 nodos (7 descargados en esta ejecución, 7 errores)
+2026-09-30 07:36:23 ERROR Descarga: idx 8086 pageid 3364840: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:23 INFO Descarga: 8500/11701 nodos (8 descargados en esta ejecución, 8 errores)
+2026-09-30 07:36:24 ERROR Descarga: idx 8576 pageid 8969589: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:24 INFO Descarga: 9000/11701 nodos (9 descargados en esta ejecución, 9 errores)
+2026-09-30 07:36:24 ERROR Descarga: idx 9145 pageid 44524415: revisión sin contenido (¿oculto?)
+2026-09-30 07:36:24 INFO Descarga: 9500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:24 INFO Descarga: 10000/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:24 INFO Descarga: 10500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:24 INFO Descarga: 11000/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:24 INFO Descarga: 11500/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:24 INFO Descarga: 11701/11701 nodos (10 descargados en esta ejecución, 10 errores)
+2026-09-30 07:36:27 INFO Parseo: 500/11701 nodos
+2026-09-30 07:36:30 INFO Parseo: 1000/11701 nodos
+2026-09-30 07:36:35 INFO Parseo: 1500/11701 nodos
+2026-09-30 07:36:39 INFO Parseo: 2000/11701 nodos
+2026-09-30 07:36:42 INFO Parseo: 2500/11701 nodos
+2026-09-30 07:36:46 INFO Parseo: 3000/11701 nodos
+2026-09-30 07:36:49 INFO Parseo: 3500/11701 nodos
+2026-09-30 07:36:53 INFO Parseo: 4000/11701 nodos
+2026-09-30 07:36:56 INFO Parseo: 4500/11701 nodos
+2026-09-30 07:36:59 INFO Parseo: 5000/11701 nodos
+2026-09-30 07:37:03 INFO Parseo: 5500/11701 nodos
+2026-09-30 07:37:07 INFO Parseo: 6000/11701 nodos
+2026-09-30 07:37:11 INFO Parseo: 6500/11701 nodos
+2026-09-30 07:37:14 INFO Parseo: 7000/11701 nodos
+2026-09-30 07:37:18 INFO Parseo: 7500/11701 nodos
+2026-09-30 07:37:21 INFO Parseo: 8000/11701 nodos
+2026-09-30 07:37:25 INFO Parseo: 8500/11701 nodos
+2026-09-30 07:37:28 INFO Parseo: 9000/11701 nodos
+2026-09-30 07:37:32 INFO Parseo: 9500/11701 nodos
+2026-09-30 07:37:36 INFO Parseo: 10000/11701 nodos
+2026-09-30 07:37:40 INFO Parseo: 10500/11701 nodos
+2026-09-30 07:37:45 INFO Parseo: 11000/11701 nodos
+2026-09-30 07:37:48 INFO Parseo: 11500/11701 nodos
+2026-09-30 07:37:49 INFO Parseo: 11701/11701 nodos
+2026-09-30 07:37:49 INFO Redirecciones: 101406 títulos en caché, 0 por consultar (0 lotes)
+2026-09-30 07:37:50 INFO Fin: {"fecha": "2026-09-30T05:37:50Z", "nodos": 11701, "estados": {"error": 10, "no_existe": 701, "ok": 10989, "sin_revision": 1}, "descargados_en_esta_ejecucion": 10, "errores_de_descarga": 10, "peticiones_descarga": 10, "peticiones_redirecciones": 0, "peticiones_total": 10, "segundos_red": 2.5, "segundos_total": 89.8}
+2026-09-30 07:37:50 INFO Escrito datos\procesados\textos.jsonl

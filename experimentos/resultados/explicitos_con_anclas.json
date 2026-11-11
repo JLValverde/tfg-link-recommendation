@@ -1,0 +1,627 @@
+{
+  "n_validos": 10989,
+  "a_diccionario": {
+    "nombres_distintos": 36562,
+    "nombres_por_fuente": {
+      "titulo": 12165,
+      "redireccion": 7368,
+      "ancla": 29214
+    },
+    "pares_nombre_destino": 37789,
+    "nombres_por_destino": {
+      "mediana": 2.0,
+      "p90": 7.0,
+      "max": 112,
+      "media": 3.4388
+    },
+    "ambiguos_distinguiendo_mayusculas": 996,
+    "ambiguos_sin_distinguir_mayusculas": 1067,
+    "top20_ambiguos": [
+      {
+        "nombre": "Comparison of programming languages",
+        "n_destinos": 9,
+        "ejemplos": [
+          "Comparison_of_programming_languages_(syntax)",
+          "Comparison_of_programming_languages_(strings)",
+          "Comparison_of_programming_languages_(list_comprehension)",
+          "Comparison_of_programming_languages_(string_functions)",
+          "Comparison_of_programming_languages_(associative_array)"
+        ]
+      },
+      {
+        "nombre": "security",
+        "n_destinos": 9,
+        "ejemplos": [
+          "Network_security",
+          "Computer_security",
+          "Language-based_security",
+          "Data_security",
+          "Internet_security"
+        ]
+      },
+      {
+        "nombre": "IPad",
+        "n_destinos": 6,
+        "ejemplos": [
+          "IPad_(4th_generation)",
+          "IPad_(2018)",
+          "IPad_(1st_generation)",
+          "IPad_(2017)",
+          "IPad"
+        ]
+      },
+      {
+        "nombre": "instruction",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Opcode",
+          "X86_instruction_listings",
+          "Memory_barrier",
+          "Instruction_set_architecture",
+          "Machine_code"
+        ]
+      },
+      {
+        "nombre": "secure",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Computer_security",
+          "Key_management",
+          "Data_security",
+          "Internet_security",
+          "Information_security"
+        ]
+      },
+      {
+        "nombre": "1st",
+        "n_destinos": 5,
+        "ejemplos": [
+          "IPad_Mini_(1st_generation)",
+          "IPod_Touch",
+          "IPhone_(1st_generation)",
+          "IPad_(1st_generation)",
+          "IPad_Pro"
+        ]
+      },
+      {
+        "nombre": "3",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Ext3",
+          "IPad_(3rd_generation)",
+          "IPad_Mini_3",
+          "Socket_3",
+          "ViewMAX"
+        ]
+      },
+      {
+        "nombre": "4",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Ext4",
+          "IPad_(4th_generation)",
+          "IPhone_4",
+          "IOS_4",
+          "Reiser4"
+        ]
+      },
+      {
+        "nombre": "ARC",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Advanced_Resource_Connector",
+          "Advanced_RISC_Computing",
+          "ARC_(processor)",
+          "Adaptive_replacement_cache",
+          "Synopsys"
+        ]
+      },
+      {
+        "nombre": "DOS",
+        "n_destinos": 5,
+        "ejemplos": [
+          "DOS/360_and_successors",
+          "Disk_operating_system",
+          "IBM_PC_DOS",
+          "Apple_DOS",
+          "MS-DOS"
+        ]
+      },
+      {
+        "nombre": "IP",
+        "n_destinos": 5,
+        "ejemplos": [
+          "IP_address_blocking",
+          "Network_socket",
+          "Internet_Protocol",
+          "Internet_protocol_suite",
+          "Program_counter"
+        ]
+      },
+      {
+        "nombre": "Java",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Foreach_loop",
+          "Java_Platform,_Micro_Edition",
+          "Java_Platform,_Standard_Edition",
+          "Java_(programming_language)",
+          "Java_virtual_machine"
+        ]
+      },
+      {
+        "nombre": "Security",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Network_security",
+          "Computer_security",
+          "Windows_Security_Log",
+          "ARM_architecture",
+          "Oracle_Cloud_Platform"
+        ]
+      },
+      {
+        "nombre": "architecture",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Microarchitecture",
+          "Processor_design",
+          "Architecture_of_Windows_NT",
+          "Instruction_set_architecture",
+          "Computer_architecture"
+        ]
+      },
+      {
+        "nombre": "cache",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Cache_hierarchy",
+          "Database_caching",
+          "Cache_(computing)",
+          "Dm-cache",
+          "CPU_cache"
+        ]
+      },
+      {
+        "nombre": "computer",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Computer_file",
+          "Computer_security",
+          "IBM_PC_compatible",
+          "Programming_language",
+          "Computer_and_network_surveillance"
+        ]
+      },
+      {
+        "nombre": "memory",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Computer_data_storage",
+          "Memory_hierarchy",
+          "Cache_(computing)",
+          "Random-access_memory",
+          "ECC_memory"
+        ]
+      },
+      {
+        "nombre": "system software",
+        "n_destinos": 5,
+        "ejemplos": [
+          "PlayStation_Vita_system_software",
+          "PlayStation_3_system_software",
+          "Nintendo_DSi_system_software",
+          "PlayStation_Portable_system_software",
+          "PlayStation_4_system_software"
+        ]
+      },
+      {
+        "nombre": "8",
+        "n_destinos": 4,
+        "ejemplos": [
+          "IOS_8",
+          "Research_Unix",
+          "Internet_Explorer_8",
+          "IPhone_8"
+        ]
+      },
+      {
+        "nombre": "IPod Touch",
+        "n_destinos": 4,
+        "ejemplos": [
+          "IPod_Touch",
+          "IPod_Touch_(7th_generation)",
+          "IPod_Touch_(5th_generation)",
+          "IPod_Touch_(6th_generation)"
+        ]
+      }
+    ],
+    "top20_ambiguos_sin_mayusculas": [
+      {
+        "nombre": "security",
+        "n_destinos": 13,
+        "ejemplos": [
+          "DR-DOS",
+          "Network_security",
+          "Computer_security",
+          "Windows_Security_Log",
+          "Language-based_security"
+        ]
+      },
+      {
+        "nombre": "comparison of programming languages",
+        "n_destinos": 9,
+        "ejemplos": [
+          "Comparison_of_programming_languages_(syntax)",
+          "Comparison_of_programming_languages_(strings)",
+          "Comparison_of_programming_languages_(list_comprehension)",
+          "Comparison_of_programming_languages_(string_functions)",
+          "Comparison_of_programming_languages_(associative_array)"
+        ]
+      },
+      {
+        "nombre": "arc",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Advanced_Resource_Connector",
+          "Advanced_RISC_Computing",
+          "Arc_(programming_language)",
+          "ARC_(processor)",
+          "Adaptive_replacement_cache"
+        ]
+      },
+      {
+        "nombre": "dos",
+        "n_destinos": 6,
+        "ejemplos": [
+          "DOS/360_and_successors",
+          "Denial-of-service_attack",
+          "Disk_operating_system",
+          "IBM_PC_DOS",
+          "Apple_DOS"
+        ]
+      },
+      {
+        "nombre": "instruction",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Opcode",
+          "X86_instruction_listings",
+          "Memory_barrier",
+          "Instruction_set_architecture",
+          "Machine_code"
+        ]
+      },
+      {
+        "nombre": "ipad",
+        "n_destinos": 6,
+        "ejemplos": [
+          "IPad_(4th_generation)",
+          "IPad_(2018)",
+          "IPad_(1st_generation)",
+          "IPad_(2017)",
+          "IPad"
+        ]
+      },
+      {
+        "nombre": "open",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Computer_file",
+          "Open_(process)",
+          "Open_proxy",
+          "Open_architecture",
+          "Open_(system_call)"
+        ]
+      },
+      {
+        "nombre": "secure",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Computer_security",
+          "Key_management",
+          "Data_security",
+          "Internet_security",
+          "Information_security"
+        ]
+      },
+      {
+        "nombre": "system",
+        "n_destinos": 6,
+        "ejemplos": [
+          "Classic_Mac_OS",
+          "Superuser",
+          "BIOS",
+          "System_programming_language",
+          "Programmable_interval_timer"
+        ]
+      },
+      {
+        "nombre": "1st",
+        "n_destinos": 5,
+        "ejemplos": [
+          "IPad_Mini_(1st_generation)",
+          "IPod_Touch",
+          "IPhone_(1st_generation)",
+          "IPad_(1st_generation)",
+          "IPad_Pro"
+        ]
+      },
+      {
+        "nombre": "3",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Ext3",
+          "IPad_(3rd_generation)",
+          "IPad_Mini_3",
+          "Socket_3",
+          "ViewMAX"
+        ]
+      },
+      {
+        "nombre": "4",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Ext4",
+          "IPad_(4th_generation)",
+          "IPhone_4",
+          "IOS_4",
+          "Reiser4"
+        ]
+      },
+      {
+        "nombre": "architecture",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Microarchitecture",
+          "Processor_design",
+          "Architecture_of_Windows_NT",
+          "Instruction_set_architecture",
+          "Computer_architecture"
+        ]
+      },
+      {
+        "nombre": "archive",
+        "n_destinos": 5,
+        "ejemplos": [
+          "File_archiver",
+          "Archive_file",
+          "MySQL_Archive",
+          "Ar_(Unix)",
+          "Archive_bit"
+        ]
+      },
+      {
+        "nombre": "cache",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Cache_hierarchy",
+          "Database_caching",
+          "Cache_(computing)",
+          "Dm-cache",
+          "CPU_cache"
+        ]
+      },
+      {
+        "nombre": "computer",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Computer_file",
+          "Computer_security",
+          "IBM_PC_compatible",
+          "Programming_language",
+          "Computer_and_network_surveillance"
+        ]
+      },
+      {
+        "nombre": "ip",
+        "n_destinos": 5,
+        "ejemplos": [
+          "IP_address_blocking",
+          "Network_socket",
+          "Internet_Protocol",
+          "Internet_protocol_suite",
+          "Program_counter"
+        ]
+      },
+      {
+        "nombre": "java",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Foreach_loop",
+          "Java_Platform,_Micro_Edition",
+          "Java_Platform,_Standard_Edition",
+          "Java_(programming_language)",
+          "Java_virtual_machine"
+        ]
+      },
+      {
+        "nombre": "memory",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Computer_data_storage",
+          "Memory_hierarchy",
+          "Cache_(computing)",
+          "Random-access_memory",
+          "ECC_memory"
+        ]
+      },
+      {
+        "nombre": "processing",
+        "n_destinos": 5,
+        "ejemplos": [
+          "Central_processing_unit",
+          "Process_(computing)",
+          "In-memory_processing",
+          "Transaction_processing",
+          "Natural_language_processing"
+        ]
+      }
+    ],
+    "claves_regla_estricta": 35496,
+    "claves_regla_laxa": 30868
+  },
+  "b_cobertura": {
+    "estricta": {
+      "B": {
+        "enlaces": 99003,
+        "explicitos": 30671,
+        "pct_explicitos": 30.98,
+        "via_ancla": 28284,
+        "pct_via_ancla": 28.57,
+        "via_nombre": 2387,
+        "pct_via_nombre": 2.41,
+        "via_nombre_por_fuente": {
+          "titulo": 556,
+          "redireccion": 142,
+          "ancla": 1689
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.56,
+          "redireccion": 0.14,
+          "ancla": 1.71
+        },
+        "implicitos": 68332
+      },
+      "A_menos_B": {
+        "enlaces": 176793,
+        "explicitos": 2323,
+        "pct_explicitos": 1.31,
+        "via_ancla": 0,
+        "pct_via_ancla": 0.0,
+        "via_nombre": 2323,
+        "pct_via_nombre": 1.31,
+        "via_nombre_por_fuente": {
+          "titulo": 248,
+          "redireccion": 114,
+          "ancla": 1961
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.14,
+          "redireccion": 0.06,
+          "ancla": 1.11
+        },
+        "implicitos": 174470
+      }
+    },
+    "laxa": {
+      "B": {
+        "enlaces": 99003,
+        "explicitos": 34875,
+        "pct_explicitos": 35.23,
+        "via_ancla": 28284,
+        "pct_via_ancla": 28.57,
+        "via_nombre": 6591,
+        "pct_via_nombre": 6.66,
+        "via_nombre_por_fuente": {
+          "titulo": 1490,
+          "redireccion": 480,
+          "ancla": 4621
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 1.51,
+          "redireccion": 0.48,
+          "ancla": 4.67
+        },
+        "implicitos": 64128
+      },
+      "A_menos_B": {
+        "enlaces": 176793,
+        "explicitos": 8127,
+        "pct_explicitos": 4.6,
+        "via_ancla": 0,
+        "pct_via_ancla": 0.0,
+        "via_nombre": 8127,
+        "pct_via_nombre": 4.6,
+        "via_nombre_por_fuente": {
+          "titulo": 1504,
+          "redireccion": 414,
+          "ancla": 6209
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.85,
+          "redireccion": 0.23,
+          "ancla": 3.51
+        },
+        "implicitos": 168666
+      }
+    }
+  },
+  "c_explicitos_sin_enlace": {
+    "estricta": {
+      "mediana": 7.0,
+      "p90": 16.0,
+      "max": 63,
+      "media": 7.8812,
+      "total": 86606,
+      "documentos_con_al_menos_1": 10667
+    },
+    "laxa": {
+      "mediana": 28.0,
+      "p90": 56.0,
+      "max": 170,
+      "media": 31.1835,
+      "total": 342675,
+      "documentos_con_al_menos_1": 10958
+    }
+  },
+  "d_elegibilidad": {
+    "estricta": {
+      "intro>=0": {
+        "1": 8333,
+        "2": 6869,
+        "3": 5771,
+        "5": 4211,
+        "10": 2114
+      },
+      "intro>=20": {
+        "1": 8041,
+        "2": 6624,
+        "3": 5563,
+        "5": 4053,
+        "10": 2040
+      },
+      "intro>=30": {
+        "1": 7654,
+        "2": 6304,
+        "3": 5306,
+        "5": 3867,
+        "10": 1952
+      }
+    },
+    "laxa": {
+      "intro>=0": {
+        "1": 8207,
+        "2": 6682,
+        "3": 5560,
+        "5": 4018,
+        "10": 1954
+      },
+      "intro>=20": {
+        "1": 7920,
+        "2": 6441,
+        "3": 5358,
+        "5": 3866,
+        "10": 1882
+      },
+      "intro>=30": {
+        "1": 7537,
+        "2": 6126,
+        "3": 5106,
+        "5": 3691,
+        "10": 1799
+      }
+    }
+  },
+  "e_muestra": {
+    "candidatos": 339738,
+    "tamano": 100,
+    "semilla": 42,
+    "fuentes": {
+      "titulo": 12,
+      "ancla": 85,
+      "redireccion": 3
+    },
+    "tambien_en_estricta": 26
+  }
+}

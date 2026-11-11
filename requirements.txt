@@ -1,0 +1,17 @@
+# Dependencias directas. torch con CUDA 13.0 se instala desde el índice de PyTorch:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.0+cu130
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+networkx==3.6.1
+matplotlib==3.11.2
+requests==2.34.2
+ollama==0.6.3
+sentence-transformers==6.1.0
+tqdm==4.70.1
+pytest==9.1.1
+bm25s==0.3.11
+# Sin wheel para cp314 en Windows: instalar con WITH_EXTENSION=0 (tokenizador en Python puro)
+mwparserfromhell==0.7.2
+pyahocorasick==2.3.1

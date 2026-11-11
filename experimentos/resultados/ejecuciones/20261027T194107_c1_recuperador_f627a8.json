@@ -1,0 +1,51 @@
+{
+  "id_ejecucion": "20261027T194107_c1_recuperador_f627a8",
+  "inicio": "2026-10-27T19:41:07+00:00",
+  "sistema": "c1",
+  "modo": "recuperador",
+  "escenario": "frio",
+  "semilla": null,
+  "fichero_coste": "coste_c1_recuperador_frio_dev.jsonl",
+  "config": {
+    "modelo": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "K": 50,
+    "num_ctx": 4096,
+    "hash_prompt": "a077db68098901a873b29e06e1ad478ad5faff80c55fbf162b99bb5b4ac3cea9",
+    "top_logprobs": 20,
+    "max_palabras_consulta": 400,
+    "max_palabras_candidato": 200,
+    "keep_alive": "30m",
+    "politica_devuelta": "P-cota",
+    "via": "/api/chat"
+  },
+  "git": {
+    "hash": "631b21121d3b5f513db17051907d12920eb2ea32",
+    "hay_cambios": true,
+    "cambios_sin_commitear": [
+      " M REGISTRO_FASE2.md"
+    ]
+  },
+  "hw": {
+    "so": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti, 610.88, 16311 MiB"
+  },
+  "versiones": {
+    "python": "3.14.5",
+    "driver_nvidia": "610.88",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cu130",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.17.0",
+    "ollama": "0.6.3",
+    "requests": "2.34.2",
+    "mwparserfromhell": "0.7.2",
+    "pyahocorasick": "2.3.1",
+    "bm25s": "0.3.11",
+    "torch_cuda": "13.0",
+    "ollama_servidor": "0.40.2"
+  },
+  "entorno_coincide": true,
+  "entorno_diferencias": []
+}

@@ -1,0 +1,115 @@
+{
+ "regla": "mayor MRR de la tarea implícita, modo recuperador, media de los dos escenarios calculada por consulta, 200 consultas de desarrollo; empate a 3 decimales: gana la de número menor",
+ "variantes": [
+  {
+   "variante": 1,
+   "sistema": "c1",
+   "id_ejecucion": {
+    "caliente": "20261027T193347_c1_recuperador_d17e75",
+    "frio": "20261027T194107_c1_recuperador_f627a8"
+   },
+   "hash_prompt": "a077db68098901a873b29e06e1ad478ad5faff80c55fbf162b99bb5b4ac3cea9",
+   "mrr_caliente": {
+    "media": 0.29296731075085786,
+    "ic95": [
+     0.2408193514017321,
+     0.3501945800315627
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.4137194042703939,
+    "ic95": [
+     0.35437124912964335,
+     0.47716202390618423
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.35334335751062584,
+    "ic95": [
+     0.3009372668750972,
+     0.4096765474630594
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  },
+  {
+   "variante": 2,
+   "sistema": "c1_v2",
+   "id_ejecucion": {
+    "caliente": "20261028T012557_c1_v2_recuperador_1ece12",
+    "frio": "20261028T013330_c1_v2_recuperador_c252e7"
+   },
+   "hash_prompt": "34b9e892d5facf186b3fab2b1fd4b6d7c9caaede4ab41a3d6d24c9b1f73a658c",
+   "mrr_caliente": {
+    "media": 0.34218383170703986,
+    "ic95": [
+     0.2922559713908633,
+     0.39953244704030877
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.46952666262494985,
+    "ic95": [
+     0.4169149628730377,
+     0.5310454135831589
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.4058552471659948,
+    "ic95": [
+     0.35961129921784524,
+     0.46160319764633334
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  },
+  {
+   "variante": 3,
+   "sistema": "c1_v3",
+   "id_ejecucion": {
+    "caliente": "20261028T014100_c1_v3_recuperador_5a2490",
+    "frio": "20261028T014810_c1_v3_recuperador_3024e9"
+   },
+   "hash_prompt": "ec8fb5e047f085a3cd110ef29e8740281085214b859a23b7189011f45f26a4cf",
+   "mrr_caliente": {
+    "media": 0.3184883683868591,
+    "ic95": [
+     0.27070694762291797,
+     0.3722612806298448
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.4442286387170658,
+    "ic95": [
+     0.38956289082489687,
+     0.502275793536174
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.3813585035519625,
+    "ic95": [
+     0.33312828336415135,
+     0.43462201349993923
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  }
+ ],
+ "ganadora": 2,
+ "empate_a_3_decimales": false
+}

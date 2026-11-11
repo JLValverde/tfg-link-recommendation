@@ -1,0 +1,54 @@
+{
+  "id_ejecucion": "20261028T053515_c2_v2_recuperador_631673",
+  "inicio": "2026-10-28T05:35:15+00:00",
+  "sistema": "c2_v2",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "fichero_coste": "coste_c2_v2_recuperador_caliente_dev.jsonl",
+  "config": {
+    "modelo": "qwen2.5:3b",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "K": 50,
+    "num_ctx": 4096,
+    "hash_prompt": "d9f6d3d00866d1b97da90f993f0bcf5027ca3994f7d65a47e3eeceee662957a6",
+    "variante": 2,
+    "prompt_c1": "34b9e892d5facf186b3fab2b1fd4b6d7c9caaede4ab41a3d6d24c9b1f73a658c",
+    "top_logprobs": 20,
+    "max_palabras_consulta": 400,
+    "max_palabras_candidato": 200,
+    "keep_alive": "30m",
+    "politica_devuelta": "P-cota",
+    "via": "/api/chat",
+    "nivel": null
+  },
+  "nivel": null,
+  "tope_mib": null,
+  "git": {
+    "hash": "8e3a678a2a0020a1d7c2ea44d4ed1e126d45f62e",
+    "hay_cambios": false,
+    "cambios_sin_commitear": []
+  },
+  "hw": {
+    "so": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti, 610.88, 16311 MiB"
+  },
+  "versiones": {
+    "python": "3.14.5",
+    "driver_nvidia": "610.88",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cu130",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.17.0",
+    "ollama": "0.6.3",
+    "requests": "2.34.2",
+    "mwparserfromhell": "0.7.2",
+    "pyahocorasick": "2.3.1",
+    "bm25s": "0.3.11",
+    "torch_cuda": "13.0",
+    "ollama_servidor": "0.40.2"
+  },
+  "entorno_coincide": true,
+  "entorno_diferencias": []
+}

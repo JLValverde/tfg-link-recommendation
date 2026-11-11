@@ -1,0 +1,15 @@
+{
+  "modelo": "qwen2.5:3b",
+  "variante": 3,
+  "num_ctx_medida": 8192,
+  "prompt_mas_largo": {
+    "consulta": 3979,
+    "candidato": 3979,
+    "tokens": 1778
+  },
+  "factor": 1.2,
+  "factor_x_maximo": 2133.6,
+  "num_ctx": 4096,
+  "num_ctx_fijado": 4096,
+  "cabe": true
+}

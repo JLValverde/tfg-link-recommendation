@@ -1,0 +1,3266 @@
+[
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9188888888888889,
+   "ic95": [
+    0.9061111111111111,
+    0.9311111111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.7004444444444444,
+   "ic95": [
+    0.6875555555555555,
+    0.7129027777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9188888888888889,
+   "ic95": [
+    0.9061111111111111,
+    0.9311111111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8010740740740739,
+   "ic95": [
+    0.7903217592592592,
+    0.8125784722222221
+   ]
+  },
+  "mrr": {
+   "media": 0.9484647951732806,
+   "ic95": [
+    0.9402793218865356,
+    0.956722341454872
+   ]
+  },
+  "hits@1": {
+   "media": 0.9188888888888889,
+   "ic95": [
+    0.9061111111111111,
+    0.9311111111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.9838888888888889,
+   "ic95": [
+    0.9783333333333334,
+    0.9894444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.85275,
+    0.885
+   ]
+  },
+  "precision@5": {
+   "media": 0.5908888888888888,
+   "ic95": [
+    0.5765527777777777,
+    0.6051194444444444
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.85275,
+    0.885
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7676851851851851,
+   "ic95": [
+    0.7559884259259259,
+    0.780075
+   ]
+  },
+  "mrr": {
+   "media": 0.9140509146609597,
+   "ic95": [
+    0.9032168972244642,
+    0.924387881246425
+   ]
+  },
+  "hits@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.85275,
+    0.885
+   ]
+  },
+  "hits@5": {
+   "media": 0.9688888888888889,
+   "ic95": [
+    0.9616527777777778,
+    0.9766666666666667
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8738888888888889,
+   "ic95": [
+    0.8577777777777778,
+    0.8894444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.5962222222222222,
+   "ic95": [
+    0.5819944444444444,
+    0.6106666666666666
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8738888888888889,
+   "ic95": [
+    0.8577777777777778,
+    0.8894444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7701574074074073,
+   "ic95": [
+    0.7584402777777777,
+    0.7824972222222223
+   ]
+  },
+  "mrr": {
+   "media": 0.9170601739202189,
+   "ic95": [
+    0.9062735731254646,
+    0.9273520016167952
+   ]
+  },
+  "hits@1": {
+   "media": 0.8738888888888889,
+   "ic95": [
+    0.8577777777777778,
+    0.8894444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9694444444444444,
+   "ic95": [
+    0.9622222222222222,
+    0.9772222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9311111111111111,
+   "ic95": [
+    0.9194444444444444,
+    0.9433333333333334
+   ]
+  },
+  "precision@5": {
+   "media": 0.7186666666666666,
+   "ic95": [
+    0.7056666666666668,
+    0.7308916666666666
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9311111111111111,
+   "ic95": [
+    0.9194444444444444,
+    0.9433333333333334
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8218518518518518,
+   "ic95": [
+    0.8111840277777778,
+    0.832175462962963
+   ]
+  },
+  "mrr": {
+   "media": 0.9556517440268961,
+   "ic95": [
+    0.9478293382726481,
+    0.9637760500033817
+   ]
+  },
+  "hits@1": {
+   "media": 0.9311111111111111,
+   "ic95": [
+    0.9194444444444444,
+    0.9433333333333334
+   ]
+  },
+  "hits@5": {
+   "media": 0.9866666666666667,
+   "ic95": [
+    0.9816527777777778,
+    0.9922222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8888888888888888,
+   "ic95": [
+    0.8738888888888889,
+    0.9038888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.6084444444444445,
+   "ic95": [
+    0.5949972222222222,
+    0.6224472222222223
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8888888888888888,
+   "ic95": [
+    0.8738888888888889,
+    0.9038888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7901574074074074,
+   "ic95": [
+    0.7781740740740741,
+    0.8013460648148147
+   ]
+  },
+  "mrr": {
+   "media": 0.9270837629854747,
+   "ic95": [
+    0.9166470570819177,
+    0.9374794898152511
+   ]
+  },
+  "hits@1": {
+   "media": 0.8888888888888888,
+   "ic95": [
+    0.8738888888888889,
+    0.9038888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9733333333333334,
+   "ic95": [
+    0.9660972222222223,
+    0.9805555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8922222222222222,
+   "ic95": [
+    0.8772222222222222,
+    0.9072222222222223
+   ]
+  },
+  "precision@5": {
+   "media": 0.6136666666666666,
+   "ic95": [
+    0.6001083333333334,
+    0.6273472222222224
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8922222222222222,
+   "ic95": [
+    0.8772222222222222,
+    0.9072222222222223
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7922037037037037,
+   "ic95": [
+    0.7802847222222222,
+    0.8037081018518517
+   ]
+  },
+  "mrr": {
+   "media": 0.9290745037262155,
+   "ic95": [
+    0.9189406861952951,
+    0.9392789988232193
+   ]
+  },
+  "hits@1": {
+   "media": 0.8922222222222222,
+   "ic95": [
+    0.8772222222222222,
+    0.9072222222222223
+   ]
+  },
+  "hits@5": {
+   "media": 0.9738888888888889,
+   "ic95": [
+    0.9666666666666667,
+    0.9811111111111112
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9222222222222223,
+   "ic95": [
+    0.9105416666666667,
+    0.935
+   ]
+  },
+  "precision@5": {
+   "media": 0.7195555555555556,
+   "ic95": [
+    0.707,
+    0.7316694444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9222222222222223,
+   "ic95": [
+    0.9105416666666667,
+    0.935
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8268981481481482,
+   "ic95": [
+    0.816569212962963,
+    0.8371321759259259
+   ]
+  },
+  "mrr": {
+   "media": 0.9520148662598895,
+   "ic95": [
+    0.9447216023752157,
+    0.9599157046455336
+   ]
+  },
+  "hits@1": {
+   "media": 0.9222222222222223,
+   "ic95": [
+    0.9105416666666667,
+    0.935
+   ]
+  },
+  "hits@5": {
+   "media": 0.9872222222222222,
+   "ic95": [
+    0.9822222222222222,
+    0.9922222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8733333333333333,
+   "ic95": [
+    0.8583194444444444,
+    0.8888888888888888
+   ]
+  },
+  "precision@5": {
+   "media": 0.6074444444444445,
+   "ic95": [
+    0.5941055555555556,
+    0.6207805555555557
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8733333333333333,
+   "ic95": [
+    0.8583194444444444,
+    0.8888888888888888
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7966018518518518,
+   "ic95": [
+    0.7854497685185186,
+    0.8080564814814815
+   ]
+  },
+  "mrr": {
+   "media": 0.9213538789088691,
+   "ic95": [
+    0.9114402364274985,
+    0.9314423363612301
+   ]
+  },
+  "hits@1": {
+   "media": 0.8733333333333333,
+   "ic95": [
+    0.8583194444444444,
+    0.8888888888888888
+   ]
+  },
+  "hits@5": {
+   "media": 0.9772222222222222,
+   "ic95": [
+    0.97,
+    0.9844444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8772222222222222,
+   "ic95": [
+    0.8622222222222222,
+    0.8933333333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.6123333333333334,
+   "ic95": [
+    0.5992194444444444,
+    0.6257777777777779
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8772222222222222,
+   "ic95": [
+    0.8622222222222222,
+    0.8933333333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7980277777777778,
+   "ic95": [
+    0.7866293981481483,
+    0.8096226851851852
+   ]
+  },
+  "mrr": {
+   "media": 0.9235575826125728,
+   "ic95": [
+    0.9138398154687063,
+    0.9335411399072702
+   ]
+  },
+  "hits@1": {
+   "media": 0.8772222222222222,
+   "ic95": [
+    0.8622222222222222,
+    0.8933333333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.9772222222222222,
+   "ic95": [
+    0.97,
+    0.9844444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9316666666666666,
+   "ic95": [
+    0.9194444444444444,
+    0.9438888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.7375555555555555,
+   "ic95": [
+    0.7255527777777777,
+    0.7492250000000001
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9316666666666666,
+   "ic95": [
+    0.9194444444444444,
+    0.9438888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8486203703703704,
+   "ic95": [
+    0.8388226851851851,
+    0.8585023148148148
+   ]
+  },
+  "mrr": {
+   "media": 0.9576247448072681,
+   "ic95": [
+    0.950290208540949,
+    0.9653017028173752
+   ]
+  },
+  "hits@1": {
+   "media": 0.9316666666666666,
+   "ic95": [
+    0.9194444444444444,
+    0.9438888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.9888888888888889,
+   "ic95": [
+    0.9844444444444445,
+    0.9933333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8894444444444445,
+   "ic95": [
+    0.8744305555555556,
+    0.9044444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.6237777777777778,
+   "ic95": [
+    0.6107694444444446,
+    0.6363361111111112
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8894444444444445,
+   "ic95": [
+    0.8744305555555556,
+    0.9044444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8188611111111112,
+   "ic95": [
+    0.8082138888888889,
+    0.8301201388888889
+   ]
+  },
+  "mrr": {
+   "media": 0.9315537045461948,
+   "ic95": [
+    0.9218510010965311,
+    0.9407140184597165
+   ]
+  },
+  "hits@1": {
+   "media": 0.8894444444444445,
+   "ic95": [
+    0.8744305555555556,
+    0.9044444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9822222222222222,
+   "ic95": [
+    0.9761111111111112,
+    0.9883333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 1,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8927777777777778,
+   "ic95": [
+    0.8783194444444444,
+    0.9077777777777778
+   ]
+  },
+  "precision@5": {
+   "media": 0.6286666666666666,
+   "ic95": [
+    0.6155527777777777,
+    0.6412222222222221
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8927777777777778,
+   "ic95": [
+    0.8783194444444444,
+    0.9077777777777778
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8201481481481483,
+   "ic95": [
+    0.8093743055555556,
+    0.8312902777777778
+   ]
+  },
+  "mrr": {
+   "media": 0.933387037879528,
+   "ic95": [
+    0.9238144898498577,
+    0.9426273729534659
+   ]
+  },
+  "hits@1": {
+   "media": 0.8927777777777778,
+   "ic95": [
+    0.8783194444444444,
+    0.9077777777777778
+   ]
+  },
+  "hits@5": {
+   "media": 0.9822222222222222,
+   "ic95": [
+    0.9761111111111112,
+    0.9883333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9194444444444444,
+   "ic95": [
+    0.9083333333333333,
+    0.9333472222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.7013333333333334,
+   "ic95": [
+    0.6884444444444444,
+    0.7145555555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9194444444444444,
+   "ic95": [
+    0.9083333333333333,
+    0.9333472222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8015,
+   "ic95": [
+    0.7907643518518518,
+    0.8130761574074074
+   ]
+  },
+  "mrr": {
+   "media": 0.9490670317314898,
+   "ic95": [
+    0.9416942276585356,
+    0.958299518552233
+   ]
+  },
+  "hits@1": {
+   "media": 0.9194444444444444,
+   "ic95": [
+    0.9083333333333333,
+    0.9333472222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9844444444444445,
+   "ic95": [
+    0.9788888888888889,
+    0.9900138888888889
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.8538888888888889,
+    0.8855555555555555
+   ]
+  },
+  "precision@5": {
+   "media": 0.59,
+   "ic95": [
+    0.5766666666666667,
+    0.6043333333333333
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.8538888888888889,
+    0.8855555555555555
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7651666666666666,
+   "ic95": [
+    0.7532381944444444,
+    0.7775018518518518
+   ]
+  },
+  "mrr": {
+   "media": 0.9137659510344697,
+   "ic95": [
+    0.9033935382151359,
+    0.9250147126012367
+   ]
+  },
+  "hits@1": {
+   "media": 0.8688888888888889,
+   "ic95": [
+    0.8538888888888889,
+    0.8855555555555555
+   ]
+  },
+  "hits@5": {
+   "media": 0.9688888888888889,
+   "ic95": [
+    0.9611111111111111,
+    0.9761111111111112
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8722222222222222,
+   "ic95": [
+    0.8583194444444444,
+    0.89
+   ]
+  },
+  "precision@5": {
+   "media": 0.5956666666666667,
+   "ic95": [
+    0.5827749999999999,
+    0.6097777777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8722222222222222,
+   "ic95": [
+    0.8583194444444444,
+    0.89
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.767787037037037,
+   "ic95": [
+    0.7556625,
+    0.7797337962962964
+   ]
+  },
+  "mrr": {
+   "media": 0.9160622473307659,
+   "ic95": [
+    0.9060383222448147,
+    0.9275966249316946
+   ]
+  },
+  "hits@1": {
+   "media": 0.8722222222222222,
+   "ic95": [
+    0.8583194444444444,
+    0.89
+   ]
+  },
+  "hits@5": {
+   "media": 0.9688888888888889,
+   "ic95": [
+    0.9611111111111111,
+    0.9761111111111112
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9377777777777778,
+   "ic95": [
+    0.9272083333333333,
+    0.9489027777777778
+   ]
+  },
+  "precision@5": {
+   "media": 0.7212222222222222,
+   "ic95": [
+    0.708775,
+    0.7332222222222223
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9377777777777778,
+   "ic95": [
+    0.9272083333333333,
+    0.9489027777777778
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8235000000000001,
+   "ic95": [
+    0.8133141203703704,
+    0.8341722222222222
+   ]
+  },
+  "mrr": {
+   "media": 0.9600897728792309,
+   "ic95": [
+    0.9531350145873699,
+    0.9679155113490681
+   ]
+  },
+  "hits@1": {
+   "media": 0.9377777777777778,
+   "ic95": [
+    0.9272083333333333,
+    0.9489027777777778
+   ]
+  },
+  "hits@5": {
+   "media": 0.9866666666666667,
+   "ic95": [
+    0.9811111111111112,
+    0.9916666666666667
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8811111111111111,
+    0.91
+   ]
+  },
+  "precision@5": {
+   "media": 0.6103333333333333,
+   "ic95": [
+    0.5967777777777779,
+    0.6246666666666667
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8811111111111111,
+    0.91
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7904259259259259,
+   "ic95": [
+    0.7788046296296297,
+    0.8020965277777778
+   ]
+  },
+  "mrr": {
+   "media": 0.9298804029405882,
+   "ic95": [
+    0.920303859476919,
+    0.9405471356578794
+   ]
+  },
+  "hits@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8811111111111111,
+    0.91
+   ]
+  },
+  "hits@5": {
+   "media": 0.9727777777777777,
+   "ic95": [
+    0.9655555555555555,
+    0.98
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8966666666666666,
+   "ic95": [
+    0.8827777777777778,
+    0.9116666666666666
+   ]
+  },
+  "precision@5": {
+   "media": 0.6157777777777779,
+   "ic95": [
+    0.6023305555555556,
+    0.6297805555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8966666666666666,
+   "ic95": [
+    0.8827777777777778,
+    0.9116666666666666
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7926574074074074,
+   "ic95": [
+    0.7809974537037038,
+    0.8044543981481481
+   ]
+  },
+  "mrr": {
+   "media": 0.9311118844220697,
+   "ic95": [
+    0.9218185266781159,
+    0.9418593299261955
+   ]
+  },
+  "hits@1": {
+   "media": 0.8966666666666666,
+   "ic95": [
+    0.8827777777777778,
+    0.9116666666666666
+   ]
+  },
+  "hits@5": {
+   "media": 0.9727777777777777,
+   "ic95": [
+    0.9655555555555555,
+    0.98
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9272222222222222,
+   "ic95": [
+    0.9161111111111111,
+    0.9394444444444444
+   ]
+  },
+  "precision@5": {
+   "media": 0.7188888888888889,
+   "ic95": [
+    0.7061111111111111,
+    0.7314444444444443
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9272222222222222,
+   "ic95": [
+    0.9161111111111111,
+    0.9394444444444444
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8261388888888889,
+   "ic95": [
+    0.8155175925925926,
+    0.836907638888889
+   ]
+  },
+  "mrr": {
+   "media": 0.9538399175573942,
+   "ic95": [
+    0.9466848540118667,
+    0.9618314589509641
+   ]
+  },
+  "hits@1": {
+   "media": 0.9272222222222222,
+   "ic95": [
+    0.9161111111111111,
+    0.9394444444444444
+   ]
+  },
+  "hits@5": {
+   "media": 0.9883333333333333,
+   "ic95": [
+    0.9833333333333333,
+    0.9927777777777778
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8761111111111111,
+   "ic95": [
+    0.8605555555555555,
+    0.8911111111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.6066666666666667,
+   "ic95": [
+    0.5935527777777778,
+    0.6197777777777779
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8761111111111111,
+   "ic95": [
+    0.8605555555555555,
+    0.8911111111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7969166666666667,
+   "ic95": [
+    0.7856377314814815,
+    0.8088333333333334
+   ]
+  },
+  "mrr": {
+   "media": 0.9215232029205042,
+   "ic95": [
+    0.9117590725872587,
+    0.9312549217136318
+   ]
+  },
+  "hits@1": {
+   "media": 0.8761111111111111,
+   "ic95": [
+    0.8605555555555555,
+    0.8911111111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.9788888888888889,
+   "ic95": [
+    0.9722222222222222,
+    0.9855555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644305555555556,
+    0.8944444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.6115555555555556,
+   "ic95": [
+    0.5984444444444444,
+    0.6242305555555554
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644305555555556,
+    0.8944444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7983981481481482,
+   "ic95": [
+    0.7867405092592594,
+    0.8100842592592593
+   ]
+  },
+  "mrr": {
+   "media": 0.9233287584760597,
+   "ic95": [
+    0.9136576207791729,
+    0.9332341528467643
+   ]
+  },
+  "hits@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644305555555556,
+    0.8944444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9794444444444445,
+   "ic95": [
+    0.9727777777777777,
+    0.986125
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.94,
+   "ic95": [
+    0.93,
+    0.951125
+   ]
+  },
+  "precision@5": {
+   "media": 0.7357777777777779,
+   "ic95": [
+    0.7237777777777779,
+    0.7473444444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.94,
+   "ic95": [
+    0.93,
+    0.951125
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8467037037037036,
+   "ic95": [
+    0.8365731481481481,
+    0.8564444444444443
+   ]
+  },
+  "mrr": {
+   "media": 0.9618639814564581,
+   "ic95": [
+    0.9551144941335106,
+    0.9692073068124072
+   ]
+  },
+  "hits@1": {
+   "media": 0.94,
+   "ic95": [
+    0.93,
+    0.951125
+   ]
+  },
+  "hits@5": {
+   "media": 0.9916666666666667,
+   "ic95": [
+    0.9877638888888889,
+    0.9955555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8805555555555555,
+    0.91
+   ]
+  },
+  "precision@5": {
+   "media": 0.6253333333333334,
+   "ic95": [
+    0.6125527777777777,
+    0.6391111111111112
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8805555555555555,
+    0.91
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8218888888888889,
+   "ic95": [
+    0.8105914351851853,
+    0.8330488425925926
+   ]
+  },
+  "mrr": {
+   "media": 0.9340446012752358,
+   "ic95": [
+    0.9252845531635261,
+    0.9438819628162741
+   ]
+  },
+  "hits@1": {
+   "media": 0.895,
+   "ic95": [
+    0.8805555555555555,
+    0.91
+   ]
+  },
+  "hits@5": {
+   "media": 0.9844444444444445,
+   "ic95": [
+    0.9788888888888889,
+    0.99
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 2,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8972222222222223,
+   "ic95": [
+    0.8827777777777778,
+    0.9122361111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.6297777777777778,
+   "ic95": [
+    0.6170000000000001,
+    0.6430055555555556
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8972222222222223,
+   "ic95": [
+    0.8827777777777778,
+    0.9122361111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.822851851851852,
+   "ic95": [
+    0.8116939814814814,
+    0.8337918981481481
+   ]
+  },
+  "mrr": {
+   "media": 0.9355723790530136,
+   "ic95": [
+    0.926984448197533,
+    0.9454557106597524
+   ]
+  },
+  "hits@1": {
+   "media": 0.8972222222222223,
+   "ic95": [
+    0.8827777777777778,
+    0.9122361111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.985,
+   "ic95": [
+    0.9794444444444445,
+    0.9905555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9161111111111111,
+   "ic95": [
+    0.9022222222222223,
+    0.9288888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.7012222222222223,
+   "ic95": [
+    0.6885555555555556,
+    0.7144444444444444
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9161111111111111,
+   "ic95": [
+    0.9022222222222223,
+    0.9288888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8026666666666668,
+   "ic95": [
+    0.7916840277777778,
+    0.81324375
+   ]
+  },
+  "mrr": {
+   "media": 0.9466738831614289,
+   "ic95": [
+    0.937832102663963,
+    0.9553747582594698
+   ]
+  },
+  "hits@1": {
+   "media": 0.9161111111111111,
+   "ic95": [
+    0.9022222222222223,
+    0.9288888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.985,
+   "ic95": [
+    0.9794444444444445,
+    0.9905555555555555
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8611111111111112,
+   "ic95": [
+    0.8460972222222223,
+    0.8772222222222222
+   ]
+  },
+  "precision@5": {
+   "media": 0.5902222222222223,
+   "ic95": [
+    0.5767722222222222,
+    0.603338888888889
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8611111111111112,
+   "ic95": [
+    0.8460972222222223,
+    0.8772222222222222
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7663055555555555,
+   "ic95": [
+    0.7548043981481483,
+    0.7784731481481482
+   ]
+  },
+  "mrr": {
+   "media": 0.9088633266801377,
+   "ic95": [
+    0.8981946302528503,
+    0.9199405681756583
+   ]
+  },
+  "hits@1": {
+   "media": 0.8611111111111112,
+   "ic95": [
+    0.8460972222222223,
+    0.8772222222222222
+   ]
+  },
+  "hits@5": {
+   "media": 0.9711111111111111,
+   "ic95": [
+    0.9638888888888889,
+    0.9783333333333334
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8655555555555555,
+   "ic95": [
+    0.85,
+    0.8816666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.5953333333333333,
+   "ic95": [
+    0.5818861111111111,
+    0.6084444444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8655555555555555,
+   "ic95": [
+    0.85,
+    0.8816666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7686481481481481,
+   "ic95": [
+    0.7572027777777778,
+    0.7805976851851851
+   ]
+  },
+  "mrr": {
+   "media": 0.9118725859393971,
+   "ic95": [
+    0.9012568421912543,
+    0.922995505021296
+   ]
+  },
+  "hits@1": {
+   "media": 0.8655555555555555,
+   "ic95": [
+    0.85,
+    0.8816666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9722222222222222,
+   "ic95": [
+    0.965,
+    0.9794444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9294444444444444,
+   "ic95": [
+    0.9166527777777778,
+    0.9416666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.7194444444444444,
+   "ic95": [
+    0.7069972222222222,
+    0.7317777777777776
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9294444444444444,
+   "ic95": [
+    0.9166527777777778,
+    0.9416666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8233148148148148,
+   "ic95": [
+    0.8127930555555555,
+    0.8334256944444445
+   ]
+  },
+  "mrr": {
+   "media": 0.9557020818146276,
+   "ic95": [
+    0.9477592519148569,
+    0.9638428020232709
+   ]
+  },
+  "hits@1": {
+   "media": 0.9294444444444444,
+   "ic95": [
+    0.9166527777777778,
+    0.9416666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.9888888888888889,
+   "ic95": [
+    0.9838888888888889,
+    0.9938888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8838888888888888,
+   "ic95": [
+    0.8688888888888889,
+    0.9005555555555556
+   ]
+  },
+  "precision@5": {
+   "media": 0.6087777777777779,
+   "ic95": [
+    0.5949972222222222,
+    0.6224444444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8838888888888888,
+   "ic95": [
+    0.8688888888888889,
+    0.9005555555555556
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7897314814814814,
+   "ic95": [
+    0.7782469907407408,
+    0.8006025462962963
+   ]
+  },
+  "mrr": {
+   "media": 0.9245908198659643,
+   "ic95": [
+    0.914956986117911,
+    0.9354897508701716
+   ]
+  },
+  "hits@1": {
+   "media": 0.8838888888888888,
+   "ic95": [
+    0.8688888888888889,
+    0.9005555555555556
+   ]
+  },
+  "hits@5": {
+   "media": 0.9744444444444444,
+   "ic95": [
+    0.9672222222222222,
+    0.9811111111111112
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8872222222222222,
+   "ic95": [
+    0.8716666666666667,
+    0.9038888888888889
+   ]
+  },
+  "precision@5": {
+   "media": 0.6141111111111112,
+   "ic95": [
+    0.6004416666666667,
+    0.6275555555555555
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8872222222222222,
+   "ic95": [
+    0.8716666666666667,
+    0.9038888888888889
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.792037037037037,
+   "ic95": [
+    0.7806268518518518,
+    0.8028525462962962
+   ]
+  },
+  "mrr": {
+   "media": 0.9266278569030012,
+   "ic95": [
+    0.9164969192052755,
+    0.9378945612405978
+   ]
+  },
+  "hits@1": {
+   "media": 0.8872222222222222,
+   "ic95": [
+    0.8716666666666667,
+    0.9038888888888889
+   ]
+  },
+  "hits@5": {
+   "media": 0.975,
+   "ic95": [
+    0.9677777777777777,
+    0.9822222222222222
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9122083333333334,
+    0.9361111111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.7175555555555555,
+   "ic95": [
+    0.7051055555555554,
+    0.7292333333333334
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9122083333333334,
+    0.9361111111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8260740740740741,
+   "ic95": [
+    0.8157590277777778,
+    0.8366798611111109
+   ]
+  },
+  "mrr": {
+   "media": 0.9515984686505999,
+   "ic95": [
+    0.9441609810572906,
+    0.9596936591553635
+   ]
+  },
+  "hits@1": {
+   "media": 0.9238888888888889,
+   "ic95": [
+    0.9122083333333334,
+    0.9361111111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.9861111111111112,
+   "ic95": [
+    0.9805555555555555,
+    0.9916666666666667
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8755555555555555,
+   "ic95": [
+    0.8610972222222223,
+    0.8911111111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.6052222222222223,
+   "ic95": [
+    0.5921055555555557,
+    0.6180027777777779
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8755555555555555,
+   "ic95": [
+    0.8610972222222223,
+    0.8911111111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7952129629629628,
+   "ic95": [
+    0.7828777777777778,
+    0.8070199074074074
+   ]
+  },
+  "mrr": {
+   "media": 0.9210791684728888,
+   "ic95": [
+    0.9113683014093407,
+    0.9312398258147583
+   ]
+  },
+  "hits@1": {
+   "media": 0.8755555555555555,
+   "ic95": [
+    0.8610972222222223,
+    0.8911111111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.9766666666666667,
+   "ic95": [
+    0.9694444444444444,
+    0.9838888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644444444444445,
+    0.8938888888888888
+   ]
+  },
+  "precision@5": {
+   "media": 0.6104444444444446,
+   "ic95": [
+    0.597775,
+    0.623113888888889
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644444444444445,
+    0.8938888888888888
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.7973055555555556,
+   "ic95": [
+    0.7850439814814815,
+    0.8091863425925925
+   ]
+  },
+  "mrr": {
+   "media": 0.9232035070972275,
+   "ic95": [
+    0.9134935898471365,
+    0.9332923501486541
+   ]
+  },
+  "hits@1": {
+   "media": 0.8788888888888889,
+   "ic95": [
+    0.8644444444444445,
+    0.8938888888888888
+   ]
+  },
+  "hits@5": {
+   "media": 0.9772222222222222,
+   "ic95": [
+    0.9705416666666666,
+    0.9838888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.9333333333333333,
+   "ic95": [
+    0.9216666666666666,
+    0.945
+   ]
+  },
+  "precision@5": {
+   "media": 0.733888888888889,
+   "ic95": [
+    0.7218833333333333,
+    0.7457805555555557
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.9333333333333333,
+   "ic95": [
+    0.9216666666666666,
+    0.945
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.845037037037037,
+   "ic95": [
+    0.8353481481481482,
+    0.854935648148148
+   ]
+  },
+  "mrr": {
+   "media": 0.9583769979916292,
+   "ic95": [
+    0.9513150636550244,
+    0.9658627733323298
+   ]
+  },
+  "hits@1": {
+   "media": 0.9333333333333333,
+   "ic95": [
+    0.9216666666666666,
+    0.945
+   ]
+  },
+  "hits@5": {
+   "media": 0.9905555555555555,
+   "ic95": [
+    0.9866666666666667,
+    0.9944444444444445
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8944444444444445,
+   "ic95": [
+    0.88,
+    0.9094444444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.6221111111111111,
+   "ic95": [
+    0.6093333333333334,
+    0.6345583333333336
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8944444444444445,
+   "ic95": [
+    0.88,
+    0.9094444444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8177222222222222,
+   "ic95": [
+    0.8067402777777777,
+    0.8284974537037036
+   ]
+  },
+  "mrr": {
+   "media": 0.9336469733531938,
+   "ic95": [
+    0.9240711774643232,
+    0.9430742159990174
+   ]
+  },
+  "hits@1": {
+   "media": 0.8944444444444445,
+   "ic95": [
+    0.88,
+    0.9094444444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.9844444444444445,
+   "ic95": [
+    0.9788888888888889,
+    0.99
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "aleatorio",
+  "escenario": "caliente",
+  "semilla": 3,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.8977777777777778,
+   "ic95": [
+    0.8833194444444444,
+    0.9116666666666666
+   ]
+  },
+  "precision@5": {
+   "media": 0.6273333333333334,
+   "ic95": [
+    0.61455,
+    0.6395583333333335
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.8977777777777778,
+   "ic95": [
+    0.8833194444444444,
+    0.9116666666666666
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.8196574074074074,
+   "ic95": [
+    0.8089520833333333,
+    0.8306949074074074
+   ]
+  },
+  "mrr": {
+   "media": 0.9356654918717122,
+   "ic95": [
+    0.92600548113121,
+    0.9447034506672458
+   ]
+  },
+  "hits@1": {
+   "media": 0.8977777777777778,
+   "ic95": [
+    0.8833194444444444,
+    0.9116666666666666
+   ]
+  },
+  "hits@5": {
+   "media": 0.9844444444444445,
+   "ic95": [
+    0.9788888888888889,
+    0.99
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.425,
+   "ic95": [
+    0.4,
+    0.44725
+   ]
+  },
+  "precision@5": {
+   "media": 0.23477777777777778,
+   "ic95": [
+    0.22322222222222227,
+    0.2467777777777778
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.425,
+   "ic95": [
+    0.4,
+    0.44725
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2613425925925926,
+   "ic95": [
+    0.2494717592592593,
+    0.27384560185185186
+   ]
+  },
+  "mrr": {
+   "media": 0.5216628375697544,
+   "ic95": [
+    0.49984935018581367,
+    0.542152718423262
+   ]
+  },
+  "hits@1": {
+   "media": 0.425,
+   "ic95": [
+    0.4,
+    0.44725
+   ]
+  },
+  "hits@5": {
+   "media": 0.6366666666666667,
+   "ic95": [
+    0.6127777777777778,
+    0.6589027777777777
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.2872222222222222,
+   "ic95": [
+    0.26555555555555554,
+    0.30833333333333335
+   ]
+  },
+  "precision@5": {
+   "media": 0.1527777777777778,
+   "ic95": [
+    0.14377500000000001,
+    0.16222499999999998
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.2872222222222222,
+   "ic95": [
+    0.26555555555555554,
+    0.30833333333333335
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.19254629629629633,
+   "ic95": [
+    0.1813039351851852,
+    0.20407060185185183
+   ]
+  },
+  "mrr": {
+   "media": 0.3717567446854497,
+   "ic95": [
+    0.35208728927411853,
+    0.39111186041226415
+   ]
+  },
+  "hits@1": {
+   "media": 0.2872222222222222,
+   "ic95": [
+    0.26555555555555554,
+    0.30833333333333335
+   ]
+  },
+  "hits@5": {
+   "media": 0.4727777777777778,
+   "ic95": [
+    0.4477638888888889,
+    0.4955555555555556
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.2922222222222222,
+   "ic95": [
+    0.27111111111111114,
+    0.31277777777777777
+   ]
+  },
+  "precision@5": {
+   "media": 0.15722222222222224,
+   "ic95": [
+    0.14799722222222222,
+    0.16689166666666663
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.2922222222222222,
+   "ic95": [
+    0.27111111111111114,
+    0.31277777777777777
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.19644444444444442,
+   "ic95": [
+    0.18500671296296298,
+    0.20819699074074072
+   ]
+  },
+  "mrr": {
+   "media": 0.3786567781513843,
+   "ic95": [
+    0.35901388279246993,
+    0.39807922034859705
+   ]
+  },
+  "hits@1": {
+   "media": 0.2922222222222222,
+   "ic95": [
+    0.27111111111111114,
+    0.31277777777777777
+   ]
+  },
+  "hits@5": {
+   "media": 0.4811111111111111,
+   "ic95": [
+    0.4572222222222222,
+    0.5038888888888889
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.45166666666666666,
+   "ic95": [
+    0.4266666666666667,
+    0.4766666666666667
+   ]
+  },
+  "precision@5": {
+   "media": 0.24866666666666667,
+   "ic95": [
+    0.23721944444444445,
+    0.26033333333333336
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.45166666666666666,
+   "ic95": [
+    0.4266666666666667,
+    0.4766666666666667
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2778148148148148,
+   "ic95": [
+    0.2658027777777778,
+    0.2900775462962964
+   ]
+  },
+  "mrr": {
+   "media": 0.5469567302560094,
+   "ic95": [
+    0.525356374803413,
+    0.5670177311158919
+   ]
+  },
+  "hits@1": {
+   "media": 0.45166666666666666,
+   "ic95": [
+    0.4266666666666667,
+    0.4766666666666667
+   ]
+  },
+  "hits@5": {
+   "media": 0.6644444444444444,
+   "ic95": [
+    0.6422222222222222,
+    0.6861111111111111
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.31055555555555553,
+   "ic95": [
+    0.28888888888888886,
+    0.33111111111111113
+   ]
+  },
+  "precision@5": {
+   "media": 0.1622222222222222,
+   "ic95": [
+    0.1527777777777778,
+    0.17200000000000001
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.31055555555555553,
+   "ic95": [
+    0.28888888888888886,
+    0.33111111111111113
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.20572222222222222,
+   "ic95": [
+    0.19413680555555557,
+    0.21721435185185187
+   ]
+  },
+  "mrr": {
+   "media": 0.3935788927938697,
+   "ic95": [
+    0.3732395957519735,
+    0.41391647656303737
+   ]
+  },
+  "hits@1": {
+   "media": 0.31055555555555553,
+   "ic95": [
+    0.28888888888888886,
+    0.33111111111111113
+   ]
+  },
+  "hits@5": {
+   "media": 0.4961111111111111,
+   "ic95": [
+    0.47220833333333334,
+    0.5188888888888888
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_B",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.31777777777777777,
+   "ic95": [
+    0.2966666666666667,
+    0.3383333333333333
+   ]
+  },
+  "precision@5": {
+   "media": 0.16644444444444445,
+   "ic95": [
+    0.15699722222222223,
+    0.17655555555555555
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.31777777777777777,
+   "ic95": [
+    0.2966666666666667,
+    0.3383333333333333
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.20942592592592593,
+   "ic95": [
+    0.1977587962962963,
+    0.2215189814814815
+   ]
+  },
+  "mrr": {
+   "media": 0.401491869116521,
+   "ic95": [
+    0.38163734852708775,
+    0.42162638942816416
+   ]
+  },
+  "hits@1": {
+   "media": 0.31777777777777777,
+   "ic95": [
+    0.2966666666666667,
+    0.3383333333333333
+   ]
+  },
+  "hits@5": {
+   "media": 0.5055555555555555,
+   "ic95": [
+    0.4811111111111111,
+    0.5283333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.4588888888888889,
+   "ic95": [
+    0.4344305555555556,
+    0.48333333333333334
+   ]
+  },
+  "precision@5": {
+   "media": 0.23811111111111113,
+   "ic95": [
+    0.22621944444444445,
+    0.24988888888888888
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.4588888888888889,
+   "ic95": [
+    0.4344305555555556,
+    0.48333333333333334
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.2653425925925926,
+   "ic95": [
+    0.2523759259259259,
+    0.27820902777777773
+   ]
+  },
+  "mrr": {
+   "media": 0.540220683761887,
+   "ic95": [
+    0.5176829743756743,
+    0.5617569020390918
+   ]
+  },
+  "hits@1": {
+   "media": 0.4588888888888889,
+   "ic95": [
+    0.4344305555555556,
+    0.48333333333333334
+   ]
+  },
+  "hits@5": {
+   "media": 0.6316666666666667,
+   "ic95": [
+    0.6083194444444444,
+    0.6550138888888889
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.325,
+   "ic95": [
+    0.30277777777777776,
+    0.34612499999999996
+   ]
+  },
+  "precision@5": {
+   "media": 0.15544444444444444,
+   "ic95": [
+    0.14533333333333334,
+    0.1653361111111111
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.325,
+   "ic95": [
+    0.30277777777777776,
+    0.34612499999999996
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.1955,
+   "ic95": [
+    0.18265185185185187,
+    0.20767662037037038
+   ]
+  },
+  "mrr": {
+   "media": 0.39384830332946297,
+   "ic95": [
+    0.37357140694648183,
+    0.414645191331209
+   ]
+  },
+  "hits@1": {
+   "media": 0.325,
+   "ic95": [
+    0.30277777777777776,
+    0.34612499999999996
+   ]
+  },
+  "hits@5": {
+   "media": 0.47,
+   "ic95": [
+    0.4461111111111111,
+    0.49333333333333335
+   ]
+  }
+ },
+ {
+  "sistema": "vecinos_comunes_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3077638888888889,
+    0.35055555555555556
+   ]
+  },
+  "precision@5": {
+   "media": 0.15922222222222224,
+   "ic95": [
+    0.1487777777777778,
+    0.16966666666666666
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3077638888888889,
+    0.35055555555555556
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.19847222222222222,
+   "ic95": [
+    0.18634143518518517,
+    0.21102638888888892
+   ]
+  },
+  "mrr": {
+   "media": 0.40056506243169765,
+   "ic95": [
+    0.3798805448958422,
+    0.42101248474782327
+   ]
+  },
+  "hits@1": {
+   "media": 0.32944444444444443,
+   "ic95": [
+    0.3077638888888889,
+    0.35055555555555556
+   ]
+  },
+  "hits@5": {
+   "media": 0.48,
+   "ic95": [
+    0.4555416666666667,
+    0.5033333333333333
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "completa",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.47833333333333333,
+   "ic95": [
+    0.45444444444444443,
+    0.5027777777777778
+   ]
+  },
+  "precision@5": {
+   "media": 0.25100000000000006,
+   "ic95": [
+    0.2386638888888889,
+    0.2624444444444445
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.47833333333333333,
+   "ic95": [
+    0.45444444444444443,
+    0.5027777777777778
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.28046296296296297,
+   "ic95": [
+    0.2670740740740741,
+    0.2932923611111111
+   ]
+  },
+  "mrr": {
+   "media": 0.5600424651271233,
+   "ic95": [
+    0.5382667501730009,
+    0.5828295760076583
+   ]
+  },
+  "hits@1": {
+   "media": 0.47833333333333333,
+   "ic95": [
+    0.45444444444444443,
+    0.5027777777777778
+   ]
+  },
+  "hits@5": {
+   "media": 0.6616666666666666,
+   "ic95": [
+    0.6377777777777778,
+    0.6833472222222222
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.3161111111111111,
+    0.3611111111111111
+   ]
+  },
+  "precision@5": {
+   "media": 0.16366666666666668,
+   "ic95": [
+    0.15333055555555555,
+    0.1736666666666667
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.3161111111111111,
+    0.3611111111111111
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.20600000000000002,
+   "ic95": [
+    0.19253587962962965,
+    0.21872361111111113
+   ]
+  },
+  "mrr": {
+   "media": 0.4092585783744426,
+   "ic95": [
+    0.3884304332280883,
+    0.4298068475354794
+   ]
+  },
+  "hits@1": {
+   "media": 0.3388888888888889,
+   "ic95": [
+    0.3161111111111111,
+    0.3611111111111111
+   ]
+  },
+  "hits@5": {
+   "media": 0.49,
+   "ic95": [
+    0.46555555555555556,
+    0.5127777777777778
+   ]
+  }
+ },
+ {
+  "sistema": "adamic_adar_A",
+  "modo": "recuperador",
+  "escenario": "caliente",
+  "semilla": null,
+  "tarea": "implicita_solo_ancla",
+  "muestra": "principal_sin_desarrollo",
+  "n_consultas": 1800,
+  "tasa_none": 0.0,
+  "malformadas": {
+   "none": 0,
+   "ausentes": 0,
+   "nan": 0,
+   "tasa_none": 0.0,
+   "tasa_ausentes": 0.0,
+   "tasa_nan": 0.0,
+   "consultas_con_alguna": 0
+  },
+  "precision@1": {
+   "media": 0.3438888888888889,
+   "ic95": [
+    0.3211111111111111,
+    0.36556944444444445
+   ]
+  },
+  "precision@5": {
+   "media": 0.16811111111111113,
+   "ic95": [
+    0.15766666666666668,
+    0.17855833333333335
+   ]
+  },
+  "precision_norm@1": {
+   "media": 0.3438888888888889,
+   "ic95": [
+    0.3211111111111111,
+    0.36556944444444445
+   ]
+  },
+  "precision_norm@5": {
+   "media": 0.20985185185185187,
+   "ic95": [
+    0.19596226851851853,
+    0.2225851851851852
+   ]
+  },
+  "mrr": {
+   "media": 0.4162681277508281,
+   "ic95": [
+    0.39448616844112816,
+    0.43632903899291925
+   ]
+  },
+  "hits@1": {
+   "media": 0.3438888888888889,
+   "ic95": [
+    0.3211111111111111,
+    0.36556944444444445
+   ]
+  },
+  "hits@5": {
+   "media": 0.5011111111111111,
+   "ic95": [
+    0.47555555555555556,
+    0.5238888888888888
+   ]
+  }
+ }
+]

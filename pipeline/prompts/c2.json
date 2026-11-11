@@ -1,0 +1,13 @@
+{
+ "grafo": "B",
+ "max_vecinos": 20,
+ "orden_comunes": "grado ascendente; empate: título",
+ "orden_vecinos": "grado descendente; empate: título",
+ "plantillas": {
+  "caliente": "Article A:\nTitle: {titulo_consulta}\n{texto_consulta}\nConnected articles: {vecinos_consulta}\n\nArticle B:\nTitle: {titulo_candidato}\n{texto_candidato}\nConnected articles: {vecinos_candidato}\n\nIs article B closely related to the topic of article A? Answer Yes or No.",
+  "frio": "Article A:\nTitle: {titulo_consulta}\n{texto_consulta}\n\nArticle B:\nTitle: {titulo_candidato}\n{texto_candidato}\nConnected articles: {vecinos_candidato}\n\nIs article B closely related to the topic of article A? Answer Yes or No."
+ },
+ "separador": "; ",
+ "vacio": "none",
+ "variante": 1
+}

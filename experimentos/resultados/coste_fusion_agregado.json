@@ -1,0 +1,48 @@
+[
+  {
+    "sistema": "rrf_bm25_aa_B",
+    "modo": "aleatorio",
+    "escenario": "caliente",
+    "n_consultas": 5991,
+    "descartadas": 9,
+    "latencia_ms": {
+      "p50": 0.867,
+      "p95": 1.4635
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "rrf_bm25_aa_B",
+    "modo": "recuperador",
+    "escenario": "caliente",
+    "n_consultas": 1997,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 0.793,
+      "p95": 1.4061999999999997
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  }
+]

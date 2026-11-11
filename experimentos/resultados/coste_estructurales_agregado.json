@@ -1,0 +1,186 @@
+[
+  {
+    "sistema": "adamic_adar_A",
+    "modo": "aleatorio",
+    "escenario": "caliente",
+    "n_consultas": 5991,
+    "descartadas": 9,
+    "latencia_ms": {
+      "p50": 0.106,
+      "p95": 0.279
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "adamic_adar_A",
+    "modo": "recuperador",
+    "escenario": "caliente",
+    "n_consultas": 1997,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 0.088,
+      "p95": 0.302
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "adamic_adar_B",
+    "modo": "aleatorio",
+    "escenario": "caliente",
+    "n_consultas": 5991,
+    "descartadas": 9,
+    "latencia_ms": {
+      "p50": 0.072,
+      "p95": 0.143
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "adamic_adar_B",
+    "modo": "recuperador",
+    "escenario": "caliente",
+    "n_consultas": 1997,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 0.058,
+      "p95": 0.12919999999999981
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "vecinos_comunes_A",
+    "modo": "aleatorio",
+    "escenario": "caliente",
+    "n_consultas": 5991,
+    "descartadas": 9,
+    "latencia_ms": {
+      "p50": 0.079,
+      "p95": 0.166
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "vecinos_comunes_A",
+    "modo": "recuperador",
+    "escenario": "caliente",
+    "n_consultas": 1997,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 0.056,
+      "p95": 0.13819999999999982
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "vecinos_comunes_B",
+    "modo": "aleatorio",
+    "escenario": "caliente",
+    "n_consultas": 5991,
+    "descartadas": 9,
+    "latencia_ms": {
+      "p50": 0.054,
+      "p95": 0.105
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  },
+  {
+    "sistema": "vecinos_comunes_B",
+    "modo": "recuperador",
+    "escenario": "caliente",
+    "n_consultas": 1997,
+    "descartadas": 3,
+    "latencia_ms": {
+      "p50": 0.04,
+      "p95": 0.087
+    },
+    "llamadas": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_in": {
+      "p50": 0.0,
+      "p95": 0.0
+    },
+    "tokens_out": {
+      "p50": 0.0,
+      "p95": 0.0
+    }
+  }
+]

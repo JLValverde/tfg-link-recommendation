@@ -1,0 +1,27 @@
+{
+  "id_ejecucion": "20261020T204054_aleatorio_aleatorio_s2_ba4f5f",
+  "inicio": "2026-10-20T20:40:54+00:00",
+  "sistema": "aleatorio",
+  "modo": "aleatorio",
+  "semilla": 2,
+  "fichero_coste": "coste_controles.jsonl",
+  "hw": {
+    "so": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti, 610.88, 16311 MiB"
+  },
+  "versiones": {
+    "python": "3.14.5",
+    "numpy": "2.5.3",
+    "torch": "2.14.0+cu130",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.17.0",
+    "ollama": "0.6.3",
+    "requests": "2.34.2",
+    "mwparserfromhell": "0.7.2",
+    "pyahocorasick": "2.3.1",
+    "bm25s": "0.3.11",
+    "torch_cuda": "13.0",
+    "ollama_servidor": "0.40.2"
+  }
+}

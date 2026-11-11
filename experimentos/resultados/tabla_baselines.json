@@ -1,0 +1,4002 @@
+{
+ "muestra": "principal_sin_desarrollo",
+ "n_consultas": {
+  "caliente": 1800,
+  "frio": 1800
+ },
+ "semilla_modo_aleatorio": 1,
+ "metricas": [
+  "precision@1",
+  "precision_norm@5",
+  "mrr",
+  "hits@5"
+ ],
+ "tabla": [
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.05555555555555555,
+    "ic95": [
+     0.04498611111111111,
+     0.0661111111111111
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.06487962962962963,
+    "ic95": [
+     0.05896226851851852,
+     0.0711025462962963
+    ]
+   },
+   "mrr": {
+    "media": 0.15388997323901726,
+    "ic95": [
+     0.1424975368276542,
+     0.1650484043735514
+    ]
+   },
+   "hits@5": {
+    "media": 0.2311111111111111,
+    "ic95": [
+     0.21165277777777777,
+     0.24944444444444444
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.795,
+    "ic95": [
+     0.7755555555555556,
+     0.8122222222222222
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.4298055555555556,
+    "ic95": [
+     0.4148780092592592,
+     0.4444266203703704
+    ]
+   },
+   "mrr": {
+    "media": 0.795,
+    "ic95": [
+     0.7755555555555556,
+     0.8122222222222222
+    ]
+   },
+   "hits@5": {
+    "media": 0.795,
+    "ic95": [
+     0.7755555555555556,
+     0.8122222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.33166666666666667,
+    "ic95": [
+     0.30944444444444447,
+     0.35444444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.20663888888888893,
+    "ic95": [
+     0.19566180555555554,
+     0.21697384259259264
+    ]
+   },
+   "mrr": {
+    "media": 0.43435943028094237,
+    "ic95": [
+     0.4131158968122229,
+     0.45328604447943033
+    ]
+   },
+   "hits@5": {
+    "media": 0.5511111111111111,
+    "ic95": [
+     0.5277638888888889,
+     0.5744444444444444
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.32944444444444443,
+    "ic95": [
+     0.3066527777777778,
+     0.35
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2147777777777778,
+    "ic95": [
+     0.20418032407407408,
+     0.22461458333333334
+    ]
+   },
+   "mrr": {
+    "media": 0.4431720004430873,
+    "ic95": [
+     0.4230506515727605,
+     0.46081889368728196
+    ]
+   },
+   "hits@5": {
+    "media": 0.5894444444444444,
+    "ic95": [
+     0.5661111111111111,
+     0.6105694444444444
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.425,
+    "ic95": [
+     0.4,
+     0.44725
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2613425925925926,
+    "ic95": [
+     0.2494717592592593,
+     0.27384560185185186
+    ]
+   },
+   "mrr": {
+    "media": 0.5216628375697544,
+    "ic95": [
+     0.49984935018581367,
+     0.542152718423262
+    ]
+   },
+   "hits@5": {
+    "media": 0.6366666666666667,
+    "ic95": [
+     0.6127777777777778,
+     0.6589027777777777
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.45166666666666666,
+    "ic95": [
+     0.4266666666666667,
+     0.4766666666666667
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2778148148148148,
+    "ic95": [
+     0.2658027777777778,
+     0.2900775462962964
+    ]
+   },
+   "mrr": {
+    "media": 0.5469567302560094,
+    "ic95": [
+     0.525356374803413,
+     0.5670177311158919
+    ]
+   },
+   "hits@5": {
+    "media": 0.6644444444444444,
+    "ic95": [
+     0.6422222222222222,
+     0.6861111111111111
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.4588888888888889,
+    "ic95": [
+     0.4344305555555556,
+     0.48333333333333334
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2653425925925926,
+    "ic95": [
+     0.2523759259259259,
+     0.27820902777777773
+    ]
+   },
+   "mrr": {
+    "media": 0.540220683761887,
+    "ic95": [
+     0.5176829743756743,
+     0.5617569020390918
+    ]
+   },
+   "hits@5": {
+    "media": 0.6316666666666667,
+    "ic95": [
+     0.6083194444444444,
+     0.6550138888888889
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.47833333333333333,
+    "ic95": [
+     0.45444444444444443,
+     0.5027777777777778
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.28046296296296297,
+    "ic95": [
+     0.2670740740740741,
+     0.2932923611111111
+    ]
+   },
+   "mrr": {
+    "media": 0.5600424651271233,
+    "ic95": [
+     0.5382667501730009,
+     0.5828295760076583
+    ]
+   },
+   "hits@5": {
+    "media": 0.6616666666666666,
+    "ic95": [
+     0.6377777777777778,
+     0.6833472222222222
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.4305555555555556,
+    "ic95": [
+     0.4072222222222222,
+     0.45279166666666665
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.26890740740740743,
+    "ic95": [
+     0.2571388888888889,
+     0.2799078703703704
+    ]
+   },
+   "mrr": {
+    "media": 0.5361886498263694,
+    "ic95": [
+     0.5152536297681743,
+     0.5539274416098137
+    ]
+   },
+   "hits@5": {
+    "media": 0.6672222222222223,
+    "ic95": [
+     0.6433194444444444,
+     0.6877777777777778
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.04,
+    "ic95": [
+     0.03111111111111111,
+     0.049444444444444444
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.052851851851851844,
+    "ic95": [
+     0.047276620370370365,
+     0.05922361111111111
+    ]
+   },
+   "mrr": {
+    "media": 0.1159738253541584,
+    "ic95": [
+     0.10634426946756388,
+     0.1262770920579451
+    ]
+   },
+   "hits@5": {
+    "media": 0.1761111111111111,
+    "ic95": [
+     0.15943055555555555,
+     0.1938888888888889
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.6455555555555555,
+    "ic95": [
+     0.6238750000000001,
+     0.6666666666666666
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.33504629629629623,
+    "ic95": [
+     0.32066828703703704,
+     0.3497611111111111
+    ]
+   },
+   "mrr": {
+    "media": 0.6455555555555555,
+    "ic95": [
+     0.6238750000000001,
+     0.6666666666666666
+    ]
+   },
+   "hits@5": {
+    "media": 0.6455555555555555,
+    "ic95": [
+     0.6238750000000001,
+     0.6666666666666666
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.2127777777777778,
+    "ic95": [
+     0.1938888888888889,
+     0.23112499999999997
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.14944444444444444,
+    "ic95": [
+     0.13966574074074073,
+     0.16018611111111114
+    ]
+   },
+   "mrr": {
+    "media": 0.2987901953334639,
+    "ic95": [
+     0.28145408866004074,
+     0.31573675325623024
+    ]
+   },
+   "hits@5": {
+    "media": 0.3877777777777778,
+    "ic95": [
+     0.3661111111111111,
+     0.4089027777777778
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.2111111111111111,
+    "ic95": [
+     0.19111111111111112,
+     0.23
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.15503703703703703,
+    "ic95": [
+     0.145175,
+     0.1653659722222222
+    ]
+   },
+   "mrr": {
+    "media": 0.3038862702880645,
+    "ic95": [
+     0.28628817248160704,
+     0.3205244683085271
+    ]
+   },
+   "hits@5": {
+    "media": 0.41555555555555557,
+    "ic95": [
+     0.3922083333333334,
+     0.43666666666666665
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.2872222222222222,
+    "ic95": [
+     0.26555555555555554,
+     0.30833333333333335
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.19254629629629633,
+    "ic95": [
+     0.1813039351851852,
+     0.20407060185185183
+    ]
+   },
+   "mrr": {
+    "media": 0.3717567446854497,
+    "ic95": [
+     0.35208728927411853,
+     0.39111186041226415
+    ]
+   },
+   "hits@5": {
+    "media": 0.4727777777777778,
+    "ic95": [
+     0.4477638888888889,
+     0.4955555555555556
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.31055555555555553,
+    "ic95": [
+     0.28888888888888886,
+     0.33111111111111113
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.20572222222222222,
+    "ic95": [
+     0.19413680555555557,
+     0.21721435185185187
+    ]
+   },
+   "mrr": {
+    "media": 0.3935788927938697,
+    "ic95": [
+     0.3732395957519735,
+     0.41391647656303737
+    ]
+   },
+   "hits@5": {
+    "media": 0.4961111111111111,
+    "ic95": [
+     0.47220833333333334,
+     0.5188888888888888
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.325,
+    "ic95": [
+     0.30277777777777776,
+     0.34612499999999996
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.1955,
+    "ic95": [
+     0.18265185185185187,
+     0.20767662037037038
+    ]
+   },
+   "mrr": {
+    "media": 0.39384830332946297,
+    "ic95": [
+     0.37357140694648183,
+     0.414645191331209
+    ]
+   },
+   "hits@5": {
+    "media": 0.47,
+    "ic95": [
+     0.4461111111111111,
+     0.49333333333333335
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.3388888888888889,
+    "ic95": [
+     0.3161111111111111,
+     0.3611111111111111
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.20600000000000002,
+    "ic95": [
+     0.19253587962962965,
+     0.21872361111111113
+    ]
+   },
+   "mrr": {
+    "media": 0.4092585783744426,
+    "ic95": [
+     0.3884304332280883,
+     0.4298068475354794
+    ]
+   },
+   "hits@5": {
+    "media": 0.49,
+    "ic95": [
+     0.46555555555555556,
+     0.5127777777777778
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.27944444444444444,
+    "ic95": [
+     0.26,
+     0.29944444444444446
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.1937407407407407,
+    "ic95": [
+     0.18194375,
+     0.20470486111111114
+    ]
+   },
+   "mrr": {
+    "media": 0.37217153599452724,
+    "ic95": [
+     0.3531574991805802,
+     0.3917184683864676
+    ]
+   },
+   "hits@5": {
+    "media": 0.4822222222222222,
+    "ic95": [
+     0.4588888888888889,
+     0.5039027777777778
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.042222222222222223,
+    "ic95": [
+     0.03277777777777778,
+     0.052222222222222225
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.053398148148148146,
+    "ic95": [
+     0.047729629629629636,
+     0.059640509259259254
+    ]
+   },
+   "mrr": {
+    "media": 0.11901917338317702,
+    "ic95": [
+     0.1095055220064275,
+     0.12964636123921797
+    ]
+   },
+   "hits@5": {
+    "media": 0.17833333333333334,
+    "ic95": [
+     0.16111111111111112,
+     0.196125
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.6538888888888889,
+    "ic95": [
+     0.6322222222222222,
+     0.6744583333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.3389537037037037,
+    "ic95": [
+     0.3242493055555556,
+     0.35367986111111116
+    ]
+   },
+   "mrr": {
+    "media": 0.6538888888888889,
+    "ic95": [
+     0.6322222222222222,
+     0.6744583333333333
+    ]
+   },
+   "hits@5": {
+    "media": 0.6538888888888889,
+    "ic95": [
+     0.6322222222222222,
+     0.6744583333333333
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.21722222222222223,
+    "ic95": [
+     0.1988888888888889,
+     0.23556944444444441
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.15144444444444446,
+    "ic95": [
+     0.1416997685185185,
+     0.16214027777777779
+    ]
+   },
+   "mrr": {
+    "media": 0.304382185478842,
+    "ic95": [
+     0.28709951461338323,
+     0.32177575286098037
+    ]
+   },
+   "hits@5": {
+    "media": 0.39444444444444443,
+    "ic95": [
+     0.37277777777777776,
+     0.4161111111111111
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.21444444444444444,
+    "ic95": [
+     0.195,
+     0.23333333333333334
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.15718518518518518,
+    "ic95": [
+     0.14727592592592592,
+     0.1677611111111111
+    ]
+   },
+   "mrr": {
+    "media": 0.30874171916850146,
+    "ic95": [
+     0.29100098899914795,
+     0.32517201151222114
+    ]
+   },
+   "hits@5": {
+    "media": 0.42333333333333334,
+    "ic95": [
+     0.39998611111111115,
+     0.4433611111111111
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.2922222222222222,
+    "ic95": [
+     0.27111111111111114,
+     0.31277777777777777
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.19644444444444442,
+    "ic95": [
+     0.18500671296296298,
+     0.20819699074074072
+    ]
+   },
+   "mrr": {
+    "media": 0.3786567781513843,
+    "ic95": [
+     0.35901388279246993,
+     0.39807922034859705
+    ]
+   },
+   "hits@5": {
+    "media": 0.4811111111111111,
+    "ic95": [
+     0.4572222222222222,
+     0.5038888888888889
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.31777777777777777,
+    "ic95": [
+     0.2966666666666667,
+     0.3383333333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.20942592592592593,
+    "ic95": [
+     0.1977587962962963,
+     0.2215189814814815
+    ]
+   },
+   "mrr": {
+    "media": 0.401491869116521,
+    "ic95": [
+     0.38163734852708775,
+     0.42162638942816416
+    ]
+   },
+   "hits@5": {
+    "media": 0.5055555555555555,
+    "ic95": [
+     0.4811111111111111,
+     0.5283333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.32944444444444443,
+    "ic95": [
+     0.3077638888888889,
+     0.35055555555555556
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.19847222222222222,
+    "ic95": [
+     0.18634143518518517,
+     0.21102638888888892
+    ]
+   },
+   "mrr": {
+    "media": 0.40056506243169765,
+    "ic95": [
+     0.3798805448958422,
+     0.42101248474782327
+    ]
+   },
+   "hits@5": {
+    "media": 0.48,
+    "ic95": [
+     0.4555416666666667,
+     0.5033333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.3438888888888889,
+    "ic95": [
+     0.3211111111111111,
+     0.36556944444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.20985185185185187,
+    "ic95": [
+     0.19596226851851853,
+     0.2225851851851852
+    ]
+   },
+   "mrr": {
+    "media": 0.4162681277508281,
+    "ic95": [
+     0.39448616844112816,
+     0.43632903899291925
+    ]
+   },
+   "hits@5": {
+    "media": 0.5011111111111111,
+    "ic95": [
+     0.47555555555555556,
+     0.5238888888888888
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "caliente",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.28833333333333333,
+    "ic95": [
+     0.26831944444444444,
+     0.30833333333333335
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.19674999999999998,
+    "ic95": [
+     0.18484004629629633,
+     0.20798449074074074
+    ]
+   },
+   "mrr": {
+    "media": 0.38157054850783284,
+    "ic95": [
+     0.3617654616448145,
+     0.4003696106472407
+    ]
+   },
+   "hits@5": {
+    "media": 0.49333333333333335,
+    "ic95": [
+     0.46941666666666665,
+     0.5144444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.11722222222222223,
+    "ic95": [
+     0.10222222222222223,
+     0.13279166666666664
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.10812962962962963,
+    "ic95": [
+     0.09985185185185186,
+     0.1165925925925926
+    ]
+   },
+   "mrr": {
+    "media": 0.24974411112543918,
+    "ic95": [
+     0.2354573251675472,
+     0.2646108889596825
+    ]
+   },
+   "hits@5": {
+    "media": 0.37222222222222223,
+    "ic95": [
+     0.3494305555555556,
+     0.3933333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9077777777777778,
+    "ic95": [
+     0.893875,
+     0.9216666666666666
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6300462962962963,
+    "ic95": [
+     0.6146655092592593,
+     0.6452314814814814
+    ]
+   },
+   "mrr": {
+    "media": 0.9077777777777778,
+    "ic95": [
+     0.893875,
+     0.9216666666666666
+    ]
+   },
+   "hits@5": {
+    "media": 0.9077777777777778,
+    "ic95": [
+     0.893875,
+     0.9216666666666666
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.5422222222222223,
+    "ic95": [
+     0.5177777777777778,
+     0.5655555555555556
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.33916666666666667,
+    "ic95": [
+     0.3261847222222223,
+     0.3521069444444444
+    ]
+   },
+   "mrr": {
+    "media": 0.6368338316264966,
+    "ic95": [
+     0.6155155914816195,
+     0.6566108702549411
+    ]
+   },
+   "hits@5": {
+    "media": 0.7555555555555555,
+    "ic95": [
+     0.7344444444444445,
+     0.7772222222222223
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.5327777777777778,
+    "ic95": [
+     0.5094444444444445,
+     0.5555555555555556
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.3473611111111111,
+    "ic95": [
+     0.3341331018518519,
+     0.3595743055555556
+    ]
+   },
+   "mrr": {
+    "media": 0.6422074321617217,
+    "ic95": [
+     0.6225943933791037,
+     0.6603875988487353
+    ]
+   },
+   "hits@5": {
+    "media": 0.7855555555555556,
+    "ic95": [
+     0.7666527777777778,
+     0.8044444444444444
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.08055555555555556,
+    "ic95": [
+     0.068875,
+     0.09334722222222222
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.07800925925925925,
+    "ic95": [
+     0.07089768518518517,
+     0.08501087962962962
+    ]
+   },
+   "mrr": {
+    "media": 0.18266748086921766,
+    "ic95": [
+     0.1701326798933155,
+     0.1952614447344513
+    ]
+   },
+   "hits@5": {
+    "media": 0.27055555555555555,
+    "ic95": [
+     0.25055555555555553,
+     0.28944444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.7738888888888888,
+    "ic95": [
+     0.755,
+     0.7905555555555556
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.44475000000000003,
+    "ic95": [
+     0.42803240740740744,
+     0.46051875000000003
+    ]
+   },
+   "mrr": {
+    "media": 0.7738888888888888,
+    "ic95": [
+     0.755,
+     0.7905555555555556
+    ]
+   },
+   "hits@5": {
+    "media": 0.7738888888888888,
+    "ic95": [
+     0.755,
+     0.7905555555555556
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.33944444444444444,
+    "ic95": [
+     0.31666666666666665,
+     0.3628055555555555
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2152962962962963,
+    "ic95": [
+     0.20360833333333334,
+     0.22714837962962964
+    ]
+   },
+   "mrr": {
+    "media": 0.43516237299840893,
+    "ic95": [
+     0.4148692993897874,
+     0.4548218445122453
+    ]
+   },
+   "hits@5": {
+    "media": 0.5433333333333333,
+    "ic95": [
+     0.52,
+     0.565
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.3388888888888889,
+    "ic95": [
+     0.31666666666666665,
+     0.361125
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.21881481481481485,
+    "ic95": [
+     0.20772870370370375,
+     0.23016736111111114
+    ]
+   },
+   "mrr": {
+    "media": 0.44097681959333007,
+    "ic95": [
+     0.4218858862556768,
+     0.4597194138157057
+    ]
+   },
+   "hits@5": {
+    "media": 0.5677777777777778,
+    "ic95": [
+     0.5455555555555556,
+     0.5889027777777778
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.08277777777777778,
+    "ic95": [
+     0.07,
+     0.0961111111111111
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.07955555555555555,
+    "ic95": [
+     0.07244305555555557,
+     0.0867236111111111
+    ]
+   },
+   "mrr": {
+    "media": 0.1863571308402865,
+    "ic95": [
+     0.17289633236995508,
+     0.19928393406894987
+    ]
+   },
+   "hits@5": {
+    "media": 0.27555555555555555,
+    "ic95": [
+     0.25555555555555554,
+     0.29555555555555557
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.7822222222222223,
+    "ic95": [
+     0.7633333333333333,
+     0.7994444444444444
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.45129629629629625,
+    "ic95": [
+     0.4345030092592593,
+     0.4664449074074074
+    ]
+   },
+   "mrr": {
+    "media": 0.7822222222222223,
+    "ic95": [
+     0.7633333333333333,
+     0.7994444444444444
+    ]
+   },
+   "hits@5": {
+    "media": 0.7822222222222223,
+    "ic95": [
+     0.7633333333333333,
+     0.7994444444444444
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.3466666666666667,
+    "ic95": [
+     0.3238888888888889,
+     0.371125
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.2191851851851852,
+    "ic95": [
+     0.2078287037037037,
+     0.23095625
+    ]
+   },
+   "mrr": {
+    "media": 0.44295798745683507,
+    "ic95": [
+     0.42243923571401026,
+     0.4635687959259108
+    ]
+   },
+   "hits@5": {
+    "media": 0.5505555555555556,
+    "ic95": [
+     0.5272083333333334,
+     0.5733333333333334
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.3427777777777778,
+    "ic95": [
+     0.32055555555555554,
+     0.365
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.22362037037037039,
+    "ic95": [
+     0.21217523148148149,
+     0.23491041666666668
+    ]
+   },
+   "mrr": {
+    "media": 0.44707147700413064,
+    "ic95": [
+     0.42754379447586843,
+     0.46581333394152513
+    ]
+   },
+   "hits@5": {
+    "media": 0.5783333333333334,
+    "ic95": [
+     0.5561111111111111,
+     0.6
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "recuperador",
+   "escenario": "frio",
+   "semilla": null,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.12166666666666667,
+    "ic95": [
+     0.10611111111111111,
+     0.13722222222222222
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.1318425925925926,
+    "ic95": [
+     0.12435162037037036,
+     0.1393986111111111
+    ]
+   },
+   "mrr": {
+    "media": 0.28406043471129366,
+    "ic95": [
+     0.2711275932710218,
+     0.2977092351099879
+    ]
+   },
+   "hits@5": {
+    "media": 0.4494444444444444,
+    "ic95": [
+     0.42720833333333336,
+     0.4727777777777778
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8483333333333334,
+    "ic95": [
+     0.8305416666666667,
+     0.8644444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.691537037037037,
+    "ic95": [
+     0.679180324074074,
+     0.7046020833333333
+    ]
+   },
+   "mrr": {
+    "media": 0.8996885521280946,
+    "ic95": [
+     0.8880553994661838,
+     0.9106481440589489
+    ]
+   },
+   "hits@5": {
+    "media": 0.9605555555555556,
+    "ic95": [
+     0.9516666666666667,
+     0.9688888888888889
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8638888888888889,
+    "ic95": [
+     0.8466666666666667,
+     0.8788888888888889
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7023240740740742,
+    "ic95": [
+     0.6911291666666667,
+     0.7139094907407407
+    ]
+   },
+   "mrr": {
+    "media": 0.9141814836015987,
+    "ic95": [
+     0.9028819838827956,
+     0.9238184010546165
+    ]
+   },
+   "hits@5": {
+    "media": 0.9777777777777777,
+    "ic95": [
+     0.9710972222222223,
+     0.9844583333333333
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9188888888888889,
+    "ic95": [
+     0.9061111111111111,
+     0.9311111111111111
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8010740740740739,
+    "ic95": [
+     0.7903217592592592,
+     0.8125784722222221
+    ]
+   },
+   "mrr": {
+    "media": 0.9484647951732806,
+    "ic95": [
+     0.9402793218865356,
+     0.956722341454872
+    ]
+   },
+   "hits@5": {
+    "media": 0.9838888888888889,
+    "ic95": [
+     0.9783333333333334,
+     0.9894444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9311111111111111,
+    "ic95": [
+     0.9194444444444444,
+     0.9433333333333334
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8218518518518518,
+    "ic95": [
+     0.8111840277777778,
+     0.832175462962963
+    ]
+   },
+   "mrr": {
+    "media": 0.9556517440268961,
+    "ic95": [
+     0.9478293382726481,
+     0.9637760500033817
+    ]
+   },
+   "hits@5": {
+    "media": 0.9866666666666667,
+    "ic95": [
+     0.9816527777777778,
+     0.9922222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9222222222222223,
+    "ic95": [
+     0.9105416666666667,
+     0.935
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8268981481481482,
+    "ic95": [
+     0.816569212962963,
+     0.8371321759259259
+    ]
+   },
+   "mrr": {
+    "media": 0.9520148662598895,
+    "ic95": [
+     0.9447216023752157,
+     0.9599157046455336
+    ]
+   },
+   "hits@5": {
+    "media": 0.9872222222222222,
+    "ic95": [
+     0.9822222222222222,
+     0.9922222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9316666666666666,
+    "ic95": [
+     0.9194444444444444,
+     0.9438888888888889
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8486203703703704,
+    "ic95": [
+     0.8388226851851851,
+     0.8585023148148148
+    ]
+   },
+   "mrr": {
+    "media": 0.9576247448072681,
+    "ic95": [
+     0.950290208540949,
+     0.9653017028173752
+    ]
+   },
+   "hits@5": {
+    "media": 0.9888888888888889,
+    "ic95": [
+     0.9844444444444445,
+     0.9933333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9316666666666666,
+    "ic95": [
+     0.9199861111111112,
+     0.9438888888888889
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8077314814814816,
+    "ic95": [
+     0.7972835648148149,
+     0.8181675925925926
+    ]
+   },
+   "mrr": {
+    "media": 0.956102837686171,
+    "ic95": [
+     0.9484740768636601,
+     0.9639697651791401
+    ]
+   },
+   "hits@5": {
+    "media": 0.9872222222222222,
+    "ic95": [
+     0.9816666666666667,
+     0.9922222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.09944444444444445,
+    "ic95": [
+     0.08555555555555555,
+     0.11333333333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.12022222222222223,
+    "ic95": [
+     0.11212013888888889,
+     0.1280113425925926
+    ]
+   },
+   "mrr": {
+    "media": 0.2477599039012228,
+    "ic95": [
+     0.23532224112342442,
+     0.2612507834527842
+    ]
+   },
+   "hits@5": {
+    "media": 0.38,
+    "ic95": [
+     0.35777777777777775,
+     0.4022222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.9994999999999999,
+    "ic95": [
+     0.9988333333333334,
+     1.0
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.7466666666666667,
+    "ic95": [
+     0.7277638888888889,
+     0.7666666666666667
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6355092592592593,
+    "ic95": [
+     0.6214252314814815,
+     0.6494914351851853
+    ]
+   },
+   "mrr": {
+    "media": 0.8267203773874231,
+    "ic95": [
+     0.8128034743217984,
+     0.8410213653304843
+    ]
+   },
+   "hits@5": {
+    "media": 0.9266666666666666,
+    "ic95": [
+     0.9138888888888889,
+     0.9383333333333334
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.74,
+    "ic95": [
+     0.7199861111111111,
+     0.7594444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6315092592592593,
+    "ic95": [
+     0.6180453703703703,
+     0.6448532407407408
+    ]
+   },
+   "mrr": {
+    "media": 0.8285029532183125,
+    "ic95": [
+     0.815093263328487,
+     0.842059696766151
+    ]
+   },
+   "hits@5": {
+    "media": 0.9411111111111111,
+    "ic95": [
+     0.93,
+     0.9511111111111111
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8688888888888889,
+    "ic95": [
+     0.85275,
+     0.885
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7676851851851851,
+    "ic95": [
+     0.7559884259259259,
+     0.780075
+    ]
+   },
+   "mrr": {
+    "media": 0.9140509146609597,
+    "ic95": [
+     0.9032168972244642,
+     0.924387881246425
+    ]
+   },
+   "hits@5": {
+    "media": 0.9688888888888889,
+    "ic95": [
+     0.9616527777777778,
+     0.9766666666666667
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8888888888888888,
+    "ic95": [
+     0.8738888888888889,
+     0.9038888888888889
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7901574074074074,
+    "ic95": [
+     0.7781740740740741,
+     0.8013460648148147
+    ]
+   },
+   "mrr": {
+    "media": 0.9270837629854747,
+    "ic95": [
+     0.9166470570819177,
+     0.9374794898152511
+    ]
+   },
+   "hits@5": {
+    "media": 0.9733333333333334,
+    "ic95": [
+     0.9660972222222223,
+     0.9805555555555555
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8733333333333333,
+    "ic95": [
+     0.8583194444444444,
+     0.8888888888888888
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7966018518518518,
+    "ic95": [
+     0.7854497685185186,
+     0.8080564814814815
+    ]
+   },
+   "mrr": {
+    "media": 0.9213538789088691,
+    "ic95": [
+     0.9114402364274985,
+     0.9314423363612301
+    ]
+   },
+   "hits@5": {
+    "media": 0.9772222222222222,
+    "ic95": [
+     0.97,
+     0.9844444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8894444444444445,
+    "ic95": [
+     0.8744305555555556,
+     0.9044444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8188611111111112,
+    "ic95": [
+     0.8082138888888889,
+     0.8301201388888889
+    ]
+   },
+   "mrr": {
+    "media": 0.9315537045461948,
+    "ic95": [
+     0.9218510010965311,
+     0.9407140184597165
+    ]
+   },
+   "hits@5": {
+    "media": 0.9822222222222222,
+    "ic95": [
+     0.9761111111111112,
+     0.9883333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8638888888888889,
+    "ic95": [
+     0.8477777777777777,
+     0.88
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7582500000000001,
+    "ic95": [
+     0.7461849537037036,
+     0.7704726851851852
+    ]
+   },
+   "mrr": {
+    "media": 0.9117322949771027,
+    "ic95": [
+     0.9011822786121814,
+     0.92228531280179
+    ]
+   },
+   "hits@5": {
+    "media": 0.9711111111111111,
+    "ic95": [
+     0.9633194444444445,
+     0.9788888888888889
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.09944444444444445,
+    "ic95": [
+     0.08555555555555555,
+     0.11333333333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.12027777777777778,
+    "ic95": [
+     0.11205416666666666,
+     0.1279826388888889
+    ]
+   },
+   "mrr": {
+    "media": 0.24829345839938444,
+    "ic95": [
+     0.23571025905768986,
+     0.26172549699241043
+    ]
+   },
+   "hits@5": {
+    "media": 0.38222222222222224,
+    "ic95": [
+     0.3605416666666667,
+     0.40444444444444444
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.9994999999999999,
+    "ic95": [
+     0.9988333333333334,
+     1.0
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.755,
+    "ic95": [
+     0.735,
+     0.7744444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6380462962962962,
+    "ic95": [
+     0.624462962962963,
+     0.6516898148148148
+    ]
+   },
+   "mrr": {
+    "media": 0.8324738646409102,
+    "ic95": [
+     0.8177193208957233,
+     0.8467484412443806
+    ]
+   },
+   "hits@5": {
+    "media": 0.9294444444444444,
+    "ic95": [
+     0.9172222222222223,
+     0.9405555555555556
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.7472222222222222,
+    "ic95": [
+     0.7266666666666667,
+     0.7666666666666667
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6351018518518519,
+    "ic95": [
+     0.6214520833333335,
+     0.6485490740740741
+    ]
+   },
+   "mrr": {
+    "media": 0.832991878418022,
+    "ic95": [
+     0.81951045743263,
+     0.8465648635934594
+    ]
+   },
+   "hits@5": {
+    "media": 0.9411111111111111,
+    "ic95": [
+     0.93,
+     0.9511111111111111
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8738888888888889,
+    "ic95": [
+     0.8577777777777778,
+     0.8894444444444445
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7701574074074073,
+    "ic95": [
+     0.7584402777777777,
+     0.7824972222222223
+    ]
+   },
+   "mrr": {
+    "media": 0.9170601739202189,
+    "ic95": [
+     0.9062735731254646,
+     0.9273520016167952
+    ]
+   },
+   "hits@5": {
+    "media": 0.9694444444444444,
+    "ic95": [
+     0.9622222222222222,
+     0.9772222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8922222222222222,
+    "ic95": [
+     0.8772222222222222,
+     0.9072222222222223
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7922037037037037,
+    "ic95": [
+     0.7802847222222222,
+     0.8037081018518517
+    ]
+   },
+   "mrr": {
+    "media": 0.9290745037262155,
+    "ic95": [
+     0.9189406861952951,
+     0.9392789988232193
+    ]
+   },
+   "hits@5": {
+    "media": 0.9738888888888889,
+    "ic95": [
+     0.9666666666666667,
+     0.9811111111111112
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8772222222222222,
+    "ic95": [
+     0.8622222222222222,
+     0.8933333333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7980277777777778,
+    "ic95": [
+     0.7866293981481483,
+     0.8096226851851852
+    ]
+   },
+   "mrr": {
+    "media": 0.9235575826125728,
+    "ic95": [
+     0.9138398154687063,
+     0.9335411399072702
+    ]
+   },
+   "hits@5": {
+    "media": 0.9772222222222222,
+    "ic95": [
+     0.97,
+     0.9844444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8927777777777778,
+    "ic95": [
+     0.8783194444444444,
+     0.9077777777777778
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.8201481481481483,
+    "ic95": [
+     0.8093743055555556,
+     0.8312902777777778
+    ]
+   },
+   "mrr": {
+    "media": 0.933387037879528,
+    "ic95": [
+     0.9238144898498577,
+     0.9426273729534659
+    ]
+   },
+   "hits@5": {
+    "media": 0.9822222222222222,
+    "ic95": [
+     0.9761111111111112,
+     0.9883333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "caliente",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8677777777777778,
+    "ic95": [
+     0.8522083333333333,
+     0.8838888888888888
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7599814814814815,
+    "ic95": [
+     0.7482152777777779,
+     0.7724289351851851
+    ]
+   },
+   "mrr": {
+    "media": 0.9137508134956213,
+    "ic95": [
+     0.9029585392063422,
+     0.9242483206688185
+    ]
+   },
+   "hits@5": {
+    "media": 0.9705555555555555,
+    "ic95": [
+     0.9622222222222222,
+     0.9777777777777777
+    ]
+   }
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.175,
+    "ic95": [
+     0.15833333333333333,
+     0.19166666666666668
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.17157407407407407,
+    "ic95": [
+     0.16359004629629634,
+     0.17919490740740743
+    ]
+   },
+   "mrr": {
+    "media": 0.36950099496598987,
+    "ic95": [
+     0.3544639261550255,
+     0.3839015884799956
+    ]
+   },
+   "hits@5": {
+    "media": 0.6094444444444445,
+    "ic95": [
+     0.5866666666666667,
+     0.6311111111111111
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9327777777777778,
+    "ic95": [
+     0.9211111111111111,
+     0.9438888888888889
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7828333333333333,
+    "ic95": [
+     0.772582638888889,
+     0.7925599537037036
+    ]
+   },
+   "mrr": {
+    "media": 0.9583950234134058,
+    "ic95": [
+     0.9509579304954305,
+     0.9658681294740118
+    ]
+   },
+   "hits@5": {
+    "media": 0.9911111111111112,
+    "ic95": [
+     0.9866666666666667,
+     0.995
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.9422222222222222,
+    "ic95": [
+     0.9311111111111111,
+     0.9522222222222222
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.7959259259259258,
+    "ic95": [
+     0.786887962962963,
+     0.8049849537037039
+    ]
+   },
+   "mrr": {
+    "media": 0.966106721981722,
+    "ic95": [
+     0.9598700787638288,
+     0.972311547017797
+    ]
+   },
+   "hits@5": {
+    "media": 0.9961111111111111,
+    "ic95": [
+     0.9933333333333333,
+     0.9988888888888889
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "completa",
+   "no_aplica": true
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.13,
+    "ic95": [
+     0.11444444444444445,
+     0.14501388888888886
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.13734259259259257,
+    "ic95": [
+     0.12964652777777777,
+     0.14510370370370368
+    ]
+   },
+   "mrr": {
+    "media": 0.3038136985673005,
+    "ic95": [
+     0.2890925119701539,
+     0.31705501788095447
+    ]
+   },
+   "hits@5": {
+    "media": 0.49444444444444446,
+    "ic95": [
+     0.4716666666666667,
+     0.5177916666666667
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.9920833333333333,
+    "ic95": [
+     0.9897479166666667,
+     0.994212962962963
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8322222222222222,
+    "ic95": [
+     0.8144444444444444,
+     0.8489027777777778
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6572222222222223,
+    "ic95": [
+     0.6449881944444447,
+     0.6694268518518519
+    ]
+   },
+   "mrr": {
+    "media": 0.8916765075309967,
+    "ic95": [
+     0.8798696124497063,
+     0.9027455988370673
+    ]
+   },
+   "hits@5": {
+    "media": 0.9688888888888889,
+    "ic95": [
+     0.9611111111111111,
+     0.9766666666666667
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8255555555555556,
+    "ic95": [
+     0.8072222222222222,
+     0.8422222222222222
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6544722222222222,
+    "ic95": [
+     0.6426664351851851,
+     0.666049074074074
+    ]
+   },
+   "mrr": {
+    "media": 0.891776927222369,
+    "ic95": [
+     0.8807820802147448,
+     0.9021016380688468
+    ]
+   },
+   "hits@5": {
+    "media": 0.9761111111111112,
+    "ic95": [
+     0.9694444444444444,
+     0.9822222222222222
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita",
+   "no_aplica": true
+  },
+  {
+   "sistema": "aleatorio",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.13055555555555556,
+    "ic95": [
+     0.115,
+     0.14556944444444442
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.13864814814814816,
+    "ic95": [
+     0.1309627314814815,
+     0.14647337962962967
+    ]
+   },
+   "mrr": {
+    "media": 0.30608571773546717,
+    "ic95": [
+     0.2913002152100002,
+     0.31929688343059126
+    ]
+   },
+   "hits@5": {
+    "media": 0.5011111111111111,
+    "ic95": [
+     0.47888888888888886,
+     0.5244444444444445
+    ]
+   }
+  },
+  {
+   "sistema": "oraculo",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.9924166666666667,
+    "ic95": [
+     0.9900923611111112,
+     0.9945097222222223
+    ]
+   },
+   "mrr": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   },
+   "hits@5": {
+    "media": 1.0,
+    "ic95": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "sistema": "c0",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.84,
+    "ic95": [
+     0.8227777777777778,
+     0.8566666666666667
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6621666666666666,
+    "ic95": [
+     0.6501423611111112,
+     0.6744224537037037
+    ]
+   },
+   "mrr": {
+    "media": 0.8974008824661559,
+    "ic95": [
+     0.8856876022256086,
+     0.9080979360471781
+    ]
+   },
+   "hits@5": {
+    "media": 0.9716666666666667,
+    "ic95": [
+     0.9638888888888889,
+     0.9789027777777778
+    ]
+   }
+  },
+  {
+   "sistema": "bm25",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "n_consultas": 1800,
+   "precision@1": {
+    "media": 0.8327777777777777,
+    "ic95": [
+     0.8155555555555556,
+     0.8494583333333333
+    ]
+   },
+   "precision_norm@5": {
+    "media": 0.6595925925925926,
+    "ic95": [
+     0.647968287037037,
+     0.6707421296296296
+    ]
+   },
+   "mrr": {
+    "media": 0.896450648562757,
+    "ic95": [
+     0.8857019800849818,
+     0.9068998415467152
+    ]
+   },
+   "hits@5": {
+    "media": 0.9772222222222222,
+    "ic95": [
+     0.9705416666666666,
+     0.9833333333333333
+    ]
+   }
+  },
+  {
+   "sistema": "vecinos_comunes_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "vecinos_comunes_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "adamic_adar_A",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  },
+  {
+   "sistema": "rrf_bm25_aa_B",
+   "modo": "aleatorio",
+   "escenario": "frio",
+   "semilla": 1,
+   "tarea": "implicita_solo_ancla",
+   "no_aplica": true
+  }
+ ],
+ "diferencias": [
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": -0.0022222222222222222,
+    "ic95": [
+     -0.02277777777777778,
+     0.019444444444444445
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.008138888888888888,
+    "ic95": [
+     0.0010069444444444444,
+     0.015879861111111112
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.008812570162144892,
+    "ic95": [
+     -0.006253368578739357,
+     0.024025915052787904
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.03833333333333333,
+    "ic95": [
+     0.018875,
+     0.05779166666666665
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "frio",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": -0.009444444444444445,
+    "ic95": [
+     -0.031125,
+     0.013333333333333334
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.008194444444444443,
+    "ic95": [
+     -0.0007421296296296298,
+     0.016344212962962963
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.005373600535225014,
+    "ic95": [
+     -0.01088286187054951,
+     0.021188577199037228
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.03,
+    "ic95": [
+     0.013319444444444446,
+     0.04611111111111111
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": 0.09333333333333334,
+    "ic95": [
+     0.06831944444444445,
+     0.11891666666666664
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.054703703703703706,
+    "ic95": [
+     0.045249768518518516,
+     0.06543564814814815
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.08730340728881199,
+    "ic95": [
+     0.0677285379202461,
+     0.10874705390871785
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.08555555555555555,
+    "ic95": [
+     0.06111111111111111,
+     0.11055555555555556
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": 0.12,
+    "ic95": [
+     0.09444444444444444,
+     0.14722222222222223
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.07117592592592593,
+    "ic95": [
+     0.06165138888888888,
+     0.08117662037037038
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.11259729997506708,
+    "ic95": [
+     0.09274609292116824,
+     0.13404062200213948
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.11333333333333333,
+    "ic95": [
+     0.09111111111111111,
+     0.13722222222222222
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_A",
+   "b": "vecinos_comunes_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": 0.03388888888888889,
+    "ic95": [
+     0.016666666666666666,
+     0.05001388888888888
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.003999999999999999,
+    "ic95": [
+     -0.0023995370370370377,
+     0.010520138888888888
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.01855784619213257,
+    "ic95": [
+     0.006595642741243395,
+     0.03045958175904185
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.005,
+    "ic95": [
+     -0.018347222222222223,
+     0.008333333333333333
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_A",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": 0.02666666666666667,
+    "ic95": [
+     0.009444444444444445,
+     0.04388888888888889
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.0026481481481481477,
+    "ic95": [
+     -0.0029835648148148148,
+     0.00880856481481481
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.013085734871113771,
+    "ic95": [
+     0.0013768068788455254,
+     0.024400646166972226
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.002777777777777778,
+    "ic95": [
+     -0.015013888888888887,
+     0.01
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": -0.021111111111111112,
+    "ic95": [
+     -0.04388888888888889,
+     0.0011249999999999873
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": -0.008907407407407406,
+    "ic95": [
+     -0.016046527777777778,
+     -0.002489120370370372
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": -0.01076808042964006,
+    "ic95": [
+     -0.02655793334402385,
+     0.004438117513653009
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.002777777777777778,
+    "ic95": [
+     -0.013333333333333334,
+     0.018333333333333333
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "bm25",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "completa",
+   "precision@1": {
+    "diferencia": 0.10111111111111111,
+    "ic95": [
+     0.07944444444444444,
+     0.12444444444444444
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.05412962962962963,
+    "ic95": [
+     0.04671064814814815,
+     0.06126921296296296
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.09301664938328214,
+    "ic95": [
+     0.07820817274684513,
+     0.10759201775055874
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.07777777777777778,
+    "ic95": [
+     0.05998611111111111,
+     0.09444444444444444
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": -0.0016666666666666668,
+    "ic95": [
+     -0.01888888888888889,
+     0.015569444444444431
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.005592592592592593,
+    "ic95": [
+     -0.0017567129629629627,
+     0.013178472222222222
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.005096074954600589,
+    "ic95": [
+     -0.007797391202164808,
+     0.01914387519271652
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.027777777777777776,
+    "ic95": [
+     0.008319444444444445,
+     0.04722222222222222
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "frio",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": -0.0005555555555555556,
+    "ic95": [
+     -0.021138888888888888,
+     0.020555555555555556
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.003518518518518518,
+    "ic95": [
+     -0.0035946759259259274,
+     0.010779629629629625
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.005814446594921116,
+    "ic95": [
+     -0.009256016448201142,
+     0.02260528062241424
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.024444444444444446,
+    "ic95": [
+     0.006638888888888891,
+     0.043333333333333335
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": 0.07444444444444444,
+    "ic95": [
+     0.052222222222222225,
+     0.0961111111111111
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.04310185185185185,
+    "ic95": [
+     0.033183333333333336,
+     0.05276087962962963
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.07296654935198586,
+    "ic95": [
+     0.05548958677758342,
+     0.09219866535385571
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.085,
+    "ic95": [
+     0.06220833333333333,
+     0.10777777777777778
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": 0.09777777777777778,
+    "ic95": [
+     0.07720833333333334,
+     0.11944444444444445
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.05627777777777778,
+    "ic95": [
+     0.04596898148148148,
+     0.06575393518518519
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.09478869746040583,
+    "ic95": [
+     0.0770371984021456,
+     0.11320145254130667
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.10833333333333334,
+    "ic95": [
+     0.08554166666666667,
+     0.1322222222222222
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_A",
+   "b": "vecinos_comunes_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": 0.03777777777777778,
+    "ic95": [
+     0.021111111111111112,
+     0.05388888888888889
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.0029537037037037045,
+    "ic95": [
+     -0.00338912037037037,
+     0.009409490740740739
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.022091558644013208,
+    "ic95": [
+     0.010102881018621635,
+     0.03378327706298891
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.002777777777777778,
+    "ic95": [
+     -0.01611111111111111,
+     0.011666666666666667
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_A",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": 0.028333333333333332,
+    "ic95": [
+     0.01276388888888889,
+     0.04388888888888889
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.00027777777777777827,
+    "ic95": [
+     -0.0055469907407407395,
+     0.006584027777777778
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.015679685580572873,
+    "ic95": [
+     0.0036828723260058267,
+     0.027368085891670287
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.006111111111111111,
+    "ic95": [
+     -0.02001388888888889,
+     0.006680555555555544
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": -0.03111111111111111,
+    "ic95": [
+     -0.052222222222222225,
+     -0.012208333333333347
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": -0.01198148148148148,
+    "ic95": [
+     -0.019305787037037038,
+     -0.005231481481481481
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": -0.021407356799342508,
+    "ic95": [
+     -0.035909903830581125,
+     -0.00739179689419115
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.013888888888888888,
+    "ic95": [
+     -0.031125,
+     0.0022222222222222222
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "bm25",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita",
+   "precision@1": {
+    "diferencia": 0.06833333333333333,
+    "ic95": [
+     0.050555555555555555,
+     0.08777777777777777
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.0387037037037037,
+    "ic95": [
+     0.03110833333333333,
+     0.04583356481481481
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.06828526570646272,
+    "ic95": [
+     0.055929872022162,
+     0.08187226765993537
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.06666666666666667,
+    "ic95": [
+     0.04998611111111111,
+     0.08388888888888889
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": -0.002777777777777778,
+    "ic95": [
+     -0.02001388888888889,
+     0.015
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.00574074074074074,
+    "ic95": [
+     -0.0016574074074074074,
+     0.013473842592592591
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.004359533689659538,
+    "ic95": [
+     -0.008566709078518272,
+     0.01858393695660177
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.028888888888888888,
+    "ic95": [
+     0.009444444444444445,
+     0.04777777777777778
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "bm25",
+   "b": "c0",
+   "escenario": "frio",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": -0.0038888888888888888,
+    "ic95": [
+     -0.025,
+     0.017222222222222222
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.004435185185185184,
+    "ic95": [
+     -0.002920370370370371,
+     0.011899999999999997
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.004113489547295626,
+    "ic95": [
+     -0.010578653595347026,
+     0.020905789859643434
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.027777777777777776,
+    "ic95": [
+     0.009444444444444445,
+     0.046680555555555545
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": 0.075,
+    "ic95": [
+     0.052222222222222225,
+     0.09666666666666666
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.045,
+    "ic95": [
+     0.03524953703703704,
+     0.05519513888888889
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.07427459267254247,
+    "ic95": [
+     0.056839599333832605,
+     0.09254079012858611
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.08666666666666667,
+    "ic95": [
+     0.06388888888888888,
+     0.11056944444444444
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_B",
+   "b": "c0",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": 0.10055555555555555,
+    "ic95": [
+     0.07888888888888888,
+     0.1238888888888889
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.05798148148148149,
+    "ic95": [
+     0.04816388888888889,
+     0.06731782407407406
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.0971096836376791,
+    "ic95": [
+     0.07999543934337595,
+     0.11560074081774842
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.1111111111111111,
+    "ic95": [
+     0.08888888888888889,
+     0.135
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "vecinos_comunes_A",
+   "b": "vecinos_comunes_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": 0.03722222222222222,
+    "ic95": [
+     0.020555555555555556,
+     0.05333333333333334
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.002027777777777777,
+    "ic95": [
+     -0.004288194444444444,
+     0.008333564814814813
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.021908284280313235,
+    "ic95": [
+     0.01002859966757235,
+     0.033539104354077275
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.0011111111111111111,
+    "ic95": [
+     -0.015,
+     0.012777777777777779
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "adamic_adar_A",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": 0.026111111111111113,
+    "ic95": [
+     0.01,
+     0.041666666666666664
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.0004259259259259259,
+    "ic95": [
+     -0.005611574074074074,
+     0.006612731481481479
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.01477625863430705,
+    "ic95": [
+     0.0026902501024576504,
+     0.026278717520546873
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.0044444444444444444,
+    "ic95": [
+     -0.01888888888888889,
+     0.008333333333333333
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "adamic_adar_B",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": -0.029444444444444443,
+    "ic95": [
+     -0.049444444444444444,
+     -0.01
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": -0.012675925925925924,
+    "ic95": [
+     -0.019916666666666662,
+     -0.00599814814814815
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": -0.019921320608688238,
+    "ic95": [
+     -0.03398940186330257,
+     -0.005771522458662705
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": -0.012222222222222223,
+    "ic95": [
+     -0.029458333333333333,
+     0.0038888888888888888
+    ],
+    "n": 1800
+   }
+  },
+  {
+   "a": "rrf_bm25_aa_B",
+   "b": "bm25",
+   "escenario": "caliente",
+   "modo": "recuperador",
+   "tarea": "implicita_solo_ancla",
+   "precision@1": {
+    "diferencia": 0.07388888888888889,
+    "ic95": [
+     0.05555555555555555,
+     0.09333333333333334
+    ],
+    "n": 1800
+   },
+   "precision_norm@5": {
+    "diferencia": 0.03956481481481482,
+    "ic95": [
+     0.032064120370370375,
+     0.046676388888888885
+    ],
+    "n": 1800
+   },
+   "mrr": {
+    "diferencia": 0.07282882933933132,
+    "ic95": [
+     0.06006629769233493,
+     0.08636196890433046
+    ],
+    "n": 1800
+   },
+   "hits@5": {
+    "diferencia": 0.07,
+    "ic95": [
+     0.05331944444444445,
+     0.08723611111111111
+    ],
+    "n": 1800
+   }
+  }
+ ]
+}

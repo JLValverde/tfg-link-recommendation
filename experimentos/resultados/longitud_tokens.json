@@ -1,0 +1,61 @@
+{
+ "modelo": "Qwen/Qwen3-Embedding-0.6B",
+ "umbral": 512,
+ "max_seq_length_por_defecto": 32768,
+ "tokens_especiales": 1,
+ "coleccion": {
+  "n": 10989,
+  "mas_de_512": 304,
+  "pct_mas_de_512": 2.7664027664027664,
+  "max": 2102,
+  "p50": 138.0,
+  "p90": 343.0,
+  "p99": 655.600000000004
+ },
+ "consultas": {
+  "frio": {
+   "n": 1800,
+   "mas_de_512": 36,
+   "pct_mas_de_512": 2.0,
+   "max": 1582,
+   "p50": 144.0,
+   "p90": 339.0,
+   "p99": 575.03
+  },
+  "caliente": {
+   "n": 1800,
+   "mas_de_512": 36,
+   "pct_mas_de_512": 2.0,
+   "max": 1582,
+   "p50": 144.0,
+   "p90": 339.0,
+   "p99": 575.03
+  }
+ },
+ "candidatos": {
+  "frio": {
+   "n": 90000,
+   "mas_de_512": 2259,
+   "pct_mas_de_512": 2.5100000000000002,
+   "max": 2102,
+   "p50": 148.0,
+   "p90": 342.0,
+   "p99": 633.0,
+   "listas_con_alguno_de_mas_de_512": 1074,
+   "parejas_con_texto_visible": 3374,
+   "documentos_distintos": 10508
+  },
+  "caliente": {
+   "n": 90000,
+   "mas_de_512": 2193,
+   "pct_mas_de_512": 2.4366666666666665,
+   "max": 2102,
+   "p50": 146.0,
+   "p90": 338.0,
+   "p99": 629.0,
+   "listas_con_alguno_de_mas_de_512": 1054,
+   "parejas_con_texto_visible": 893,
+   "documentos_distintos": 10505
+  }
+ }
+}

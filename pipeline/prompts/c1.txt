@@ -1,0 +1,9 @@
+Article A:
+Title: {titulo_consulta}
+{texto_consulta}
+
+Article B:
+Title: {titulo_candidato}
+{texto_candidato}
+
+Is article B closely related to the topic of article A? Answer Yes or No.

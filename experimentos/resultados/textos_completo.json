@@ -1,0 +1,447 @@
+{
+  "n_nodos": 11701,
+  "a_estados": {
+    "error": 10,
+    "no_existe": 701,
+    "ok": 10989,
+    "sin_revision": 1
+  },
+  "a_no_ok": {
+    "error": {
+      "n": 10,
+      "grado_saliente_A": {
+        "min": 2.0,
+        "mediana": 19.0,
+        "media": 36.2,
+        "p90": 73.2,
+        "p99": 147.72,
+        "max": 156.0
+      },
+      "grado_entrante_A": {
+        "min": 0.0,
+        "mediana": 13.5,
+        "media": 29.1,
+        "p90": 76.7,
+        "p99": 114.77,
+        "max": 119.0
+      },
+      "enlaces_de_A_que_tocan_estos_nodos": 653,
+      "mayor_grado_entrante": [
+        {
+          "idx": 3286,
+          "titulo": "IOS_version_history",
+          "entrante": 119,
+          "saliente": 156
+        },
+        {
+          "idx": 8576,
+          "titulo": "Windows_IoT",
+          "entrante": 72,
+          "saliente": 64
+        },
+        {
+          "idx": 6187,
+          "titulo": "VMEbus",
+          "entrante": 41,
+          "saliente": 31
+        },
+        {
+          "idx": 1899,
+          "titulo": "Voice_phishing",
+          "entrante": 23,
+          "saliente": 11
+        },
+        {
+          "idx": 4963,
+          "titulo": "E-carrier",
+          "entrante": 14,
+          "saliente": 7
+        }
+      ],
+      "detalles": {
+        "revisión sin contenido (¿oculto?)": 10
+      }
+    },
+    "no_existe": {
+      "n": 701,
+      "grado_saliente_A": {
+        "min": 0.0,
+        "mediana": 5.0,
+        "media": 13.2154,
+        "p90": 44.0,
+        "p99": 84.0,
+        "max": 133.0
+      },
+      "grado_entrante_A": {
+        "min": 0.0,
+        "mediana": 1.0,
+        "media": 7.5278,
+        "p90": 27.0,
+        "p99": 95.0,
+        "max": 136.0
+      },
+      "enlaces_de_A_que_tocan_estos_nodos": 14541,
+      "mayor_grado_entrante": [
+        {
+          "idx": 8092,
+          "titulo": "Operating_system_advocacy",
+          "entrante": 136,
+          "saliente": 15
+        },
+        {
+          "idx": 3903,
+          "titulo": "Linpus_Linux",
+          "entrante": 126,
+          "saliente": 47
+        },
+        {
+          "idx": 2321,
+          "titulo": "DeLi_Linux",
+          "entrante": 125,
+          "saliente": 49
+        },
+        {
+          "idx": 10530,
+          "titulo": "SME_Server",
+          "entrante": 125,
+          "saliente": 52
+        },
+        {
+          "idx": 4790,
+          "titulo": "DNALinux",
+          "entrante": 124,
+          "saliente": 46
+        }
+      ],
+      "detalles": {}
+    },
+    "sin_revision": {
+      "n": 1,
+      "grado_saliente_A": {
+        "min": 5.0,
+        "mediana": 5.0,
+        "media": 5.0,
+        "p90": 5.0,
+        "p99": 5.0,
+        "max": 5.0
+      },
+      "grado_entrante_A": {
+        "min": 5.0,
+        "mediana": 5.0,
+        "media": 5.0,
+        "p90": 5.0,
+        "p99": 5.0,
+        "max": 5.0
+      },
+      "enlaces_de_A_que_tocan_estos_nodos": 10,
+      "mayor_grado_entrante": [
+        {
+          "idx": 4332,
+          "titulo": "High-Level_Shading_Language",
+          "entrante": 5,
+          "saliente": 5
+        }
+      ],
+      "detalles": {}
+    }
+  },
+  "a_referencia_todos": {
+    "grado_saliente_A": {
+      "min": 0.0,
+      "mediana": 9.0,
+      "media": 24.8286,
+      "p90": 72.0,
+      "p99": 158.0,
+      "max": 316.0
+    },
+    "grado_entrante_A": {
+      "min": 0.0,
+      "mediana": 4.0,
+      "media": 24.8286,
+      "p90": 77.0,
+      "p99": 216.0,
+      "max": 3282.0
+    }
+  },
+  "a_fechas": {
+    "min": "2010-12-01T23:12:58Z",
+    "mediana": "2019-05-25T20:44:10Z",
+    "max": "2019-08-19T23:57:52Z",
+    "por_anio": {
+      "2010": 1,
+      "2011": 10,
+      "2012": 15,
+      "2013": 48,
+      "2014": 55,
+      "2015": 86,
+      "2016": 239,
+      "2017": 608,
+      "2018": 1899,
+      "2019": 8028
+    },
+    "posteriores_al_corte": 0
+  },
+  "b_cobertura": {
+    "enlaces_A": 290519,
+    "enlaces_B": 99806,
+    "pct_micro_A_en_B": 34.35,
+    "pct_micro_A_en_B_solo_nodos_ok": 35.53,
+    "pct_medio_A_en_B": 62.39,
+    "pct_medio_A_en_B_solo_nodos_ok": 66.27,
+    "enlaces_B_solo_por_redireccion_actual": 7040,
+    "pct_B_solo_por_redireccion_actual": 7.05,
+    "enlaces_B_solo_en_plantillas": 6581,
+    "pct_B_solo_en_plantillas": 6.59,
+    "destinos_escritos_fuera_de_A": 11085,
+    "destinos_escritos_fuera_de_A_directos": 27,
+    "destinos_escritos_fuera_de_A_por_redireccion": 11058,
+    "pct_destinos_escritos_fuera_de_A": 10.0
+  },
+  "c_grafo_A": {
+    "enlaces": 290519,
+    "pct_reciprocidad": 51.57,
+    "grado_saliente": {
+      "min": 0.0,
+      "mediana": 9.0,
+      "media": 24.8286,
+      "p90": 72.0,
+      "p99": 158.0,
+      "max": 316.0
+    },
+    "grado_entrante": {
+      "min": 0.0,
+      "mediana": 4.0,
+      "media": 24.8286,
+      "p90": 77.0,
+      "p99": 216.0,
+      "max": 3282.0
+    },
+    "nodos_grado_saliente_0": 449,
+    "nodos_grado_saliente_al_menos": {
+      "1": 11252,
+      "2": 10360,
+      "3": 9428,
+      "5": 7963,
+      "10": 5687,
+      "20": 4011
+    },
+    "top10_grado_entrante": [
+      {
+        "idx": 7983,
+        "titulo": "Operating_system",
+        "grado_entrante": 3282
+      },
+      {
+        "idx": 823,
+        "titulo": "Linux",
+        "grado_entrante": 1957
+      },
+      {
+        "idx": 6797,
+        "titulo": "Microsoft_Windows",
+        "grado_entrante": 1794
+      },
+      {
+        "idx": 2045,
+        "titulo": "C_(programming_language)",
+        "grado_entrante": 1081
+      },
+      {
+        "idx": 8262,
+        "titulo": "Programming_language",
+        "grado_entrante": 923
+      },
+      {
+        "idx": 5677,
+        "titulo": "Java_(programming_language)",
+        "grado_entrante": 857
+      },
+      {
+        "idx": 5492,
+        "titulo": "Unix",
+        "grado_entrante": 849
+      },
+      {
+        "idx": 1776,
+        "titulo": "Central_processing_unit",
+        "grado_entrante": 813
+      },
+      {
+        "idx": 3323,
+        "titulo": "IBM",
+        "grado_entrante": 775
+      },
+      {
+        "idx": 5397,
+        "titulo": "Unix-like",
+        "grado_entrante": 662
+      }
+    ]
+  },
+  "c_grafo_B": {
+    "enlaces": 99806,
+    "pct_reciprocidad": 25.66,
+    "grado_saliente": {
+      "min": 0.0,
+      "mediana": 5.0,
+      "media": 8.5297,
+      "p90": 19.0,
+      "p99": 57.0,
+      "max": 269.0
+    },
+    "grado_entrante": {
+      "min": 0.0,
+      "mediana": 2.0,
+      "media": 8.5297,
+      "p90": 16.0,
+      "p99": 115.0,
+      "max": 1574.0
+    },
+    "nodos_grado_saliente_0": 1237,
+    "nodos_grado_saliente_al_menos": {
+      "1": 10464,
+      "2": 9396,
+      "3": 8267,
+      "5": 6381,
+      "10": 3369,
+      "20": 1131
+    },
+    "top10_grado_entrante": [
+      {
+        "idx": 823,
+        "titulo": "Linux",
+        "grado_entrante": 1574
+      },
+      {
+        "idx": 6797,
+        "titulo": "Microsoft_Windows",
+        "grado_entrante": 1440
+      },
+      {
+        "idx": 7983,
+        "titulo": "Operating_system",
+        "grado_entrante": 1423
+      },
+      {
+        "idx": 2045,
+        "titulo": "C_(programming_language)",
+        "grado_entrante": 919
+      },
+      {
+        "idx": 3323,
+        "titulo": "IBM",
+        "grado_entrante": 726
+      },
+      {
+        "idx": 5677,
+        "titulo": "Java_(programming_language)",
+        "grado_entrante": 699
+      },
+      {
+        "idx": 5492,
+        "titulo": "Unix",
+        "grado_entrante": 639
+      },
+      {
+        "idx": 8262,
+        "titulo": "Programming_language",
+        "grado_entrante": 550
+      },
+      {
+        "idx": 5397,
+        "titulo": "Unix-like",
+        "grado_entrante": 530
+      },
+      {
+        "idx": 5612,
+        "titulo": "Cross-platform_software",
+        "grado_entrante": 508
+      }
+    ]
+  },
+  "d_menciones_intro": {
+    "A": {
+      "enlaces": 290519,
+      "con_ancla_directo": 25965,
+      "pct_directo": 8.94,
+      "con_ancla_con_redireccion": 28391,
+      "pct_con_redireccion": 9.77
+    },
+    "B": {
+      "enlaces": 99806,
+      "con_ancla_directo": 25965,
+      "pct_directo": 26.02,
+      "con_ancla_con_redireccion": 28391,
+      "pct_con_redireccion": 28.45
+    }
+  },
+  "e_longitud_intro": {
+    "min": 0.0,
+    "mediana": 98.0,
+    "p90": 255.0,
+    "max": 1515.0,
+    "menos_de_20": 341,
+    "cero": 20
+  },
+  "e_anclas_desalineadas": 0,
+  "f_ejecuciones": [
+    {
+      "fecha": "2026-09-30T05:22:47Z",
+      "nodos": 11701,
+      "estados": {
+        "error": 10,
+        "no_existe": 701,
+        "ok": 10989,
+        "sin_revision": 1
+      },
+      "descargados_en_esta_ejecucion": 11651,
+      "errores_de_descarga": 10,
+      "peticiones_descarga": 11712,
+      "peticiones_redirecciones": 2022,
+      "peticiones_total": 13734,
+      "segundos_red": 3889.8,
+      "segundos_total": 4305.2
+    },
+    {
+      "fecha": "2026-09-30T05:35:11Z",
+      "nodos": 11701,
+      "estados": {
+        "error": 10,
+        "no_existe": 701,
+        "ok": 10989,
+        "sin_revision": 1
+      },
+      "descargados_en_esta_ejecucion": 10,
+      "errores_de_descarga": 10,
+      "peticiones_descarga": 10,
+      "peticiones_redirecciones": 1,
+      "peticiones_total": 11,
+      "segundos_red": 2.6,
+      "segundos_total": 98.0
+    },
+    {
+      "fecha": "2026-09-30T05:37:50Z",
+      "nodos": 11701,
+      "estados": {
+        "error": 10,
+        "no_existe": 701,
+        "ok": 10989,
+        "sin_revision": 1
+      },
+      "descargados_en_esta_ejecucion": 10,
+      "errores_de_descarga": 10,
+      "peticiones_descarga": 10,
+      "peticiones_redirecciones": 0,
+      "peticiones_total": 10,
+      "segundos_red": 2.5,
+      "segundos_total": 89.8
+    }
+  ],
+  "f_total": {
+    "peticiones_descarga": 11732,
+    "peticiones_redirecciones": 2023,
+    "peticiones_total": 13755,
+    "segundos_red": 3894.9,
+    "segundos_total": 4493.0
+  }
+}

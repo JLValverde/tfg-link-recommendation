@@ -1,0 +1,489 @@
+{
+  "n_validos": 10989,
+  "fuentes_diccionario": [
+    "titulo",
+    "redireccion"
+  ],
+  "a_diccionario": {
+    "nombres_distintos": 18357,
+    "nombres_por_fuente": {
+      "titulo": 10989,
+      "redireccion": 7368
+    },
+    "pares_nombre_destino": 18357,
+    "nombres_por_destino": {
+      "mediana": 1.0,
+      "p90": 3.0,
+      "max": 44,
+      "media": 1.6705
+    },
+    "ambiguos_distinguiendo_mayusculas": 0,
+    "ambiguos_sin_distinguir_mayusculas": 17,
+    "top20_ambiguos": [
+      {
+        "nombre": "\"classic\" Mac OS",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Classic_Mac_OS"
+        ]
+      },
+      {
+        "nombre": "$CLS (environment variable)",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "$FONT.SYS",
+        "n_destinos": 1,
+        "ejemplos": [
+          "DOS/V"
+        ]
+      },
+      {
+        "nombre": "%$FOOTER%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%$HEADER%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%$OFF%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%$ON%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%$SLICE%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%DRDOSCFG%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%OS%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%SystemRoot%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "%USERPROFILE%",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "(ISC)²",
+        "n_destinos": 1,
+        "ejemplos": [
+          "(ISC)²"
+        ]
+      },
+      {
+        "nombre": "*82",
+        "n_destinos": 1,
+        "ejemplos": [
+          "*82"
+        ]
+      },
+      {
+        "nombre": "*BSD",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Berkeley_Software_Distribution"
+        ]
+      },
+      {
+        "nombre": "*Lisp",
+        "n_destinos": 1,
+        "ejemplos": [
+          "*Lisp"
+        ]
+      },
+      {
+        "nombre": "*nix",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Unix-like"
+        ]
+      },
+      {
+        "nombre": ".286",
+        "n_destinos": 1,
+        "ejemplos": [
+          "FlexOS"
+        ]
+      },
+      {
+        "nombre": ".68K",
+        "n_destinos": 1,
+        "ejemplos": [
+          "FlexOS"
+        ]
+      },
+      {
+        "nombre": ".COM",
+        "n_destinos": 1,
+        "ejemplos": [
+          "COM_file"
+        ]
+      }
+    ],
+    "top20_ambiguos_sin_mayusculas": [
+      {
+        "nombre": "anti-subversion software",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Malware",
+          "Anti-Subversion_Software"
+        ]
+      },
+      {
+        "nombre": "dell",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Dell",
+          "Dell_Technologies"
+        ]
+      },
+      {
+        "nombre": "domainkeys",
+        "n_destinos": 2,
+        "ejemplos": [
+          "DomainKeys_Identified_Mail",
+          "DomainKeys"
+        ]
+      },
+      {
+        "nombre": "exterior gateway protocol",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Exterior_gateway_protocol",
+          "Exterior_Gateway_Protocol"
+        ]
+      },
+      {
+        "nombre": "global file system",
+        "n_destinos": 2,
+        "ejemplos": [
+          "GFS2",
+          "Global_file_system"
+        ]
+      },
+      {
+        "nombre": "graphics device interface",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Graphics_Device_Interface",
+          "Graphics_device_interface"
+        ]
+      },
+      {
+        "nombre": "hit (internet)",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Hit_(Internet)",
+          "Pageview"
+        ]
+      },
+      {
+        "nombre": "insider threat management",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Insider_threat",
+          "Insider_threat_management"
+        ]
+      },
+      {
+        "nombre": "oracle weblogic server",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Oracle_WebLogic_Server",
+          "Oracle_Fusion_Middleware"
+        ]
+      },
+      {
+        "nombre": "risk it",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Risk_IT",
+          "IT_risk_management"
+        ]
+      },
+      {
+        "nombre": "software security",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Computer_security",
+          "Application_security"
+        ]
+      },
+      {
+        "nombre": "sun workstation",
+        "n_destinos": 2,
+        "ejemplos": [
+          "SUN_workstation",
+          "Sun_Microsystems"
+        ]
+      },
+      {
+        "nombre": "uk cyber security community",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Computer_security",
+          "UK_cyber_security_community"
+        ]
+      },
+      {
+        "nombre": "ultrasparc iii",
+        "n_destinos": 2,
+        "ejemplos": [
+          "UltraSPARC_II",
+          "UltraSPARC_III"
+        ]
+      },
+      {
+        "nombre": "unicore",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Unicore",
+          "UNICORE"
+        ]
+      },
+      {
+        "nombre": "unified threat management",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Next-generation_firewall",
+          "Unified_threat_management"
+        ]
+      },
+      {
+        "nombre": "web application security",
+        "n_destinos": 2,
+        "ejemplos": [
+          "Application_security",
+          "Web_application_security"
+        ]
+      },
+      {
+        "nombre": "\"classic\" mac os",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Classic_Mac_OS"
+        ]
+      },
+      {
+        "nombre": "$cls (environment variable)",
+        "n_destinos": 1,
+        "ejemplos": [
+          "Environment_variable"
+        ]
+      },
+      {
+        "nombre": "$font.sys",
+        "n_destinos": 1,
+        "ejemplos": [
+          "DOS/V"
+        ]
+      }
+    ],
+    "claves_regla_estricta": 18350,
+    "claves_regla_laxa": 17464
+  },
+  "b_cobertura": {
+    "estricta": {
+      "B": {
+        "enlaces": 99003,
+        "explicitos": 29171,
+        "pct_explicitos": 29.46,
+        "via_ancla": 28284,
+        "pct_via_ancla": 28.57,
+        "via_nombre": 887,
+        "pct_via_nombre": 0.9,
+        "via_nombre_por_fuente": {
+          "titulo": 608,
+          "redireccion": 279,
+          "ancla": 0
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.61,
+          "redireccion": 0.28,
+          "ancla": 0.0
+        },
+        "implicitos": 69832
+      },
+      "A_menos_B": {
+        "enlaces": 176793,
+        "explicitos": 530,
+        "pct_explicitos": 0.3,
+        "via_ancla": 0,
+        "pct_via_ancla": 0.0,
+        "via_nombre": 530,
+        "pct_via_nombre": 0.3,
+        "via_nombre_por_fuente": {
+          "titulo": 283,
+          "redireccion": 247,
+          "ancla": 0
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.16,
+          "redireccion": 0.14,
+          "ancla": 0.0
+        },
+        "implicitos": 176263
+      }
+    },
+    "laxa": {
+      "B": {
+        "enlaces": 99003,
+        "explicitos": 29899,
+        "pct_explicitos": 30.2,
+        "via_ancla": 28284,
+        "pct_via_ancla": 28.57,
+        "via_nombre": 1615,
+        "pct_via_nombre": 1.63,
+        "via_nombre_por_fuente": {
+          "titulo": 1114,
+          "redireccion": 501,
+          "ancla": 0
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 1.13,
+          "redireccion": 0.51,
+          "ancla": 0.0
+        },
+        "implicitos": 69104
+      },
+      "A_menos_B": {
+        "enlaces": 176793,
+        "explicitos": 1239,
+        "pct_explicitos": 0.7,
+        "via_ancla": 0,
+        "pct_via_ancla": 0.0,
+        "via_nombre": 1239,
+        "pct_via_nombre": 0.7,
+        "via_nombre_por_fuente": {
+          "titulo": 811,
+          "redireccion": 428,
+          "ancla": 0
+        },
+        "pct_via_nombre_por_fuente": {
+          "titulo": 0.46,
+          "redireccion": 0.24,
+          "ancla": 0.0
+        },
+        "implicitos": 175554
+      }
+    }
+  },
+  "c_explicitos_sin_enlace": {
+    "estricta": {
+      "mediana": 0.0,
+      "p90": 2.0,
+      "max": 9,
+      "media": 0.6089,
+      "total": 6691,
+      "documentos_con_al_menos_1": 4273
+    },
+    "laxa": {
+      "mediana": 1.0,
+      "p90": 4.0,
+      "max": 18,
+      "media": 1.5091,
+      "total": 16584,
+      "documentos_con_al_menos_1": 7367
+    }
+  },
+  "d_elegibilidad": {
+    "estricta": {
+      "intro>=0": {
+        "1": 8390,
+        "2": 6927,
+        "3": 5832,
+        "5": 4300,
+        "10": 2159
+      },
+      "intro>=20": {
+        "1": 8098,
+        "2": 6680,
+        "3": 5623,
+        "5": 4141,
+        "10": 2084
+      },
+      "intro>=30": {
+        "1": 7710,
+        "2": 6358,
+        "3": 5364,
+        "5": 3952,
+        "10": 1995
+      }
+    },
+    "laxa": {
+      "intro>=0": {
+        "1": 8353,
+        "2": 6885,
+        "3": 5790,
+        "5": 4256,
+        "10": 2137
+      },
+      "intro>=20": {
+        "1": 8061,
+        "2": 6640,
+        "3": 5582,
+        "5": 4099,
+        "10": 2062
+      },
+      "intro>=30": {
+        "1": 7675,
+        "2": 6319,
+        "3": 5325,
+        "5": 3910,
+        "10": 1973
+      }
+    }
+  },
+  "e_muestra": {
+    "regla": "estricta",
+    "semilla": 44,
+    "tam_estrato": 30,
+    "candidatos_por_fuente": {
+      "titulo": 1979,
+      "redireccion": 1775
+    },
+    "tamano": 60,
+    "ruta": "experimentos\\resultados\\muestra_explicitos_sin_anclas.csv"
+  }
+}

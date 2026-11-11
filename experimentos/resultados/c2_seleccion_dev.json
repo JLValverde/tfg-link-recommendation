@@ -1,0 +1,133 @@
+{
+ "regla": "mayor MRR de la tarea implícita, modo recuperador, media de los dos escenarios calculada por consulta, 200 consultas de desarrollo; empate a 3 decimales: gana la de número menor",
+ "comprobacion_frio": {
+  "consultas": [
+   43,
+   265,
+   313,
+   486,
+   517
+  ],
+  "llamadas": 246,
+  "coinciden": {
+   "2": 246,
+   "3": 246
+  },
+  "todas_coinciden": true
+ },
+ "variantes": [
+  {
+   "variante": 1,
+   "sistema_caliente": "c2_v1",
+   "sistema_frio": "c2_v1",
+   "id_ejecucion": {
+    "caliente": "20261028T051819_c2_v1_recuperador_e894ec",
+    "frio": "20261028T052636_c2_v1_recuperador_cba3be"
+   },
+   "hash_prompt": "05e5d4b230b8020061824793d8bcf10761b6e366b266069ce2c903a8764ff07c",
+   "mrr_caliente": {
+    "media": 0.29723866249849223,
+    "ic95": [
+     0.24953044192756849,
+     0.3494150381412533
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.4465163806431663,
+    "ic95": [
+     0.3903327136157494,
+     0.5073840901360543
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.37187752157082926,
+    "ic95": [
+     0.3277728334096797,
+     0.42356892097718274
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  },
+  {
+   "variante": 2,
+   "sistema_caliente": "c2_v2",
+   "sistema_frio": "c2_v1",
+   "id_ejecucion": {
+    "caliente": "20261028T053515_c2_v2_recuperador_631673",
+    "frio": "20261028T052636_c2_v1_recuperador_cba3be"
+   },
+   "hash_prompt": "d9f6d3d00866d1b97da90f993f0bcf5027ca3994f7d65a47e3eeceee662957a6",
+   "mrr_caliente": {
+    "media": 0.28979355545601676,
+    "ic95": [
+     0.24217031784983892,
+     0.347142603392288
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.4465163806431663,
+    "ic95": [
+     0.3903327136157494,
+     0.5073840901360543
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.3681549680495915,
+    "ic95": [
+     0.323254908847478,
+     0.4207947040570796
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  },
+  {
+   "variante": 3,
+   "sistema_caliente": "c2_v3",
+   "sistema_frio": "c2_v1",
+   "id_ejecucion": {
+    "caliente": "20261028T054352_c2_v3_recuperador_f5e7bc",
+    "frio": "20261028T052636_c2_v1_recuperador_cba3be"
+   },
+   "hash_prompt": "c749642abaacbf6e02615c7eb8b0cf3c5f3e09891ba7e75f39e2b3d5575b3dde",
+   "mrr_caliente": {
+    "media": 0.29757307239697717,
+    "ic95": [
+     0.2490573807462376,
+     0.3533283646538649
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_frio": {
+    "media": 0.4465163806431663,
+    "ic95": [
+     0.3903327136157494,
+     0.5073840901360543
+    ],
+    "n": 200,
+    "n_none": 0
+   },
+   "mrr_media": {
+    "media": 0.3720447265200717,
+    "ic95": [
+     0.3254774936765735,
+     0.42664280520326775
+    ],
+    "n": 200,
+    "n_none": 0
+   }
+  }
+ ],
+ "ganadora": 1,
+ "empate_a_3_decimales": true
+}

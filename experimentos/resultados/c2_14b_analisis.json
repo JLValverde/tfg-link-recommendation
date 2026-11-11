@@ -1,0 +1,234 @@
+{
+ "sistema": "c2_14b",
+ "modelo": "qwen2.5:14b-instruct-q4_K_M",
+ "variante": "congelada",
+ "modo": "recuperador",
+ "muestra": "principal_sin_desarrollo",
+ "por_escenario": {
+  "caliente": {
+   "consultas": 1800,
+   "llamadas": 80395,
+   "errores": 0,
+   "puntuaciones": 80395,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 18.46259095714908,
+   "pct_no_si_no": 0.0,
+   "casos": {
+    "ambos": 57758,
+    "falta_uno": 22637,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 71.84277629205796,
+    "falta_uno": 28.157223707942038,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -34.10111236610871,
+    "p1": -32.74197906528933,
+    "p5": -32.093209457778514,
+    "p25": -29.21718215974073,
+    "p50": -21.008506775363035,
+    "p75": -5.9486580287585085,
+    "p95": 13.511987719958869,
+    "p99": 20.68331497804826,
+    "p100": 28.59026146244162
+   },
+   "confianza_cota_media": -16.263387989582977,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.66388888888889,
+    "valores_distintos_por_lista_min": 4,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.66388888888889,
+    "tamano_lista_min": 4,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "presupuesto": {
+     "20261028T222012_c2_14b_recuperador_a4d1b7": {
+      "nivel": "alto",
+      "tope_mib": 16000,
+      "pico_mib": 14561
+     }
+    },
+    "latencia_ms_por_consulta": {
+     "p50": 7115.165,
+     "p95": 8563.533000000001
+    },
+    "latencia_ms_por_consulta_media": 6873.864117974402,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 20465.0,
+     "p95": 34781.39999999996
+    },
+    "tokens_in_por_llamada_sin_cache_media": 480.87321350830274,
+    "tokens_in_por_llamada_sin_cache_max": 1570,
+    "tokens_in_por_llamada_con_cache_media_estimada": 230.82013806828783,
+    "prompt_eval_ms_primera_llamada_media": 244.8703761038889,
+    "prompt_eval_ms_resto_media": 127.76968471883708,
+    "vecinos_consulta_media": 20.113888888888887,
+    "vecinos_candidato_media": 21.657341874494684,
+    "comunes_media": 1.2703899496237328,
+    "pct_llamadas_con_comunes": 48.74805647117358,
+    "horas_estimadas_2000_consultas": 3.8188133988746675
+   }
+  },
+  "frio": {
+   "consultas": 1800,
+   "llamadas": 80790,
+   "errores": 0,
+   "puntuaciones": 80790,
+   "none": 0,
+   "tasa_none": 0.0,
+   "pct_yes": 14.650328010892439,
+   "pct_no_si_no": 0.0,
+   "casos": {
+    "ambos": 48526,
+    "falta_uno": 32264,
+    "faltan_ambos": 0
+   },
+   "pct_casos": {
+    "ambos": 60.064364401534846,
+    "falta_uno": 39.935635598465154,
+    "faltan_ambos": 0.0
+   },
+   "truncados": 0,
+   "confianza_cota_percentiles": {
+    "p0": -33.914245605712615,
+    "p1": -32.769925155953935,
+    "p5": -32.21743011515855,
+    "p25": -30.292566299861015,
+    "p50": -25.773340225871372,
+    "p75": -11.279018166002462,
+    "p95": 11.992913920934333,
+    "p99": 19.94467957379413,
+    "p100": 29.29125595694115
+   },
+   "confianza_cota_media": -19.11922319906087,
+   "empates_P-cota": {
+    "valores_distintos_por_lista_media": 44.88333333333333,
+    "valores_distintos_por_lista_min": 5,
+    "listas_con_algun_empate": 0,
+    "tamano_lista_medio": 44.88333333333333,
+    "tamano_lista_min": 5,
+    "pct_listas_primer_puesto_empatado": 0.0
+   },
+   "coste": {
+    "presupuesto": {
+     "20261028T182056_c2_14b_recuperador_afb3c8": {
+      "nivel": "alto",
+      "tope_mib": 16000,
+      "pico_mib": 14561
+     }
+    },
+    "latencia_ms_por_consulta": {
+     "p50": 7215.096,
+     "p95": 8707.5134
+    },
+    "latencia_ms_por_consulta_media": 7007.692396772398,
+    "n_consultas_sin_calentamiento": 1797,
+    "tokens_in_por_consulta": {
+     "p50": 18404.0,
+     "p95": 32036.79999999999
+    },
+    "tokens_in_por_llamada_sin_cache_media": 435.76471097908154,
+    "tokens_in_por_llamada_sin_cache_max": 1471,
+    "tokens_in_por_llamada_con_cache_media_estimada": 231.583054833519,
+    "prompt_eval_ms_primera_llamada_media": 224.84607832055556,
+    "prompt_eval_ms_resto_media": 128.27967320422837,
+    "vecinos_consulta_media": 0.0,
+    "vecinos_candidato_media": 24.678227503403885,
+    "comunes_media": 0.0,
+    "pct_llamadas_con_comunes": 0.0,
+    "horas_estimadas_2000_consultas": 3.8931624426513323
+   }
+  }
+ },
+ "pico_ejecucion_mib": {
+  "20261028T222012_c2_14b_recuperador_a4d1b7": 10759,
+  "20261028T182056_c2_14b_recuperador_afb3c8": 10750
+ },
+ "pico_t26_con_embeddings_mib": 14561,
+ "horas_estimadas_2000_consultas_escenarios": 7.711975841526,
+ "tokens_cabecera_plantilla": 24,
+ "vram": {
+  "vram_c2_14b_caliente.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c2.py",
+    "--modelo",
+    "qwen2.5:14b-instruct-q4_K_M",
+    "--nivel",
+    "alto",
+    "--escenario",
+    "caliente"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 13777.81,
+   "base_mib": 1560,
+   "pico_mib": 10759,
+   "incremento_mib": 9199,
+   "n_muestras": 68336,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {},
+   "ejecuciones": [
+    "20261028T222012_c2_14b_recuperador_a4d1b7"
+   ]
+  },
+  "vram_c2_14b_frio.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/evaluar_c2.py",
+    "--modelo",
+    "qwen2.5:14b-instruct-q4_K_M",
+    "--nivel",
+    "alto",
+    "--escenario",
+    "frio"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 14047.39,
+   "base_mib": 1519,
+   "pico_mib": 10750,
+   "incremento_mib": 9231,
+   "n_muestras": 69675,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {
+    "qwen2.5:7b-instruct-q4_K_M": true
+   },
+   "ejecuciones": [
+    "20261028T182056_c2_14b_recuperador_afb3c8"
+   ]
+  },
+  "vram_presupuesto_14b.json": {
+   "comando": [
+    ".venv\\Scripts\\python.exe",
+    "experimentos/presupuesto_vram.py",
+    "--modelo",
+    "qwen2.5:14b-instruct-q4_K_M"
+   ],
+   "codigo_salida": 0,
+   "duracion_s": 566.25,
+   "base_mib": 1499,
+   "pico_mib": 14561,
+   "incremento_mib": 13062,
+   "n_muestras": 2807,
+   "intervalo_ms": 200,
+   "modelo_descargado_antes": null,
+   "descarga_confirmada": null,
+   "descargados_todos": {
+    "qwen2.5:7b-instruct-q4_K_M": true
+   },
+   "ejecuciones": [
+    "20261028T060856_c2_presupuesto_14b_recuperador_907332",
+    "20261028T061343_c2_presupuesto_14b_recuperador_11ad1c"
+   ]
+  }
+ }
+}

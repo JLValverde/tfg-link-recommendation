@@ -1,0 +1,47 @@
+# Estilo común de las figuras del TFG
+# Tamaño: ancho de texto de book 11pt A4 (~12,6 cm = 4,98 in)
+figure.figsize      : 4.98, 3.08
+figure.dpi          : 150
+savefig.format      : pdf
+savefig.bbox        : tight
+savefig.pad_inches  : 0.02
+pdf.fonttype        : 42
+
+# Tipografía: la misma familia que el texto (Latin Modern), algo más pequeña. Se usa la
+# primera que haya; sin Latin Modern ni CMU instaladas, DejaVu Serif. colores.estilo()
+# registra Latin Modern si se instala después y, como es CFF, guarda el PDF con Type 3
+font.family         : serif
+font.serif          : Latin Modern Roman, CMU Serif, DejaVu Serif
+# No se usa la cmr10 de matplotlib (T2.8b): no tiene tildes ni el signo menos U+2212
+mathtext.fontset    : cm
+font.size           : 9
+axes.labelsize      : 9
+axes.titlesize      : 9
+xtick.labelsize     : 8
+ytick.labelsize     : 8
+legend.fontsize     : 8
+
+# Ejes discretos: sin marco superior/derecho, sin rejilla
+axes.spines.top     : False
+axes.spines.right   : False
+axes.linewidth      : 0.6
+axes.edgecolor      : 333333
+axes.labelcolor     : 222222
+axes.grid           : False
+xtick.color         : 333333
+ytick.color         : 333333
+xtick.major.width   : 0.6
+ytick.major.width   : 0.6
+xtick.major.size    : 3
+ytick.major.size    : 3
+
+# Paleta Okabe-Ito (apta para daltónicos), en orden fijo
+axes.prop_cycle     : cycler('color', ['0072B2', 'E69F00', '009E73', 'D55E00', 'CC79A7', '56B4E9'])
+lines.linewidth     : 1.5
+lines.markersize    : 5
+
+# Leyenda sin marco
+legend.frameon      : False
+
+# Separador decimal: punto (cambiar a True + locale es_ES si se elige coma)
+axes.formatter.use_locale : False

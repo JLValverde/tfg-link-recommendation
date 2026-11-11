@@ -1,0 +1,2 @@
+# Los prompts congelados se guardan byte a byte (su SHA-256 va en cada ejecución)
+pipeline/prompts/* -text
